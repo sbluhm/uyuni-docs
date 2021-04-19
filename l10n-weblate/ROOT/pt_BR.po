@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-15 09:28+0000\n"
+"POT-Creation-Date: 2021-04-19 15:07+0200\n"
 "PO-Revision-Date: 2021-04-01 12:57+0000\n"
 "Last-Translator: Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/uyuni/"
@@ -180,9 +180,13 @@ msgstr ""
 
 #. type: Plain text
 #: modules/ROOT/pages/index.adoc:15
+#, fuzzy
+#| msgid ""
+#| "Download All PDFs icon:caret-right[] icon:file-archive[link=\"../"
+#| "susemanager-docs_en-pdf.tar.gz\"]"
 msgid ""
 "Download All PDFs icon:caret-right[] icon:file-archive[link=\"../susemanager-"
-"docs_en-pdf.tar.gz\"]"
+"docs_en-pdf.zip\"]"
 msgstr ""
 "Baixar todos os PDFs icon:caret-right[] icon:file-archive[link=\"../"
 "susemanager-docs_en-pdf.tar.gz\"]"
