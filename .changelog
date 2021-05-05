@@ -4,29 +4,5 @@
 # - Fixed error in Bat section of Upgrade Guide (bsc#1234567)
 # For guidelines: https://en.opensuse.org/openSUSE:Creating_a_changes_file_(RPM)#Changelog_section_.28.25changelog.29
 
-# Last packaged: 05-03-2021
+# Last packaged: 05-05-2021
 
-- Documented apply custom state at highstate in Salt Guide
-- Adds troubleshooting information for bootstrapping
-  new CentOS 6 clients (bsc#1181932)
-- Adds new Quick Start: Uyuni book
-- Adds clarification for which GPG keys are required when
-  bootstrapping SLES15 and Debian clients (bsc#1181695)
-- Finds and updates all Public Cloud content.  These are the most important changes or news:
-  * Disables pubcloud-requirements.adoc, pubcloud-setup.adoc
-  * New: client-configuration/pages/clients-pubcloud.adoc
-  * New book: Quick Start: Public Cloud overview
-- Clarify Action Chains instructions in Administration
-  Guide (bsc1182180)
-- Add external network configuration to Retail Guide
-- Clarify backup instructions in Administration Guide (bsc#1182945)
-- Document ARM64 support in Retail
-- Updates PAM Authentication procedure in Administration Guide
-- Adds additional dependencies for Debian client registration
-  in Client Configuration Guide (bsc#10183649)
-- Adds instructions to delete vendor channels in
-  Administration Guide (bsc#1183293)
-- Adds troubleshooting entry to Administration Guide for
-  registering traditional RHEL 7 clients (bsc#1182700)
-- Adds missing Virtualization Network tab to System Details
-  section in Reference Guide
