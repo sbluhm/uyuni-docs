@@ -14,15 +14,15 @@ asciidoc:
     #
     # Adjust <productnumber>, <docversion>, and <minorversion> numbers at release.
     productname: 'Uyuni'
-    productnumber: '2021.02'
-    docversion: '2021.02'
-    minorversion: '2021.02'
+    productnumber: '2021.05'
+    docversion: '2021.05'
+    minorversion: '2021.05'
     saltversion: 3000
     sles-version: 15
     sp-version: sp2
     sp-vert: sp2 # use for terminal block
     sp-version-l: sp2
-    smrproductnumber: 4.1
+    smrproductnumber: 4.2
     opensuse-version: 15.2
 
     # Asciidoc Configuration Attributes
