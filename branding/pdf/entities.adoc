@@ -30,7 +30,7 @@
 :susemgr: SUSE Manager
 :smr: for Retail
 :uyuni: Uyuni
-:smrproductnumber: 4.1
+:smrproductnumber: 4.2
 :slepos: SUSE Linux Enterprise Point of Service
 :susemgrproxy: SUSE Manager Proxy
 :productnumber: 4.2
