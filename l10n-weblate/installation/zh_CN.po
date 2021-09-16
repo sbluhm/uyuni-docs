@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-09-13 14:31+0000\n"
-"PO-Revision-Date: 2021-06-25 14:27+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2021-09-16 04:11+0000\n"
+"Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
-"docs-installation-42/zh_CN/>\n"
+"docs-installation-manager-42-mu-422/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
@@ -5965,9 +5965,8 @@ msgid ""
 "Click the btn:[Channels] icon to see the complete list of channels "
 "associated with each product."
 msgstr ""
-"列表已按产品名称进行组织。对于每个产品，可以查看其适用的体系结构。单击产品名"
-"称旁边的箭头可以查看关联的频道和扩展。单击 btn:[频道] 图标可以查看与每个产品"
-"关联的频道的完整列表。"
+"列表已按产品名称进行组织。对于每个产品，可以查看其适用的体系结构。单击产品名称旁边的箭头可以查看关联的频道和扩展。单击 btn:[频道] "
+"图标可以查看与每个产品关联的频道的完整列表。"
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:22
@@ -6020,8 +6019,8 @@ msgid ""
 "troubleshooting product synchronization, see xref:administration:tshoot-sync."
 "adoc[]."
 msgstr ""
-"如果同步失败，原因可能是使用了第三方 GPG 密钥。有关产品同步查错的详细信息，请"
-"参见 xref:administration:tshoot-sync.adoc[]。"
+"如果同步失败，原因可能是使用了第三方 GPG 密钥。有关产品同步查错的详细信息，请参见 xref:administration:tshoot-sync."
+"adoc[]。"
 
 #. type: Title =
 #: modules/installation/pages/uyuni-install-requirements.adoc:1
@@ -6157,8 +6156,7 @@ msgstr ""
 msgid ""
 "For more information, see xref:client-configuration:clients-opensuseleap."
 "adoc[]."
-msgstr ""
-"有关详细信息，请参见 xref:client-configuration:clients-opensuse.adoc[]。"
+msgstr "有关详细信息，请参见 xref:client-configuration:clients-opensuse.adoc[]。"
 
 #. // Atfer a successful sync run, bootstrap repos are now created automatically.
 #. // Since 2020.07 or earlier
@@ -6192,9 +6190,9 @@ msgid ""
 "more information about bootstrap scripts, see xref:client-configuration:"
 "registration-bootstrap.adoc[]."
 msgstr ""
-"将 GPG 密钥添加到 [systemitem]``ORG_GPG_KEY=`` 参数。有关详细信息，请参见 "
-"xref:client-configuration:clients-opensuse.adoc[]。有关引导脚本的详细信息，请"
-"参见 xref:client-configuration:registration-bootstrap.adoc[]。"
+"将 GPG 密钥添加到 [systemitem]``ORG_GPG_KEY=`` 参数。有关详细信息，请参见 xref:client-"
+"configuration:clients-opensuse.adoc[]。有关引导脚本的详细信息，请参见 xref:client-"
+"configuration:registration-bootstrap.adoc[]。"
 
 #.  Traditional clients are not supported
 #. type: Plain text
