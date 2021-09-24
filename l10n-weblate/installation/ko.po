@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-09-13 14:31+0000\n"
-"PO-Revision-Date: 2021-06-25 17:46+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
-"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-"
-"installation-42/ko/>\n"
+"PO-Revision-Date: 2021-09-24 11:53+0000\n"
+"Last-Translator: Seeun Lee <selee@e4net.net>\n"
+"Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
+"docs-installation-manager-42-mu-422/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
@@ -400,8 +400,8 @@ msgid ""
 "enough for the operating system and for the workload you want to perform on "
 "the client, with these additions for {productname}:"
 msgstr ""
-"클라이언트 하드웨어를 설정할 때, {productname}을(를) 추가하여 클라이언트에서 "
-"수행할 워크로드 및 운영 체제를 위한 충분한 공간이 있는지 확인해야 합니다."
+"클라이언트 하드웨어를 설정할 때, {productname}을(를) 추가하여 클라이언트에서 수행할 워크로드 및 운영 체제를 위한 충분한 "
+"공간이 있는지 확인해야 합니다."
 
 #. type: Block title
 #: modules/installation/pages/client-requirements.adoc:9
@@ -1127,9 +1127,7 @@ msgstr ""
 msgid ""
 "On your {productname} Server, use this command to find all available storage "
 "devices:"
-msgstr ""
-"{productname} 서버에서 이 명령을 사용하여 사용할 수 있는 모든 저장소 장치를 "
-"찾습니다."
+msgstr "{productname} 서버에서 이 명령을 사용하여 사용할 수 있는 모든 저장소 장치를 찾습니다."
 
 #. type: delimited block -
 #: modules/installation/pages/hardware-requirements.adoc:30
@@ -1151,8 +1149,8 @@ msgid ""
 "Use the [command]``suma-storage`` command with the device names to set up "
 "the external disks as the locations for the database and repositories:"
 msgstr ""
-"장치 이름과 함께 [command]``suma-storage`` 명령을 사용하여 외부 디스크를 데이"
-"터베이스 및 리포지토리의 위치로 설정합니다."
+"장치 이름과 함께 [command]``suma-storage`` 명령을 사용하여 외부 디스크를 데이터베이스 및 리포지토리의 위치로 "
+"설정합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/hardware-requirements.adoc:33
@@ -1445,10 +1443,9 @@ msgid ""
 "for use with [systemitem]``HYPERPAV``.  The database storage disk should "
 "have:"
 msgstr ""
-"데이터베이스 저장소를 위한 추가 디스크가 필요합니다.  "
-"[systemitem]``HYPERPAV``에서 사용이 선호되므로 [systemitem]``zFCP`` 또는 "
-"[systemitem]``DASD`` 장치여야 합니다.  데이터베이스 저장소 디스크의 용량은 다"
-"음과 같아야 합니다."
+"데이터베이스 저장소를 위한 추가 디스크가 필요합니다.  [systemitem]``HYPERPAV``에서 사용이 선호되므로 "
+"[systemitem]``zFCP`` 또는 [systemitem]``DASD`` 장치여야 합니다.  데이터베이스 저장소 디스크의 용량은 "
+"다음과 같아야 합니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-ibmz.adoc:20
@@ -1654,9 +1651,7 @@ msgstr "**업데이트 날짜:** {docdate}\n"
 msgid ""
 "This book provides guidance on installing {productname}.  It is split into "
 "three sections:"
-msgstr ""
-"이 가이드는 {productname}의 설치를 안내합니다.  다음과 같은 3개의 섹션으로 구"
-"성되었습니다."
+msgstr "이 가이드는 {productname}의 설치를 안내합니다.  다음과 같은 3개의 섹션으로 구성되었습니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-overview.adoc:4
@@ -1737,9 +1732,7 @@ msgstr ""
 msgid ""
 "{productname} Proxy is an open source (GPLv2) solution that provides the "
 "following features:"
-msgstr ""
-"{productname} 프록시는 다음과 같은 기능을 제공하는 오픈 소스(GPLv2) 솔루션입"
-"니다."
+msgstr "{productname} 프록시는 다음과 같은 기능을 제공하는 오픈 소스(GPLv2) 솔루션입니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:7
@@ -1837,9 +1830,8 @@ msgid ""
 "and click btn:[Next]."
 msgstr ""
 "[systemitem]``Basesystem``, [systemitem]``SUSE Manager Proxy`` 및 "
-"[systemitem]``Server Applications``는 {productname} 프록시를 설치하기 위해 사"
-"전에 선택되며 필수입니다. 옵션: 다음 [guimenu]``제품에 추가`` 화면에서 필요"
-"한 추가 또는 추가 제품을 선택하고 btn:[다음]을 클릭합니다."
+"[systemitem]``Server Applications``는 {productname} 프록시를 설치하기 위해 사전에 선택되며 "
+"필수입니다. 옵션: 다음 [guimenu]``제품에 추가`` 화면에서 필요한 추가 또는 추가 제품을 선택하고 btn:[다음]을 클릭합니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:20
@@ -1936,9 +1928,7 @@ msgstr "SUSE Manager Proxy 모듈"
 msgid ""
 "Continue with registering the installed {productname} Proxy as a client: "
 "xref:proxy-registration.adoc[]."
-msgstr ""
-"설치된 {productname} 프록시를 클라이언트로 등록을 계속합니다. xref:proxy-"
-"registration.adoc[]"
+msgstr "설치된 {productname} 프록시를 클라이언트로 등록을 계속합니다. xref:proxy-registration.adoc[]"
 
 #. type: Title =
 #: modules/installation/pages/install-proxy-uyuni.adoc:1
@@ -2093,8 +2083,8 @@ msgid ""
 "Use these settings to create a new virtual machine with [command]``virt-"
 "manager`` (replace [literal]``<version>`` with the actual version string):"
 msgstr ""
-"이러한 설정을 사용하여 [command]``virt-manager``([literal]``<version>``을 실"
-"제 버전 문자열로 바꿈) 명령을 통해 새 가상 머신을 생성합니다."
+"이러한 설정을 사용하여 [command]``virt-manager``([literal]``<version>``을 실제 버전 문자열로 바꿈)"
+" 명령을 통해 새 가상 머신을 생성합니다."
 
 #. type: Table
 #: modules/installation/pages/install-proxy.adoc:5
@@ -2273,8 +2263,8 @@ msgid ""
 "`<productversion>` with `{productnumber}` and `<architecture>` with "
 "`x86_64`):"
 msgstr ""
-"SCC를 사용하여 {productname} 프록시를 등록합니다(예: `<productversion>` 을 "
-"`{productnumber}` (으)로 바꾸고 `<architecture>` 를 `x86_64` 로 바꿈)."
+"SCC를 사용하여 {productname} 프록시를 등록합니다(예: `<productversion>` 을 `{productnumber}` "
+"(으)로 바꾸고 `<architecture>` 를 `x86_64` 로 바꿈)."
 
 #. type: delimited block -
 #: modules/installation/pages/install-proxy.adoc:25
@@ -2588,9 +2578,8 @@ msgid ""
 "all the required modules by using the [command]``SUSEConnect --status-text`` "
 "command at a command prompt.  For {susemgr} Server, the expected modules are:"
 msgstr ""
-"설치 절차가 완료되면 명령 프롬프트에서 [command]``SUSEConnect --status-"
-"text`` 명령을 사용하여 모든 필수 모듈이 설치되었는지 확인할 수 있습니다.  "
-"{susemgr} 서버에서 예상되는 모듈은 다음과 같습니다."
+"설치 절차가 완료되면 명령 프롬프트에서 [command]``SUSEConnect --status-text`` 명령을 사용하여 모든 필수 "
+"모듈이 설치되었는지 확인할 수 있습니다.  {susemgr} 서버에서 예상되는 모듈은 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:36
@@ -2647,8 +2636,8 @@ msgid ""
 "[command]``virt-manager`` (replace [replaceable]``version`` with the actual "
 "version string):"
 msgstr ""
-"[command]``virt-manager`` 명령을 사용하여 새 가상 머신을 생성할 때 다음 명령"
-"을 입력하십시오([replaceable]``버전``을 실제 버전 문자열로 바꿈)."
+"[command]``virt-manager`` 명령을 사용하여 새 가상 머신을 생성할 때 다음 명령을 "
+"입력하십시오([replaceable]``버전``을 실제 버전 문자열로 바꿈)."
 
 #. type: Table
 #: modules/installation/pages/install-server.adoc:5
@@ -2729,9 +2718,7 @@ msgstr "설치를 위해 저장소 공간이 234GB 이상인 저장소 장치를
 msgid ""
 "During the partitioning setup of the SLES installation this disk should be "
 "partitioned into the following disks:"
-msgstr ""
-"SLES의 파티션을 설정하는 동안 이 디스크는 다음 디스크에 파티션이 구성되어야 "
-"합니다."
+msgstr "SLES의 파티션을 설정하는 동안 이 디스크는 다음 디스크에 파티션이 구성되어야 합니다."
 
 #. type: Table
 #: modules/installation/pages/install-server.adoc:15
@@ -2874,9 +2861,7 @@ msgstr ""
 msgid ""
 "Add the repository for installing the {productname} Server software as "
 "[systemitem]``root``:"
-msgstr ""
-"[systemitem]``루트``로 {productname} 서버 소프트웨어를 설치하기 위한 리포지토"
-"리를 추가합니다."
+msgstr "[systemitem]``루트``로 {productname} 서버 소프트웨어를 설치하기 위한 리포지토리를 추가합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/install-uyuni.adoc:12
@@ -2931,10 +2916,9 @@ msgid ""
 "{productname}.  KVM combined with Virtual Machine Manager (_virt-manager_) "
 "will be used as a sandbox for this installation."
 msgstr ""
-"이 장에서는 {productname}용 베이스로 {sle} Just Enough 운영 체제(JeOS)를 설치"
-"하기 위한 필수 커널 가상 머신(KVM) 설정을 제공합니다.  가상 머신 관리자"
-"(_virt-manager_) 와 통합된 KVM은 이 설치를 위한 샌드박스로 사용할 수 있습니"
-"다."
+"이 장에서는 {productname}용 베이스로 {sle} Just Enough 운영 체제(JeOS)를 설치하기 위한 필수 커널 가상 "
+"머신(KVM) 설정을 제공합니다.  가상 머신 관리자(_virt-manager_) 와 통합된 KVM은 이 설치를 위한 샌드박스로 사용할 "
+"수 있습니다."
 
 #.  This section needs revision its still ugly (LKB, KE), but now updated (KE)
 #.  - 2019-06-19.
@@ -3140,8 +3124,8 @@ msgid ""
 "Register {productname} with SCC (for example, replace `<productnumber>` with "
 "`{productnumber}` and `<architecture>` with `x86_64`):"
 msgstr ""
-"SCC를 사용하여 {productname}을(를) 등록합니다(예: `<productnumber>` 을(를) "
-"`{productnumber}` (으)로 바꾸고 `<architecture>` 를 `x86_64` 로 바꿈)."
+"SCC를 사용하여 {productname}을(를) 등록합니다(예: `<productnumber>` 을(를) `{productnumber}`"
+" (으)로 바꾸고 `<architecture>` 를 `x86_64` 로 바꿈)."
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:29
@@ -3176,9 +3160,8 @@ msgid ""
 "working you should allow to install also recommended packages.  In `/etc/"
 "zypp/zypp.conf` change:"
 msgstr ""
-"JeOS는 필수 패키지만 설치하도록 구성됩니다.  모든 기능이 작동하도록 하려면 권"
-"장 패키지도 설치하도록 허용해야 합니다.  `/etc/zypp/zypp.conf`에서 다음과 같"
-"이 변경합니다."
+"JeOS는 필수 패키지만 설치하도록 구성됩니다.  모든 기능이 작동하도록 하려면 권장 패키지도 설치하도록 허용해야 합니다.  `/etc/"
+"zypp/zypp.conf`에서 다음과 같이 변경합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:33
@@ -3256,8 +3239,7 @@ msgid ""
 "Exit the partitioner and install the {productname} pattern (approximately "
 "730 packages, using 1.4 GB of disk space when installed):"
 msgstr ""
-"파티션 도구를 종료하고 {productname} 패턴을 설치합니다(약 730개 패키지, 설치 "
-"시 1.4GB의 디스크 공간 사용)."
+"파티션 도구를 종료하고 {productname} 패턴을 설치합니다(약 730개 패키지, 설치 시 1.4GB의 디스크 공간 사용)."
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:43
@@ -3604,10 +3586,9 @@ msgid ""
 "destination port.  You can use this command to find out which ports are "
 "ephemeral ports:"
 msgstr ""
-"32768 이상 포트는 사용 후 삭제 포트로 사용됩니다.  이러한 포트는 대부분 TCP "
-"연결을 수신하기 위해 사용됩니다.  TCP 연결 요청이 수신되면, 발신자가 이러한 "
-"사용 후 삭제 포트 번호 중 하나를 선택하여 대상 포트로 사용합니다.  이 명령을 "
-"사용하여 임시 포트인 포트를 찾을 수 있습니다."
+"32768 이상 포트는 사용 후 삭제 포트로 사용됩니다.  이러한 포트는 대부분 TCP 연결을 수신하기 위해 사용됩니다.  TCP 연결 "
+"요청이 수신되면, 발신자가 이러한 사용 후 삭제 포트 번호 중 하나를 선택하여 대상 포트로 사용합니다.  이 명령을 사용하여 임시 포트인 "
+"포트를 찾을 수 있습니다."
 
 #. type: delimited block -
 #: modules/installation/pages/ports.adoc:22
@@ -3772,9 +3753,8 @@ msgid ""
 "clients and perform updates.  In most cases, allowing access to these URLs "
 "is sufficient:"
 msgstr ""
-"{productname}에서 클라이언트를 등록하고 업데이트를 수행하기 위해 액세스할 수 "
-"있어야 하는 URL이 몇 개 있습니다.  대부분의 경우에는 해당 URL에 대한 액세스"
-"를 허용하는 것으로 충분합니다."
+"{productname}에서 클라이언트를 등록하고 업데이트를 수행하기 위해 액세스할 수 있어야 하는 URL이 몇 개 있습니다.  대부분의 "
+"경우에는 해당 URL에 대한 액세스를 허용하는 것으로 충분합니다."
 
 #. type: Plain text
 #: modules/installation/pages/ports.adoc:40
@@ -3911,9 +3891,7 @@ msgstr "proxy-key.png"
 msgid ""
 "From the [guimenu]``Child Channels`` listing select the recommended channels "
 "by clicking the ``include recommended`` icon:"
-msgstr ""
-"[guimenu]``하위 채널`` 목록에서 ``권장에 포함`` 아이콘을 클릭하여 권장 채널"
-"을 선택합니다."
+msgstr "[guimenu]``하위 채널`` 목록에서 ``권장에 포함`` 아이콘을 클릭하여 권장 채널을 선택합니다."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-registration.adoc:13
@@ -4063,8 +4041,7 @@ msgid ""
 "Continue with setting up the registered {productname} Proxy: xref:proxy-"
 "setup.adoc[]."
 msgstr ""
-"등록한 {productname} 프록시 설정을 계속합니다. 프록시: xref:installation:"
-"proxy-setup.adoc[]."
+"등록한 {productname} 프록시 설정을 계속합니다. 프록시: xref:installation:proxy-setup.adoc[]."
 
 #. type: Title =
 #: modules/installation/pages/proxy-setup.adoc:1
@@ -4092,9 +4069,7 @@ msgstr "프록시 체인"
 msgid ""
 "It is possible to arrange Salt proxies in a chain.  In such a case, the "
 "upstream proxy is named `parent`."
-msgstr ""
-"Salt 프록시를 체인에서 정렬할 수 있습니다.  이 경우 업스트림 프록시의 이름은 "
-"`parent` 입니다."
+msgstr "Salt 프록시를 체인에서 정렬할 수 있습니다.  이 경우 업스트림 프록시의 이름은 `parent` 입니다."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:5
@@ -4104,8 +4079,8 @@ msgid ""
 "must be able to reach the {productname} Server or a parent proxy on these "
 "ports."
 msgstr ""
-"TCP 포트 `4505` 및 `4506` 이 프록시에서 열려 있는지 확인합니다.  프록시는 해"
-"당 포트에서 {productname} 서버 또는 상위 프록시로 연결할 수 있어야 합니다."
+"TCP 포트 `4505` 및 `4506` 이 프록시에서 열려 있는지 확인합니다.  프록시는 해당 포트에서 {productname} 서버 "
+"또는 상위 프록시로 연결할 수 있어야 합니다."
 
 #. type: Title ==
 #: modules/installation/pages/proxy-setup.adoc:6
@@ -4132,8 +4107,8 @@ msgid ""
 "As root, enter the following commands on the proxy using your {productname} "
 "Server or parent Proxy (named [replaceable]``PARENT``):"
 msgstr ""
-"root로 {productname} 서버 또는 상위 프록시(이름: [replaceable]``PARENT``)를 "
-"사용하여 프록시에서 다음 명령을 입력합니다."
+"root로 {productname} 서버 또는 상위 프록시(이름: [replaceable]``PARENT``)를 사용하여 프록시에서 다음 "
+"명령을 입력합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:9
@@ -4191,9 +4166,8 @@ msgid ""
 "values provided between brackets ``[]``.  Here is some information about the "
 "requested settings:"
 msgstr ""
-"대화형 [command]``configure-proxy.sh`` 스크립트를 실행합니다.  추가적으로 입"
-"력하지 않고 kbd:[Enter]를 눌러 스크립트가 괄호 ``[]`` 사이에 입력된 기본값을 "
-"사용하도록 합니다.  요청되는 설정에 대한 정보는 다음과 같습니다."
+"대화형 [command]``configure-proxy.sh`` 스크립트를 실행합니다.  추가적으로 입력하지 않고 kbd:[Enter]를 "
+"눌러 스크립트가 괄호 ``[]`` 사이에 입력된 기본값을 사용하도록 합니다.  요청되는 설정에 대한 정보는 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:14
@@ -4495,9 +4469,7 @@ msgstr ""
 msgid ""
 "On the {productname} Proxy, install the [package]``susemanager-tftpsync-"
 "recv`` package:"
-msgstr ""
-"{productname} 프록시에 [package]``susemanager-tftpsync-recv`` 패키지를 설치합"
-"니다."
+msgstr "{productname} 프록시에 [package]``susemanager-tftpsync-recv`` 패키지를 설치합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:51
@@ -4513,8 +4485,8 @@ msgid ""
 "On the {productname} Proxy, run the [command]``configure-tftpsync.sh`` setup "
 "script and enter the requested information:"
 msgstr ""
-"{productname} 프록시에서 [command]``configure-tftpsync.sh`` 설정 스크립트를 "
-"실행한 후 요청되는 정보를 입력합니다."
+"{productname} 프록시에서 [command]``configure-tftpsync.sh`` 설정 스크립트를 실행한 후 요청되는 "
+"정보를 입력합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:53
@@ -4610,10 +4582,9 @@ msgid ""
 "{productname} Proxy using DHCP.  Use this DHCP configuration for the zone "
 "that contains the clients to be provisioned:"
 msgstr ""
-"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다.  기본"
-"적으로 PXE(tftp)가 설치되고 활성화됩니다.  클라이언트가 DHCP를 사용하여 "
-"{productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다.  프로비저닝할 클라"
-"이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
+"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다.  기본적으로 PXE(tftp)가 설치되고 "
+"활성화됩니다.  클라이언트가 DHCP를 사용하여 {productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다.  프로비저닝할 "
+"클라이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
 
 #. type: delimited block -
 #: modules/installation/pages/proxy-setup.adoc:65
@@ -5097,8 +5068,7 @@ msgid ""
 "When you launch your instance, you can log in to the {productname} Server "
 "and use this command to find all available storage devices:"
 msgstr ""
-"인스턴스를 시작할 때 {productname} 서버에 로그인하고 이 명령을 사용하여 사용 "
-"가능한 모든 스토리지 장치를 찾을 수 있습니다."
+"인스턴스를 시작할 때 {productname} 서버에 로그인하고 이 명령을 사용하여 사용 가능한 모든 스토리지 장치를 찾을 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-requirements.adoc:23
@@ -5119,8 +5089,7 @@ msgid ""
 "uses it as the location for the database and repositories:"
 msgstr ""
 "[command]``suma-storage `` 명령어로 외부 디스크를 설정할 수 있습니다. 이렇게 "
-"하면``/manager_storage``에 마운트된 XFS 파티션이 생성되고 이를 데이터베이스 "
-"및 리포지토리의 위치로 사용합니다."
+"하면``/manager_storage``에 마운트된 XFS 파티션이 생성되고 이를 데이터베이스 및 리포지토리의 위치로 사용합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/pubcloud-requirements.adoc:25
@@ -5169,9 +5138,7 @@ msgstr ""
 msgid ""
 "Follow the cloud providers instructions to SSH into the instance, and run "
 "this command to start set up:"
-msgstr ""
-"클라우드 제공자의 지침에 따라 SSH를 통해 인스턴스에 연결한 후 다음 명령을 실"
-"행하여 설정을 시작하십시오."
+msgstr "클라우드 제공자의 지침에 따라 SSH를 통해 인스턴스에 연결한 후 다음 명령을 실행하여 설정을 시작하십시오."
 
 #. type: delimited block -
 #: modules/installation/pages/pubcloud-setup.adoc:5
@@ -5256,8 +5223,7 @@ msgstr "SUSEConnect -p sle-module-public-cloud/15.3/x86_64\n"
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:18
 msgid "For {productname} Server on a public cloud, the expected modules are:"
-msgstr ""
-"공용 클라우드의 {productname} 서버에서 예상되는 모듈은 다음과 같습니다."
+msgstr "공용 클라우드의 {productname} 서버에서 예상되는 모듈은 다음과 같습니다."
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:24
@@ -5275,8 +5241,7 @@ msgstr "{webui}에서 설정을 완료합니다."
 msgid ""
 "Open the {productname} {webui} with a web browser, using an address like "
 "this:"
-msgstr ""
-"다음과 같은 주소를 사용하여 웹 브라우저에서 {productname} {webui}를 엽니다."
+msgstr "다음과 같은 주소를 사용하여 웹 브라우저에서 {productname} {webui}를 엽니다."
 
 #. type: delimited block -
 #: modules/installation/pages/pubcloud-setup.adoc:27
@@ -5318,9 +5283,7 @@ msgstr ""
 msgid ""
 "You can retrieve the instance name or ID from the public cloud instance web "
 "console, or from the command prompt:"
-msgstr ""
-"인스턴스 이름 또는 ID는 공용 클라우드 인스턴스 웹 콘솔 또는 명령 프롬프트에"
-"서 검색할 수 있습니다."
+msgstr "인스턴스 이름 또는 ID는 공용 클라우드 인스턴스 웹 콘솔 또는 명령 프롬프트에서 검색할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:32
@@ -5465,8 +5428,7 @@ msgstr "SUSE Manager 서버 설정"
 #: modules/installation/pages/server-setup.adoc:2
 #: modules/installation/pages/uyuni-server-setup.adoc:2
 msgid "This section covers {productname} Server setup, using these procedures:"
-msgstr ""
-"이 섹션에서는 다음 절차를 사용한 {productname} 서버 설정에 대해 설명합니다."
+msgstr "이 섹션에서는 다음 절차를 사용한 {productname} 서버 설정에 대해 설명합니다."
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:3
@@ -5687,9 +5649,7 @@ msgid ""
 "The main administration account is the _highest authority account_ within "
 "{productname} and therefore account access information should be stored in a "
 "secure location."
-msgstr ""
-"기본 관리 계정은 {productname}에서 _최상위 권한 계정_ 이므로 계정 액세스 정보"
-"를 안전한 곳에 보관해야 합니다."
+msgstr "기본 관리 계정은 {productname}에서 _최상위 권한 계정_ 이므로 계정 액세스 정보를 안전한 곳에 보관해야 합니다."
 
 #. type: delimited block =
 #: modules/installation/pages/server-setup.adoc:32
@@ -5697,9 +5657,7 @@ msgid ""
 "For security it is recommended that the main administrator creates _low "
 "level admin accounts_ designated for administration of organizations and "
 "individual groups."
-msgstr ""
-"보안을 위해 기본 관리자가 조직 및 개별 그룹을 관리하기 위한 _저수준 관리 계정"
-"_ 을 생성하는 것이 좋습니다."
+msgstr "보안을 위해 기본 관리자가 조직 및 개별 그룹을 관리하기 위한 _저수준 관리 계정_ 을 생성하는 것이 좋습니다."
 
 #. type: Block title
 #: modules/installation/pages/server-setup.adoc:33
@@ -5959,8 +5917,8 @@ msgid ""
 "In some environments, _Transparent Huge Pages_ provided by the kernel may "
 "slow down PostgreSQL workloads significantly."
 msgstr ""
-"일부 환경에서는 커널에서 제공되는 _Transparent Huge Pages_ 로 인해 "
-"PostgreSQL 워크로드의 속도가 크게 느려질 수 있습니다."
+"일부 환경에서는 커널에서 제공되는 _Transparent Huge Pages_ 로 인해 PostgreSQL 워크로드의 속도가 크게 느려질 "
+"수 있습니다."
 
 #. type: delimited block =
 #: modules/installation/pages/server-setup.adoc:65
@@ -5970,17 +5928,18 @@ msgid ""
 "etc/default/grub`` and added to the line "
 "[option]``GRUB_CMDLINE_LINUX_DEFAULT``, for example:"
 msgstr ""
-"_Transparant Huge Pages_ 를 비활성화하려면 [option]``transparent_hugepage`` "
-"커널 파라미터를 [option]``안 함``으로 설정합니다. 변경은 [path]``/etc/"
-"default/grub``에서 수행되고 [option]``GRUB_CMDLINE_LINUX_DEFAULT`` 라인에 추"
-"가되어야 하며, 그러한 예는 다음과 같습니다."
+"_Transparant Huge Pages_ 를 비활성화하려면 [option]``transparent_hugepage`` 커널 파라미터를 "
+"[option]``안 함``으로 설정합니다. 변경은 [path]``/etc/default/grub``에서 수행되고 "
+"[option]``GRUB_CMDLINE_LINUX_DEFAULT`` 라인에 추가되어야 하며, 그러한 예는 다음과 같습니다."
 
 #. type: delimited block -
 #: modules/installation/pages/server-setup.adoc:66
 #: modules/installation/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
+msgstr ""
+"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
+"elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:67
@@ -5999,8 +5958,8 @@ msgid ""
 "Monitor the channel synchronization process in real-time by viewing channel "
 "log files located in the directory [path]``/var/log/rhn/reposync``:"
 msgstr ""
-"[path]``/var/log/rhn/reposync`` 디렉토리의 채널 로그 파일을 검토하여 채널 동"
-"기화 진행 상황을 실시간으로 모니터링합니다."
+"[path]``/var/log/rhn/reposync`` 디렉토리의 채널 로그 파일을 검토하여 채널 동기화 진행 상황을 실시간으로 "
+"모니터링합니다."
 
 #. type: delimited block -
 #: modules/installation/pages/server-setup.adoc:69
@@ -6118,10 +6077,8 @@ msgid ""
 "shown for the user you have granted access to.  Use these buttons on the "
 "card to edit or revoke access:"
 msgstr ""
-"btn:[새 인증서 추가]를 클릭하고 액세스 권한을 부여할 사용자의 사용자 이름 및 "
-"암호를 입력한 후 btn:[저장]을 클릭합니다.  액세스 권한을 부여한 사용자를 위"
-"한 새 인증서 카드가 표시됩니다. 카드에서 이 버튼을 사용하여 액세스를 수정하거"
-"나 철회합니다."
+"btn:[새 인증서 추가]를 클릭하고 액세스 권한을 부여할 사용자의 사용자 이름 및 암호를 입력한 후 btn:[저장]을 클릭합니다.  "
+"액세스 권한을 부여한 사용자를 위한 새 인증서 카드가 표시됩니다. 카드에서 이 버튼을 사용하여 액세스를 수정하거나 철회합니다."
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:12
@@ -6182,12 +6139,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:21
-#, fuzzy
-#| msgid ""
-#| "The list is organized by product name.  For each product, you can see the "
-#| "architecture it can be used on.  Click the arrow next to the product name "
-#| "to see associated channels and extensions.  Click the btn:[Channels] icon "
-#| "to see the complete list of channels associated with each product."
 msgid ""
 "The list is organized by product name showing products on top which have a "
 "subscription.  Freely available products appear at the end of the list.  For "
@@ -6196,10 +6147,9 @@ msgid ""
 "Click the btn:[Channels] icon to see the complete list of channels "
 "associated with each product."
 msgstr ""
-"목록은 제품 이름을 기준으로 구성됩니다. 각 제품에 대하여 사용될 수 있는 아키"
-"텍처를 살펴볼 수 있습니다.  제품 이름 옆의 화살표를 클릭하여 연결된 채널 및 "
-"확장을 확인합니다. btn:[채널] 아이콘을 클릭하여 각 제품과 연결된 전체 채널 목"
-"록을 확인합니다."
+"목록은 구독이 있는 제품을 맨 위에 표시하는 제품 이름을 기준으로 구성됩니다. 무료로 사용 가능한 제품이 목록 끝에 나타납니다. 각 "
+"제품에 대하여 사용될 수 있는 아키텍처를 살펴볼 수 있습니다.  제품 이름 옆의 화살표를 클릭하여 연결된 채널 및 확장을 확인합니다. "
+"btn:[채널] 아이콘을 클릭하여 각 제품과 연결된 전체 채널 목록을 확인합니다."
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:22
@@ -6245,11 +6195,6 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:26
-#, fuzzy
-#| msgid ""
-#| "If your synchronization fails, it could be because of a third party GPG "
-#| "key.  For more information about troubleshooting product synchronization, "
-#| "see xref:administration:tshoot-sync.adoc[]."
 msgid ""
 "If your synchronization fails, it could be because of a third party GPG key "
 "or your company firewall blocking access to the download server.  Please "
@@ -6257,8 +6202,9 @@ msgid ""
 "troubleshooting product synchronization, see xref:administration:tshoot-sync."
 "adoc[]."
 msgstr ""
-"동기화에 실패하면 타사 GPG 키가 원인일 수 있습니다. 제품 동기화 문제 해결에 "
-"대한 자세한 내용은 xref:administration:tshoot-sync.adoc[]을 참조하십시오."
+"동기화에 실패한 경우, 타사 GPG 키 또는 회사 방화벽이 다운로드 서버에 대한 액세스를 차단하기 때문일 수 있습니다. 오류에 대한 알림 "
+"세부사항을 확인하십시오. 제품 동기화 문제 해결에 대한 자세한 내용은 xref:administration:tshoot-sync.adoc[]"
+"에서 참조하십시오."
 
 #. type: Title =
 #: modules/installation/pages/uyuni-install-requirements.adoc:1
@@ -6354,8 +6300,8 @@ msgid ""
 "[command]``spacewalk-common-channels`` is part of the [package]``spacewalk-"
 "utils`` package:"
 msgstr ""
-"[command]``spacewalk-common-channels``는 [package]``spacewalk-utils`` 패키지"
-"의 일부입니다."
+"[command]``spacewalk-common-channels``는 [package]``spacewalk-utils`` 패키지의 "
+"일부입니다."
 
 #. type: delimited block -
 #: modules/installation/pages/uyuni-proxy-registration.adoc:8
@@ -6389,16 +6335,10 @@ msgstr ""
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-proxy-registration.adoc:10
-#, fuzzy
-#| msgid ""
-#| "For more information, see xref:client-configuration:clients-opensuse."
-#| "adoc[]."
 msgid ""
 "For more information, see xref:client-configuration:clients-opensuseleap."
 "adoc[]."
-msgstr ""
-"자세한 내용은 xref:client-configuration:clients-opensuse.adoc[]에서 참조하십"
-"시오."
+msgstr "자세한 내용은 xref:client-configuration:clients-opensuseleap.adoc[]에서 참조하십시오."
 
 #. // Atfer a successful sync run, bootstrap repos are now created automatically.
 #. // Since 2020.07 or earlier
@@ -6420,22 +6360,15 @@ msgstr "프록시의 부트스트랩 스크립트를 수정합니다."
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-proxy-registration.adoc:14
-#, fuzzy
-#| msgid ""
-#| "Add the GPG key to the [systemitem]``ORG_GPG_KEY=`` parameter.  For more "
-#| "information, see xref:client-configuration:clients-opensuse.adoc[].  For "
-#| "more information about bootstrap scripts, see xref:client-configuration:"
-#| "registration-bootstrap.adoc[]."
 msgid ""
 "Add the GPG key to the [systemitem]``ORG_GPG_KEY=`` parameter.  For more "
 "information, see xref:client-configuration:clients-opensuseleap.adoc[].  For "
 "more information about bootstrap scripts, see xref:client-configuration:"
 "registration-bootstrap.adoc[]."
 msgstr ""
-"GPG 키를 [systemitem]``ORG_GPG_KEY=`` 파라미터에 추가합니다. 자세한 내용은 "
-"xref:client-configuration:clients-opensuse.adoc[]을 참조하십시오. 부트스트랩 "
-"스크립트에 대한 자세한 내용은 xref:client-configuration:registration-"
-"bootstrap.adoc[]에서 참조하십시오."
+"GPG 키를 [systemitem]``ORG_GPG_KEY=`` 파라미터에 추가합니다. 자세한 내용은 xref:client-"
+"configuration:clients-opensuseleap.adoc[]에서 참조하십시오. 부트스트랩 스크립트에 대한 자세한 내용은 "
+"xref:client-configuration:registration-bootstrap.adoc[]에서 참조하십시오."
 
 #.  Traditional clients are not supported
 #. type: Plain text
@@ -6546,10 +6479,9 @@ msgid ""
 "{productname} Proxy using DHCP.  Use this DHCP configuration for the zone "
 "which contains the clients to be provisioned:"
 msgstr ""
-"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다. 기본적"
-"으로 PXE(tftp)가 설치되고 활성화됩니다.  클라이언트는 DHCP를 사용하여 "
-"{productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다. 프로비저닝할 클라"
-"이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
+"{productname}에서는 클라이언트 프로비저닝을 위해 Cobbler를 사용합니다. 기본적으로 PXE(tftp)가 설치되고 "
+"활성화됩니다.  클라이언트는 DHCP를 사용하여 {productname} 프록시에서 PXE 부팅을 찾을 수 있어야 합니다. 프로비저닝할 "
+"클라이언트가 포함된 영역에서 이 DHCP 구성을 사용하십시오."
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-proxy-setup.adoc:70
@@ -6965,10 +6897,8 @@ msgid ""
 "menu:Systems[System Details] section for that client.  From this page, you "
 "can apply any required updates."
 msgstr ""
-"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이"
-"언트를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 "
-"menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 "
-"적용할 수 있습니다."
+"[guimenu]``가장 중요한 시스템`` 창은 소프트웨어 업데이트가 필요한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다. 이 페이지에서 필수 업데이트를 적용할 수 있습니다."
 
 #. type: Plain text
 #: modules/installation/pages/webui-setup.adoc:9
@@ -7007,9 +6937,8 @@ msgid ""
 "registered in the past thirty days.  Click the name of a client in the list "
 "to be taken to the menu:Systems[System Details] section for that client."
 msgstr ""
-"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트"
-"를 보여줍니다.  목록에서 클라이언트 이름을 클릭하면 해당 클라이언트의 menu:시"
-"스템[시스템 정보] 섹션으로 이동합니다."
+"[guimenu]``최근 등록된 시스템`` 창은 최근 30일 이내에 등록한 모든 클라이언트를 보여줍니다.  목록에서 클라이언트 이름을 "
+"클릭하면 해당 클라이언트의 menu:시스템[시스템 정보] 섹션으로 이동합니다."
 
 #. type: Title ==
 #: modules/installation/pages/webui-setup.adoc:13
@@ -7104,11 +7033,9 @@ msgid ""
 "For more information about the system set manager, see xref:client-"
 "configuration:system-set-manager.adoc[]."
 msgstr ""
-"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 "
-"시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 관리자 > 개요]로 이동합니"
-"다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 "
-"관리자에 대한 자세한 내용은 xref:client-configuration:system-set-manager."
-"adoc[]에서 참조하십시오."
+"선택한 시스템 아이콘은 현재 선택한 시스템의 수를 원 안에 표시합니다.  선택한 시스템 아이콘을 클릭하여 menu:시스템[시스템 세트 "
+"관리자 > 개요]로 이동합니다.  지우개 아이콘을 클릭하여 모든 시스템의 선택을 취소합니다.   시스템 세트 관리자에 대한 자세한 내용은 "
+"xref:client-configuration:system-set-manager.adoc[]에서 참조하십시오."
 
 #. type: Labeled list
 #: modules/installation/pages/webui-setup.adoc:25
@@ -7169,10 +7096,8 @@ msgid ""
 "indexed and appear in search results.  If you need to force a rebuild of the "
 "search index, use this command at the command prompt:"
 msgstr ""
-"배포를 추가하거나 채널을 새로 동기화하거나 {productname} 서버에 시스템을 등록"
-"하는 경우 색인이 생성되고 검색 결과에 표시되는 데 몇 분 정도 걸릴 수 있습니"
-"다. 검색 색인을 강제로 다시 작성해야하는 경우 명령 프롬프트에서 다음 명령을 "
-"사용하십시오."
+"배포를 추가하거나 채널을 새로 동기화하거나 {productname} 서버에 시스템을 등록하는 경우 색인이 생성되고 검색 결과에 표시되는 "
+"데 몇 분 정도 걸릴 수 있습니다. 검색 색인을 강제로 다시 작성해야하는 경우 명령 프롬프트에서 다음 명령을 사용하십시오."
 
 #. type: delimited block -
 #: modules/installation/pages/webui-setup.adoc:34
