@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-13 14:31+0000\n"
+"POT-Creation-Date: 2021-10-05 08:52+0000\n"
 "PO-Revision-Date: 2021-09-17 10:11+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -2068,7 +2068,8 @@ msgid ""
 "network as the machine you want to install, or you have a DHCP relay that "
 "allows you to cross all routers in between;"
 msgstr ""
-"{productname} 服务器（或其代理之一）与您要安装的计算机位于同一本地网络中，或者您具有可用于跨越两者之间的所有路由器的 DHCP 中继；"
+"{productname} 服务器（或其代理之一）与您要安装的计算机位于同一本地网络中，或"
+"者您具有可用于跨越两者之间的所有路由器的 DHCP 中继；"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:13
@@ -2298,9 +2299,7 @@ msgstr ""
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:22
 #, no-wrap
 msgid "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
-msgstr ""
-"$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/"
-"initrd\n"
+msgstr "$ cd tftproot; find . | cpio -o -H newc | xz --check=crc32 -c >> /path/to/initrd\n"
 
 #. type: Title ==
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:23
@@ -2344,8 +2343,7 @@ msgstr "使用 [command]``mksusecd`` 修改现有的 ISO 映像："
 #: modules/client-configuration/pages/autoinst-owngpgkey.adoc:31
 #, no-wrap
 msgid "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
-msgstr ""
-"$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
+msgstr "$ mksusecd --create <new-image>.iso --initrd initrdroot/ <old-image>.iso\n"
 
 #. type: Title =
 #: modules/client-configuration/pages/autoinst-profiles.adoc:1
@@ -4146,9 +4144,7 @@ msgstr "指定适当的父频道："
 #: modules/client-configuration/pages/bootstrap-repository.adoc:32
 #, no-wrap
 msgid "mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-sled15-pool-x86_64\n"
-msgstr ""
-"mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-"
-"sled15-pool-x86_64\n"
+msgstr "mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-sled15-pool-x86_64\n"
 
 #. type: Title ===
 #: modules/client-configuration/pages/bootstrap-repository.adoc:33
@@ -5346,11 +5342,8 @@ msgid ""
 msgstr ""
 " <listentry>\n"
 "     <ask_on_error config:type=\"boolean\">true</ask_on_error>\n"
-"     <media_url>https://$redhat_management_server/ks/dist/child/"
-"$channel_prefix-sle-module-web-scripting15-sp1-pool-x86_64/"
-"$distro_label</media_url>\n"
-"     <name>$channel_prefix SLE-Module-Web-Scripting15-SP1 Pool for x86_64 "
-"</name>\n"
+"     <media_url>https://$redhat_management_server/ks/dist/child/$channel_prefix-sle-module-web-scripting15-sp1-pool-x86_64/$distro_label</media_url>\n"
+"     <name>$channel_prefix SLE-Module-Web-Scripting15-SP1 Pool for x86_64 </name>\n"
 "     <product>Web Scripting Module 15 SP1 x86_64 Pool</product>\n"
 "</listentry>\n"
 
@@ -5432,8 +5425,7 @@ msgstr "使用您选择的配置文件构建 ISO 文件："
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:46
 #, no-wrap
 msgid "cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example\n"
-msgstr ""
-"cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example\n"
+msgstr "cobbler buildiso --iso=/tmp/SLE_15-sp1.iso --profiles=SLE_15-sp1:1:Example\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-lifecycle.adoc:47
@@ -5712,8 +5704,8 @@ msgid ""
 "For more information, see https://documentation.suse.com/sles/15-SP3/html/"
 "SLES-all/article-modules.html."
 msgstr ""
-"有关详细信息，请参见 https://documentation.suse.com/sles/15-SP3/html/SLES-all/article-"
-"modules.html。"
+"有关详细信息，请参见 https://documentation.suse.com/sles/15-SP3/html/SLES-"
+"all/article-modules.html。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:42
@@ -5790,7 +5782,9 @@ msgstr ""
 msgid ""
 "Clients running in Azure cloud must add ``textmode=1 console=ttyS0`` to "
 "``Kernel Options``."
-msgstr "在 Azure 云中运行的客户端必须将 ``textmode=1 console=ttyS0`` 添加到``内核选项``中。"
+msgstr ""
+"在 Azure 云中运行的客户端必须将 ``textmode=1 console=ttyS0`` 添加到``内核选项"
+"``中。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:53
@@ -5968,9 +5962,10 @@ msgid ""
 "documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths.html#sec-"
 "upgrade-paths-supported."
 msgstr ""
-"在 {sle} 12 及更高版本中，{suse} 支持跳过服务包（如果 {scc} 提供该服务包）。例如，您可以从 {sle} 15 升级到 SP2，"
-"而无需安装 SP1。有关支持的 {sle} 升级路径，请参见 https://documentation.suse.com/sles/15-SP3/"
-"html/SLES-all/cha-upgrade-paths.html#sec-upgrade-paths-supported。"
+"在 {sle} 12 及更高版本中，{suse} 支持跳过服务包（如果 {scc} 提供该服务包）。"
+"例如，您可以从 {sle} 15 升级到 SP2，而无需安装 SP1。有关支持的 {sle} 升级路"
+"径，请参见 https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
+"upgrade-paths.html#sec-upgrade-paths-supported。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:9
@@ -6012,7 +6007,9 @@ msgid ""
 "Before starting a migration, make sure all the channels of the target "
 "product are fully synchronized.  To check the synchronization status in the "
 "{webui}, navigate to the menu:Admin[Setup Wizard > Products] page."
-msgstr "在开始迁移之前，请确保目标产品的所有频道都已完全同步。要在 {webui} 中检查同步状态，请导航到menu:管理[安装向导 > 产品]页面。"
+msgstr ""
+"在开始迁移之前，请确保目标产品的所有频道都已完全同步。要在 {webui} 中检查同步"
+"状态，请导航到menu:管理[安装向导 > 产品]页面。"
 
 #. type: Block title
 #: modules/client-configuration/pages/client-upgrades-product-migration.adoc:13
@@ -6391,9 +6388,9 @@ msgid ""
 "upgrade paths, see https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
 "cha-upgrade-paths.html"
 msgstr ""
-"对于运行 {suse} 操作系统且已在 SSC 中注册的客户端，可在 {productname} {webui} 中进行升级。有关支持的 {sle} "
-"15 升级路径，请参见 https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
-"upgrade-paths.html"
+"对于运行 {suse} 操作系统且已在 SSC 中注册的客户端，可在 {productname} "
+"{webui} 中进行升级。有关支持的 {sle} 15 升级路径，请参见 https://"
+"documentation.suse.com/sles/15-SP3/html/SLES-all/cha-upgrade-paths.html"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades.adoc:4
@@ -6488,7 +6485,7 @@ msgstr "一些 {alibabaclo}{nbsp}2 实例需要尝试两次才能成功注册。
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:61
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:60
 #: modules/client-configuration/pages/clients-rocky.adoc:5
-#: modules/client-configuration/pages/clients-sle.adoc:6
+#: modules/client-configuration/pages/clients-sle.adoc:7
 #: modules/client-configuration/pages/clients-slemicro.adoc:9
 #: modules/client-configuration/pages/clients-sleses.adoc:8
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:8
@@ -6517,7 +6514,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:64
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:63
 #: modules/client-configuration/pages/clients-rocky.adoc:7
-#: modules/client-configuration/pages/clients-sle.adoc:8
+#: modules/client-configuration/pages/clients-sle.adoc:9
 #: modules/client-configuration/pages/clients-slemicro.adoc:11
 #: modules/client-configuration/pages/clients-sleses.adoc:14
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:10
@@ -6550,7 +6547,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:9
 #: modules/client-configuration/pages/clients-oracle.adoc:11
 #: modules/client-configuration/pages/clients-rocky.adoc:10
-#: modules/client-configuration/pages/clients-sle.adoc:11
+#: modules/client-configuration/pages/clients-sle.adoc:12
 #: modules/client-configuration/pages/clients-slemicro.adoc:14
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:14
 #: modules/client-configuration/pages/clients-ubuntu.adoc:12
@@ -6652,7 +6649,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:73
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:79
 #: modules/client-configuration/pages/clients-rocky.adoc:20
-#: modules/client-configuration/pages/clients-sle.adoc:17
+#: modules/client-configuration/pages/clients-sle.adoc:18
 #: modules/client-configuration/pages/clients-slemicro.adoc:17
 #: modules/client-configuration/pages/clients-sleses.adoc:46
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:29
@@ -6705,7 +6702,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:117
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:82
 #: modules/client-configuration/pages/clients-rocky.adoc:25
-#: modules/client-configuration/pages/clients-sle.adoc:21
+#: modules/client-configuration/pages/clients-sle.adoc:22
 #: modules/client-configuration/pages/clients-slemicro.adoc:18
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:40
 #: modules/client-configuration/pages/clients-ubuntu.adoc:30
@@ -6873,8 +6870,8 @@ msgid ""
 "stream on the client.  If you do not provide Python 3.6, the installation of "
 "the [package]``spacecmd`` package will fail."
 msgstr ""
-"如果您使用的是模块化频道，则必须在客户端上启用 Python 3.6 模块流。如果不提供 Python 3.6，[package]``spacecmd``"
-" 软件包安装将会失败。"
+"如果您使用的是模块化频道，则必须在客户端上启用 Python 3.6 模块流。如果不提供 "
+"Python 3.6，[package]``spacecmd`` 软件包安装将会失败。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-almalinux.adoc:19
@@ -6910,7 +6907,7 @@ msgstr "您需要创建与您的 {almalinux} 频道关联的激活密钥。"
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:116
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:81
 #: modules/client-configuration/pages/clients-rocky.adoc:24
-#: modules/client-configuration/pages/clients-sle.adoc:19
+#: modules/client-configuration/pages/clients-sle.adoc:20
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:31
 #: modules/client-configuration/pages/clients-ubuntu.adoc:21
 #, no-wrap
@@ -7334,9 +7331,7 @@ msgstr "在 [path]``/etc/rhn/rhn.conf`` 中添加或编辑下面一行："
 #: modules/client-configuration/pages/clients-centos.adoc:43
 #, no-wrap
 msgid "java.allow_adding_patches_via_api = centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64\n"
-msgstr ""
-"java.allow_adding_patches_via_api = "
-"centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64\n"
+msgstr "java.allow_adding_patches_via_api = centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-centos.adoc:44
@@ -7407,8 +7402,7 @@ msgstr ""
 "export SPACEWALK_USER='<adminname>';export SPACEWALK_PASS='<password>'\n"
 "/usr/local/centos/errata-import.pl --server '<servername>' \\\n"
 "--errata /usr/local/centos/errata.latest.xml  \\\n"
-"--include-channels=centos7-updates-x86_64,centos7-x86_64,centos7-extras-"
-"x86_64 \\\n"
+"--include-channels=centos7-updates-x86_64,centos7-x86_64,centos7-extras-x86_64 \\\n"
 "--publish --rhsa-oval /usr/local/centos/com.redhat.rhsa-RHEL7.xml\n"
 
 #. type: Plain text
@@ -7634,7 +7628,7 @@ msgstr ""
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:21
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:119
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:84
-#: modules/client-configuration/pages/clients-sle.adoc:23
+#: modules/client-configuration/pages/clients-sle.adoc:24
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:42
 #: modules/client-configuration/pages/clients-ubuntu.adoc:32
 #, no-wrap
@@ -7652,7 +7646,7 @@ msgstr "对于 {debian}{nbsp}10，出现提示时请选择 ``debian10-amd64-uyun
 #: modules/client-configuration/pages/clients-opensuseleap.adoc:22
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:120
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:85
-#: modules/client-configuration/pages/clients-sle.adoc:24
+#: modules/client-configuration/pages/clients-sle.adoc:25
 #: modules/client-configuration/pages/clients-slemicro.adoc:19
 #: modules/client-configuration/pages/clients-sleses.adoc:51
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:43
@@ -8129,9 +8123,9 @@ msgid ""
 "follow the troubleshooting procedure in xref:client-configuration:tshoot-"
 "clients.adoc[]."
 msgstr ""
-"{oracle} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包引导新的 {oracle} 6 客户端将会失败。"
-"如果您需要引导新的 {oracle} 6 客户端，请按照 xref:client-configuration:tshoot-clients.adoc[] "
-"中的查错过程操作。"
+"{oracle} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包"
+"引导新的 {oracle} 6 客户端将会失败。如果您需要引导新的 {oracle} 6 客户端，请"
+"按照 xref:client-configuration:tshoot-clients.adoc[] 中的查错过程操作。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-oracle.adoc:12
@@ -8330,9 +8324,7 @@ msgstr "Google Compute Engine："
 #: modules/client-configuration/pages/clients-pubcloud.adoc:15
 #, no-wrap
 msgid "zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE regionServiceCertsGCE\n"
-msgstr ""
-"zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE "
-"regionServiceCertsGCE\n"
+msgstr "zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE regionServiceCertsGCE\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:16
@@ -8465,8 +8457,9 @@ msgid ""
 "over-writing each other.  For more information about registering clones, see "
 "xref:administration:tshoot-registerclones.adoc[]."
 msgstr ""
-"注册从公有云映像（例如 AWS AMI）启动的客户端时，需要进行额外的配置以防它们彼此重写。有关注册克隆客户端的详细信息，请参见 "
-"xref:administration:tshoot-registerclones.adoc[]。"
+"注册从公有云映像（例如 AWS AMI）启动的客户端时，需要进行额外的配置以防它们彼"
+"此重写。有关注册克隆客户端的详细信息，请参见 xref:administration:tshoot-"
+"registerclones.adoc[]。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/clients-pubcloud.adoc:30
@@ -8940,9 +8933,9 @@ msgid ""
 "follow the troubleshooting procedure in xref:client-configuration:tshoot-"
 "clients.adoc[]."
 msgstr ""
-"{redhat} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包引导新的 {redhat} 6 客户端将会失败。"
-"如果您需要引导新的 {redhat} 6 客户端，请按照 xref:client-configuration:tshoot-clients.adoc[] "
-"中的查错过程操作。"
+"{redhat} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包"
+"引导新的 {redhat} 6 客户端将会失败。如果您需要引导新的 {redhat} 6 客户端，请"
+"按照 xref:client-configuration:tshoot-clients.adoc[] 中的查错过程操作。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:59
@@ -9451,7 +9444,9 @@ msgstr "过程：将证书复制到服务器"
 msgid ""
 "Copy your entitlement certificate and key from the client system, to a "
 "location that the {productname} Server can access. Amazon EC2:"
-msgstr "将客户端系统中的权利证书和密钥复制到 {productname} 服务器可访问的位置。Amazon EC2："
+msgstr ""
+"将客户端系统中的权利证书和密钥复制到 {productname} 服务器可访问的位置。"
+"Amazon EC2："
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:21
@@ -9617,12 +9612,8 @@ msgid ""
 "echo \"X-RHUI-ID=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/document|base64|tr -d '\\n')\"\n"
 "echo \"X-RHUI-SIGNATURE=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/signature|base64|tr -d '\\n')\"\n"
 msgstr ""
-"echo \"X-RHUI-ID=$(curl -s http://169.254.169.254/latest/dynamic/"
-"instance-identity/document|base64|tr -d '\\n"
-"')\"\n"
-"echo \"X-RHUI-SIGNATURE=$(curl -s http://169.254.169.254/latest/dynamic/"
-"instance-identity/signature|base64|tr -d '\\n"
-"')\"\n"
+"echo \"X-RHUI-ID=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/document|base64|tr -d '\\n')\"\n"
+"echo \"X-RHUI-SIGNATURE=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/signature|base64|tr -d '\\n')\"\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:77
@@ -9676,7 +9667,8 @@ msgstr "本节包含有关注册运行 {rocky} 操作系统的 Salt 客户端的
 msgid ""
 "Traditional clients are not available on {rocky}{nbsp}8.  {rocky}{nbsp}8 "
 "clients are only supported as Salt clients."
-msgstr "传统客户端不适用于 {rocky} 8。仅当 {rocky} 8 客户端为 Salt 客户端时才受支持。"
+msgstr ""
+"传统客户端不适用于 {rocky} 8。仅当 {rocky} 8 客户端为 Salt 客户端时才受支持。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rocky.adoc:4
@@ -9685,15 +9677,18 @@ msgid ""
 "SELinux configuration of ``enforcing`` with a ``targeted`` policy.  You do "
 "not need to disable SELinux to register {rocky} clients to {productname}."
 msgstr ""
-"我们已使用``针对性``策略并采用默认的 ``enforcing`` SELinux 配置对将 {rocky} 客户端注册到 {productname} "
-"的过程进行了测试。将 {rocky} 客户端注册到 {productname} 时，您无需禁用 SELinux。"
+"我们已使用``针对性``策略并采用默认的 ``enforcing`` SELinux 配置对将 {rocky} "
+"客户端注册到 {productname} 的过程进行了测试。将 {rocky} 客户端注册到 "
+"{productname} 时，您无需禁用 SELinux。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rocky.adoc:6
 msgid ""
 "Before you can register {rocky} clients to your {productname} Server, you "
 "need to add the required software channels, and synchronize them."
-msgstr "将 {rocky} 客户端注册到您的 {productname} 服务器之前，您需要添加所需的软件频道，并同步这些频道。"
+msgstr ""
+"将 {rocky} 客户端注册到您的 {productname} 服务器之前，您需要添加所需的软件频"
+"道，并同步这些频道。"
 
 #. type: Table
 #: modules/client-configuration/pages/clients-rocky.adoc:9
@@ -9723,8 +9718,7 @@ msgid ""
 "| {rocky} 8 | rockylinux8      | rockylinux8-uyuni-client | rockylinux8-appstream\n"
 msgstr ""
 "| 操作系统版本 | 基础频道 | 客户端频道       | AppStream 频道\n"
-"| {rocky} 8 | rockylinux8      | rockylinux8-uyuni-client | rockylinux8-"
-"appstream\n"
+"| {rocky} 8 | rockylinux8      | rockylinux8-uyuni-client | rockylinux8-appstream\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rocky.adoc:17
@@ -9733,8 +9727,8 @@ msgid ""
 "require packages from both channels.  If you do not add both channels, you "
 "cannot create the bootstrap repository, due to missing packages."
 msgstr ""
-"对于 {rocky} 8 客户端，请添加基础频道和 AppStream "
-"频道。您需要来自这两个频道的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导储存库。"
+"对于 {rocky} 8 客户端，请添加基础频道和 AppStream 频道。您需要来自这两个频道"
+"的软件包。如果未添加这两个频道，将会因缺少软件包而无法创建引导储存库。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-rocky.adoc:18
@@ -9746,9 +9740,10 @@ msgid ""
 "repositories.  {rocky} removes older version of packages when a new version "
 "is released, while {productname} keeps all of them, regardless of age."
 msgstr ""
-"您可能会发现 AppStream 频道中提供的软件包数量在上游频道和 {productname} "
-"频道之间存在一定的差异。如果您对在不同时间添加的同一频道进行比较，会发现其数量也不相同。这是由 {rocky} "
-"管理其储存库的方式所致。当有新版本发布时，{rocky} 会去除软件包的较旧版本，而 {productname} 则会保留所有版本，无论新旧与否。"
+"您可能会发现 AppStream 频道中提供的软件包数量在上游频道和 {productname} 频道"
+"之间存在一定的差异。如果您对在不同时间添加的同一频道进行比较，会发现其数量也"
+"不相同。这是由 {rocky} 管理其储存库的方式所致。当有新版本发布时，{rocky} 会去"
+"除软件包的较旧版本，而 {productname} 则会保留所有版本，无论新旧与否。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rocky.adoc:22
@@ -9763,8 +9758,8 @@ msgid ""
 "{rocky} clients are registered in the same way as all other clients.  For "
 "more information, see xref:client-configuration:registration-overview.adoc[]."
 msgstr ""
-"{rocky} 客户端的注册方式与所有其他客户端的注册方式相同。有关详细信息，请参见 xref:client-configuration"
-":registration-overview.adoc[]。"
+"{rocky} 客户端的注册方式与所有其他客户端的注册方式相同。有关详细信息，请参见 "
+"xref:client-configuration:registration-overview.adoc[]。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-rocky.adoc:28
@@ -9796,11 +9791,18 @@ msgstr "{sles}{nbsp}15{nbsp}SP1"
 msgid "{sles}{nbsp}15{nbsp}SP2"
 msgstr "{sles}{nbsp}15{nbsp}SP2"
 
+#. type: Plain text
+#: modules/client-configuration/pages/clients-sle.adoc:5
+#, fuzzy
+#| msgid "{sles}{nbsp}15{nbsp}SP1"
+msgid "{sles}{nbsp}15{nbsp}SP3"
+msgstr "{sles}{nbsp}15{nbsp}SP1"
+
 #. * {sles}{nbsp}12{nbsp}SP5
 #. * {sles} for SAP{nbsp}15{nbsp}SP2
 #. * {sles} for SAP{nbsp}12{nbsp}SP5
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sle.adoc:5
+#: modules/client-configuration/pages/clients-sle.adoc:6
 msgid ""
 "Use the instructions in this chapter for preparing all {sle} products, "
 "including {sles} for SAP, {sle} Desktop, {sle} HPC, and {sle} Real Time.  "
@@ -9812,7 +9814,7 @@ msgstr ""
 "包。"
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sle.adoc:7
+#: modules/client-configuration/pages/clients-sle.adoc:8
 msgid ""
 "Before you register {sle} clients to your {productname} Server, you need to "
 "add the required software channels, and synchronize them."
@@ -9821,16 +9823,25 @@ msgstr ""
 "道，并同步这些频道。"
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sle.adoc:9
+#: modules/client-configuration/pages/clients-sle.adoc:10
 #, no-wrap
 msgid "SLE Products - WebUI"
 msgstr "SLE 产品 - WebUI"
 
-#.  | {sles} 15 SP3
-#. | SUSE Linux Enterprise Server 15 SP3 x86_64 (ALPHA)
 #. type: Table
-#: modules/client-configuration/pages/clients-sle.adoc:10
-#, no-wrap
+#: modules/client-configuration/pages/clients-sle.adoc:11
+#, fuzzy, no-wrap
+#| msgid ""
+#| "| OS Version\n"
+#| "| Product Name\n"
+#| "\n"
+#| "| {sles} 15 SP1\n"
+#| "| SUSE Linux Enterprise Server 15 SP1 x86_64\n"
+#| "\n"
+#| "| {sles} 15 SP2\n"
+#| "| SUSE Linux Enterprise Server 15 SP2 x86_64\n"
+#| "\n"
+#| "\n"
 msgid ""
 "| OS Version\n"
 "| Product Name\n"
@@ -9841,6 +9852,8 @@ msgid ""
 "| {sles} 15 SP2\n"
 "| SUSE Linux Enterprise Server 15 SP2 x86_64\n"
 "\n"
+"| {sles} 15 SP3\n"
+"| SUSE Linux Enterprise Server 15 SP3 x86_64 \n"
 "\n"
 msgstr ""
 "| 操作系统版本\n"
@@ -9855,16 +9868,25 @@ msgstr ""
 "\n"
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sle.adoc:12
+#: modules/client-configuration/pages/clients-sle.adoc:13
 #, no-wrap
 msgid "SLE Products - CLI"
 msgstr "SLE 产品 - CLI"
 
-#.  | {sles} 15 SP3 ALPHA
-#.  | sle-product-sles15-sp3-pool-x86_64
 #. type: Table
-#: modules/client-configuration/pages/clients-sle.adoc:13
-#, no-wrap
+#: modules/client-configuration/pages/clients-sle.adoc:14
+#, fuzzy, no-wrap
+#| msgid ""
+#| "| OS Version\n"
+#| "| Base Channel\n"
+#| "\n"
+#| "| {sles} 15 SP1\n"
+#| "| sle-product-sles15-sp1-pool-x86_64\n"
+#| "\n"
+#| "| {sles} 15 SP2\n"
+#| "| sle-product-sles15-sp2-pool-x86_64\n"
+#| "\n"
+#| "\n"
 msgid ""
 "| OS Version\n"
 "| Base Channel\n"
@@ -9875,6 +9897,8 @@ msgid ""
 "| {sles} 15 SP2\n"
 "| sle-product-sles15-sp2-pool-x86_64\n"
 "\n"
+"| {sles} 15 SP3\n"
+"| sle-product-sles15-sp3-pool-x86_64\n"
 "\n"
 msgstr ""
 "| 操作系统版本\n"
@@ -9889,19 +9913,30 @@ msgstr ""
 "\n"
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sle.adoc:14
+#: modules/client-configuration/pages/clients-sle.adoc:15
 msgid "To add the client tools, add these channels from the command prompt:"
 msgstr "要添加客户端工具，请在命令提示符处添加以下频道："
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sle.adoc:15
+#: modules/client-configuration/pages/clients-sle.adoc:16
 #, no-wrap
 msgid "SUSE Linux Enterprise Channels - CLI"
 msgstr "SUSE Linux Enterprise 频道 - CLI"
 
 #. type: Table
-#: modules/client-configuration/pages/clients-sle.adoc:16
-#, no-wrap
+#: modules/client-configuration/pages/clients-sle.adoc:17
+#, fuzzy, no-wrap
+#| msgid ""
+#| "| OS Version\n"
+#| "| Client Channel\n"
+#| "\n"
+#| "| {sles} 15 SP1\n"
+#| "| sles15-sp1-uyuni-client\n"
+#| "\n"
+#| "\n"
+#| "| {sles} 15 SP2\n"
+#| "| sles15-sp2-uyuni-client\n"
+#| "\n"
 msgid ""
 "| OS Version\n"
 "| Client Channel\n"
@@ -9909,10 +9944,11 @@ msgid ""
 "| {sles} 15 SP1\n"
 "| sles15-sp1-uyuni-client\n"
 "\n"
-"\n"
 "| {sles} 15 SP2\n"
 "| sles15-sp2-uyuni-client\n"
 "\n"
+"| {sles} 15 SP3\n"
+"| sles15-sp3-uyuni-client\n"
 msgstr ""
 "| 操作系统版本\n"
 "| 客户端频道\n"
@@ -9926,14 +9962,14 @@ msgstr ""
 "\n"
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sle.adoc:18
+#: modules/client-configuration/pages/clients-sle.adoc:19
 msgid ""
 "{sle} channels can be very large.  Synchronization can sometimes take "
 "several hours."
 msgstr "{sle} 频道可能会非常大。  同步所需的时间可能会长达数小时。"
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sle.adoc:20
+#: modules/client-configuration/pages/clients-sle.adoc:21
 msgid ""
 "Use the same GPG key for both {sles}{nbsp}15 and {sles}{nbsp}12 clients.  "
 "The correct key is called ``sle12-gpg-pubkey-39db7c82.key``."
@@ -9942,7 +9978,7 @@ msgstr ""
 "名为 ``sle12-gpg-pubkey-39db7c82.key``。"
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sle.adoc:22
+#: modules/client-configuration/pages/clients-sle.adoc:23
 msgid ""
 "To register your {sle} clients, you need a bootstrap repository.  By "
 "default, bootstrap repositories are automatically created, and regenerated "
@@ -9985,8 +10021,9 @@ msgid ""
 "feature is expected to be fully supported in a later version of "
 "{productname}.  Do not use this feature on production systems."
 msgstr ""
-"在此阶段，为了测试目的，我们以技术预览的形式提供对 {micro} 客户端的支持，只有部分功能可以完全正常运行。在 {productname} "
-"的更新版本中，预期会完全支持此功能。请勿在生产系统中使用此功能。"
+"在此阶段，为了测试目的，我们以技术预览的形式提供对 {micro} 客户端的支持，只有"
+"部分功能可以完全正常运行。在 {productname} 的更新版本中，预期会完全支持此功"
+"能。请勿在生产系统中使用此功能。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:6
@@ -9996,8 +10033,9 @@ msgid ""
 "compliance components of SUSE Linux Enterprise and merges them with a "
 "modern, immutable, developer-friendly OS platform."
 msgstr ""
-"{micro} 是一个超级可靠的轻量级操作系统，专为边缘计算而构建。它利用了 SUSE Linux Enterprise "
-"的强化安全性和合规组件，并将它们整合到一个对开发人员友好的现代化、不可变操作系统平台。"
+"{micro} 是一个超级可靠的轻量级操作系统，专为边缘计算而构建。它利用了 SUSE "
+"Linux Enterprise 的强化安全性和合规组件，并将它们整合到一个对开发人员友好的现"
+"代化、不可变操作系统平台。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:7
@@ -10008,8 +10046,9 @@ msgid ""
 "until after the system is rebooted.  This information is displayed in the "
 "menu:Systems[Details > Overview] subtab."
 msgstr ""
-"{micro} 使用事务更新。事务更新是原子更新（仅当所有更新都成功时，才应用所有更新）且支持回滚。它们不会影响正在运行的系统，因为在系统重引导之前，它们"
-"不会激活任何更改。此信息显示在menu:系统[细节 > 概览]子选项卡中。"
+"{micro} 使用事务更新。事务更新是原子更新（仅当所有更新都成功时，才应用所有更"
+"新）且支持回滚。它们不会影响正在运行的系统，因为在系统重引导之前，它们不会激"
+"活任何更改。此信息显示在menu:系统[细节 > 概览]子选项卡中。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:8
@@ -10017,15 +10056,17 @@ msgid ""
 "For more information on transactional updates, see https://documentation."
 "suse.com/sles/15-SP3/html/SLES-all/cha-transactional-updates.html"
 msgstr ""
-"有关事务更新的详细信息，请参见 https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-"
-"transactional-updates.html"
+"有关事务更新的详细信息，请参见 https://documentation.suse.com/sles/15-SP3/"
+"html/SLES-all/cha-transactional-updates.html"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:10
 msgid ""
 "Before you register {micro} clients to your {productname} Server, you need "
 "to add the required software channels, and synchronize them."
-msgstr "将 {micro} 客户端注册到您的 {productname} 服务器之前，您需要添加所需的软件频道，并同步这些频道。"
+msgstr ""
+"将 {micro} 客户端注册到您的 {productname} 服务器之前，您需要添加所需的软件频"
+"道，并同步这些频道。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-slemicro.adoc:12
@@ -10243,8 +10284,9 @@ msgid ""
 "fail.  If you need to bootstrap new {redhat} 6 clients, follow the "
 "troubleshooting procedure in xref:client-configuration:tshoot-clients.adoc[]."
 msgstr ""
-"{es} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包引导新的 {es} 6 客户端将会失败。如果您需要引导新的 {es} "
-"6 客户端，请按照 xref:client-configuration:tshoot-clients.adoc[] 中的查错过程操作。"
+"{es} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包引导"
+"新的 {es} 6 客户端将会失败。如果您需要引导新的 {es} 6 客户端，请按照 xref:"
+"client-configuration:tshoot-clients.adoc[] 中的查错过程操作。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-sleses.adoc:18
@@ -10283,8 +10325,9 @@ msgid ""
 "fail.  If you need to bootstrap new {es} 6 clients, follow the "
 "troubleshooting procedure in xref:client-configuration:tshoot-clients.adoc[]."
 msgstr ""
-"{es} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包引导新的 {es} 6 客户端将会失败。如果您需要引导新的 {es} "
-"6 客户端，请按照 xref:client-configuration:tshoot-clients.adoc[] 中的查错过程操作。"
+"{es} 6 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包引导"
+"新的 {es} 6 客户端将会失败。如果您需要引导新的 {es} 6 客户端，请按照 xref:"
+"client-configuration:tshoot-clients.adoc[] 中的查错过程操作。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-sleses.adoc:23
@@ -10611,9 +10654,10 @@ msgid ""
 "clients, follow the troubleshooting procedure in xref:client-configuration:"
 "tshoot-clients.adoc[]."
 msgstr ""
-"{ubuntu} 16.04 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软件包引导新的 {ubuntu} 16.04 "
-"客户端将会失败。如果您需要引导新的 {ubuntu} 16.04 客户端，请按照 xref:client-configuration:tshoot-"
-"clients.adoc[] 中的查错过程操作。"
+"{ubuntu} 16.04 的生命周期现已结束，储存库中提供的 ISO 映像已过时。使用这些软"
+"件包引导新的 {ubuntu} 16.04 客户端将会失败。如果您需要引导新的 {ubuntu} "
+"16.04 客户端，请按照 xref:client-configuration:tshoot-clients.adoc[] 中的查错"
+"过程操作。"
 
 #. type: Block title
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:15
@@ -10866,7 +10910,8 @@ msgstr "查错：安装 `spacecmd` {ubuntu} 18.04 客户端"
 msgid ""
 "With default configuration settings, the installation of "
 "[package]``spacecmd`` may fail with:"
-msgstr "使用默认配置设置安装 [package]``spacecmd`` 可能会失败，并显示以下错误："
+msgstr ""
+"使用默认配置设置安装 [package]``spacecmd`` 可能会失败，并显示以下错误："
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:46
@@ -10885,7 +10930,9 @@ msgstr ""
 msgid ""
 "[package]``python3-rpm`` is part of the {ubuntu} universe repositories.  To "
 "make this package available, enable universe repositories on the client."
-msgstr "[package]``python3-rpm`` 是 {ubuntu} 通用储存库的一部分。要使此软件包可用，请在客户端上启用通用储存库。"
+msgstr ""
+"[package]``python3-rpm`` 是 {ubuntu} 通用储存库的一部分。要使此软件包可用，请"
+"在客户端上启用通用储存库。"
 
 #. All the packages we provide should be installable. If we removed the requirement for universe, then it means adding more dependencies to the client tools.
 #. type: Block title
@@ -10900,7 +10947,9 @@ msgstr "过程：启用通用储存库"
 msgid ""
 "On the {ubuntu} 18.04 client, open the [path]``/etc/apt/sources.list`` file, "
 "and uncomment the universe repositories."
-msgstr "在 {ubuntu} 18.04 客户端上，打开 [path]``/etc/apt/sources.list`` 文件，并取消注释通用储存库。"
+msgstr ""
+"在 {ubuntu} 18.04 客户端上，打开 [path]``/etc/apt/sources.list`` 文件，并取消"
+"注释通用储存库。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-ubuntu-old.adoc:50
@@ -11011,7 +11060,9 @@ msgstr "查错：安装 `spacecmd` {ubuntu} 20.04 客户端"
 msgid ""
 "On the {ubuntu} 20.04 client, open the [path]``/etc/apt/sources.list`` file, "
 "and uncomment the universe repositories."
-msgstr "在 {ubuntu} 20.04 客户端上，打开 [path]``/etc/apt/sources.list`` 文件，并取消注释通用储存库。"
+msgstr ""
+"在 {ubuntu} 20.04 客户端上，打开 [path]``/etc/apt/sources.list`` 文件，并取消"
+"注释通用储存库。"
 
 #. type: Title =
 #: modules/client-configuration/pages/configuration-management.adoc:1
@@ -11815,9 +11866,10 @@ msgid ""
 "within the DMZ is authorized to open a connection to the internal network, "
 "including the {productname} Server."
 msgstr ""
-"在客户端无法直接访问 {productname} 服务器的环境中，将会采用通过 SSH 推送和通过 Salt SSH "
-"推送的方法。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} "
-"服务器）的连接。"
+"在客户端无法直接访问 {productname} 服务器的环境中，将会采用通过 SSH 推送和通"
+"过 Salt SSH 推送的方法。在此环境中，客户端位于受防火墙保护的区域，该区域称为 "
+"DMZ。DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连"
+"接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-intro.adoc:5
@@ -12154,8 +12206,9 @@ msgid ""
 "authorized to open a connection to the internal network, including the "
 "{productname} Server."
 msgstr ""
-"通过 SSH 推送方法用于传统客户端无法直接访问 {productname} 服务器的环境。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。"
-"DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
+"通过 SSH 推送方法用于传统客户端无法直接访问 {productname} 服务器的环境。在此"
+"环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系统均无权"
+"打开连至内部网络（包括 {productname} 服务器）的连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:3
@@ -12307,8 +12360,7 @@ msgid ""
 "#ALL    ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!\n"
 msgstr ""
 "#Defaults targetpw   # ask for the password of the target user i.e. root\n"
-"#ALL    ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults "
-"targetpw'!\n"
+"#ALL    ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:21
@@ -12570,9 +12622,7 @@ msgstr "可选：如果您需要编辑某个现有激活密钥，可以使用以
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:52
 #, no-wrap
 msgid "client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-push'})\n"
-msgstr ""
-"client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-"
-"push'})\n"
+msgstr "client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-push'})\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-pushssh.adoc:53
@@ -12927,8 +12977,9 @@ msgid ""
 "authorized to open a connection to the internal network, including the "
 "{productname} Server."
 msgstr ""
-"通过 Salt SSH 推送方法用于 Salt 客户端无法直接访问 {productname} 服务器的环境。在此环境中，客户端位于受防火墙保护的区域，"
-"该区域称为 DMZ。DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
+"通过 Salt SSH 推送方法用于 Salt 客户端无法直接访问 {productname} 服务器的环"
+"境。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系"
+"统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-saltssh.adoc:3
@@ -13106,8 +13157,7 @@ msgid ""
 "taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_threads = <number>\n"
 "org.quartz.threadPool.threadCount = <value of parallel_threads + 20>\n"
 msgstr ""
-"taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_th"
-"reads = <number>\n"
+"taskomatic.com.redhat.rhn.taskomatic.task.SSHMinionActionExecutor.parallel_threads = <number>\n"
 "org.quartz.threadPool.threadCount = <value of parallel_threads + 20>\n"
 
 #. type: Plain text
@@ -13213,8 +13263,9 @@ msgid ""
 "authorized to open a connection to the internal network, including the "
 "{productname} Server."
 msgstr ""
-"通过 SSH 推送方法用于客户端无法直接访问 {productname} 服务器的环境。在此环境中，客户端位于受防火墙保护的区域，该区域称为 DMZ。"
-"DMZ 内的所有系统均无权打开连至内部网络（包括 {productname} 服务器）的连接。"
+"通过 SSH 推送方法用于客户端无法直接访问 {productname} 服务器的环境。在此环境"
+"中，客户端位于受防火墙保护的区域，该区域称为 DMZ。DMZ 内的所有系统均无权打开"
+"连至内部网络（包括 {productname} 服务器）的连接。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/contact-methods-traditional.adoc:5
@@ -13274,7 +13325,9 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Key Label`` field, add a name for your key.  Do not use "
 "spaces.  For example, ``intel-x86_64-quadcore``."
-msgstr "在[guimenu]``键标签``字段中，添加键的名称。不要使用空格。例如，``intel-x86_64-quadcore``。"
+msgstr ""
+"在[guimenu]``键标签``字段中，添加键的名称。不要使用空格。例如，``intel-"
+"x86_64-quadcore``。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/custom-info.adoc:7
@@ -13295,8 +13348,8 @@ msgid ""
 "database.  For Salt clients, this information is stored in a Salt pillar.  "
 "You can retrieve this information from a Salt client with a command such as:"
 msgstr ""
-"对于传统客户端，此信息储存在 {productname} 数据库中。对于 Salt 客户端，此信息储存在 Salt pillar 中。"
-"您可以使用类似如下的命令从 Salt 客户端检索此信息："
+"对于传统客户端，此信息储存在 {productname} 数据库中。对于 Salt 客户端，此信息"
+"储存在 Salt pillar 中。您可以使用类似如下的命令从 Salt 客户端检索此信息："
 
 #. type: delimited block =
 #: modules/client-configuration/pages/custom-info.adoc:10
@@ -14591,8 +14644,7 @@ msgid ""
 "echo\n"
 "#exit 1\n"
 msgstr ""
-"echo \"Enable this script: comment (with #'s) this block (or, at least just\""
-"\n"
+"echo \"Enable this script: comment (with #'s) this block (or, at least just\"\n"
 "echo \"the exit below)\"\n"
 "echo\n"
 "#exit 1\n"
@@ -14606,8 +14658,7 @@ msgid ""
 "ACTIVATION_KEYS=1-sles15\n"
 "ORG_GPG_KEY=\n"
 msgstr ""
-"# can be edited, but probably correct (unless created during initial "
-"install):\n"
+"# can be edited, but probably correct (unless created during initial install):\n"
 "# NOTE: ACTIVATION_KEYS *must* be used to bootstrap a client machine.\n"
 "ACTIVATION_KEYS=1-sles15\n"
 "ORG_GPG_KEY=\n"
@@ -15063,7 +15114,9 @@ msgstr "openSUSE 客户端注册"
 msgid ""
 "You can register {opennsuse} clients to your {productname} Server.  The "
 "method and details varies depending on the operating system of the client."
-msgstr "您可以将 {opennsuse} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作系统而异。"
+msgstr ""
+"您可以将 {opennsuse} 客户端注册到 {productname} 服务器。方法和细节视客户端的"
+"操作系统而异。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-overview-opensuse.adoc:5
@@ -15132,7 +15185,9 @@ msgstr "{rocky} 客户端注册"
 msgid ""
 "You can register {rocky} clients to your {productname} Server.  The method "
 "and details vary depending on the operating system of the client."
-msgstr "您可以将 {rocky}} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作系统而异。"
+msgstr ""
+"您可以将 {rocky}} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作"
+"系统而异。"
 
 #. type: Title =
 #: modules/client-configuration/pages/registration-overview-suse.adoc:1
@@ -15146,7 +15201,9 @@ msgid ""
 "You can register {sle} and {sleses} clients to your {productname} Server.  "
 "The method and details varies depending on the operating system of the "
 "client."
-msgstr "您可以将 {sle} 和 {sleses} 客户端注册到 {productname} 服务器。方法和细节视客户端的操作系统而异。"
+msgstr ""
+"您可以将 {sle} 和 {sleses} 客户端注册到 {productname} 服务器。方法和细节视客"
+"户端的操作系统而异。"
 
 #. type: Title =
 #: modules/client-configuration/pages/registration-overview-ubuntu.adoc:1
@@ -15487,8 +15544,9 @@ msgid ""
 "roll back a product migration.  Always ensure you have taken a backup before "
 "performing upgrades on your clients."
 msgstr ""
-"您可以使用快照回滚对客户端所做的大多数更改，但无法回滚所有更改。例如，您无法回滚多个更新，也无法回滚产品迁移。在客户端上执行升级之前，请始终确保您已进行备"
-"份。"
+"您可以使用快照回滚对客户端所做的大多数更改，但无法回滚所有更改。例如，您无法"
+"回滚多个更新，也无法回滚产品迁移。在客户端上执行升级之前，请始终确保您已进行"
+"备份。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/snapshots.adoc:14
@@ -15748,8 +15806,9 @@ msgid ""
 "include ``python:3.6`` using an AppStream filter if you want to use "
 "[command]``spacecmd`` on the clients."
 msgstr ""
-"您可以使用带内容生命周期管理 (CLM) 的 AppStream 过滤器将模块化储存库转换成常规储存库。如果要在客户端上使用 "
-"[command]``spacecmd``，请务必使用 AppStream 过滤器包含 ``python:3.6``。"
+"您可以使用带内容生命周期管理 (CLM) 的 AppStream 过滤器将模块化储存库转换成常"
+"规储存库。如果要在客户端上使用 [command]``spacecmd``，请务必使用 AppStream 过"
+"滤器包含 ``python:3.6``。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/appstream_admon.adoc:3
@@ -15758,8 +15817,9 @@ msgid ""
 "clients, or use the [command]``dnf`` command on the client.  For more "
 "information about CLM, see xref:administration:content-lifecycle.adoc[]."
 msgstr ""
-"或者，您可以使用 Salt 状态管理 Salt 客户端上的模块化软件包，或在客户端上使用 [command]``dnf`` 命令。有关 CLM "
-"的详细信息，请参见 xref:administration:content-lifecycle.adoc[]。"
+"或者，您可以使用 Salt 状态管理 Salt 客户端上的模块化软件包，或在客户端上使用 "
+"[command]``dnf`` 命令。有关 CLM 的详细信息，请参见 xref:administration:"
+"content-lifecycle.adoc[]。"
 
 #. type: Block title
 #: modules/client-configuration/pages/snippets/check_sync_cli.adoc:1
@@ -15980,22 +16040,24 @@ msgid ""
 "clients (on some operating systems). SUSE will deprecate traditional clients "
 "in the next {productname} 4.3 release."
 msgstr ""
-"此版本的 {productname} 与 Salt 客户端和传统客户端（在某些操作系统上）兼容。SUSE 在接下来的 {productname} 4.3 "
-"版本中将会弃用传统客户端。"
+"此版本的 {productname} 与 Salt 客户端和传统客户端（在某些操作系统上）兼容。"
+"SUSE 在接下来的 {productname} 4.3 版本中将会弃用传统客户端。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/traditional_client_warning.adoc:2
 msgid ""
 "The release that follows {productname} 4.3 will not support traditional "
 "clients and is planned for 2023."
-msgstr "紧接 {productname} 4.3 之后的版本将不支持传统客户端，计划于 2023 年发布。"
+msgstr ""
+"紧接 {productname} 4.3 之后的版本将不支持传统客户端，计划于 2023 年发布。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/traditional_client_warning.adoc:3
 msgid ""
 "We encourage all new deployments to use Salt clients exclusively, and to "
 "migrate existing traditional clients to Salt."
-msgstr "我们鼓励所有新部署都仅使用 Salt 客户端，并将现有的传统客户端迁移到 Salt。"
+msgstr ""
+"我们鼓励所有新部署都仅使用 Salt 客户端，并将现有的传统客户端迁移到 Salt。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/snippets/trust_gpg.adoc:1
@@ -16519,8 +16581,8 @@ msgid ""
 "power off), modifying VM disk, network, graphical display, and graphical "
 "display configuration."
 msgstr ""
-"高级虚拟 Guest 管理包括基本虚拟 Guest 管理的所有功能以及快速刷新、VM 生命周期操作（删除、重置、关机）、修改 VM "
-"磁盘、网络、图形显示和图形显示配置。"
+"高级虚拟 Guest 管理包括基本虚拟 Guest 管理的所有功能以及快速刷新、VM 生命周期"
+"操作（删除、重置、关机）、修改 VM 磁盘、网络、图形显示和图形显示配置。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:16
@@ -19149,7 +19211,9 @@ msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {rocky} is supported by the {rocky} "
 "community."
-msgstr "客户端上运行的操作系统由提供操作系统的组织提供支持。{rocky} 由 {debian} 社区提供支持。"
+msgstr ""
+"客户端上运行的操作系统由提供操作系统的组织提供支持。{rocky} 由 {debian} 社区"
+"提供支持。"
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features-rocky.adoc:10
@@ -19430,8 +19494,9 @@ msgid ""
 "a later version of {productname}.  Do not use this feature on production "
 "systems."
 msgstr ""
-"在此阶段，为了测试目的，我们以技术预览的形式提供对 {micro} 和 {opensuse} {microos} "
-"客户端的支持，只有部分功能可以完全正常运行。在 {productname} 的更新版本中，预期会完全支持此功能。请勿在生产系统中使用此功能。"
+"在此阶段，为了测试目的，我们以技术预览的形式提供对 {micro} 和 {opensuse} "
+"{microos} 客户端的支持，只有部分功能可以完全正常运行。在 {productname} 的更新"
+"版本中，预期会完全支持此功能。请勿在生产系统中使用此功能。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/supported-features-sle-micro.adoc:3
@@ -19440,8 +19505,8 @@ msgid ""
 "that supplies the operating system.  {micro} is supported by {suse}.  "
 "{opensuse}{nbsp}{microos} is supported by the {suse} community."
 msgstr ""
-"客户端上运行的操作系统由提供操作系统的组织提供支持。{micro} 由 {suse} 提供支持。{opensuse} {microos} 由 {suse}"
-" 社区提供支持。"
+"客户端上运行的操作系统由提供操作系统的组织提供支持。{micro} 由 {suse} 提供支"
+"持。{opensuse} {microos} 由 {suse} 社区提供支持。"
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features-sle-micro.adoc:10
@@ -21358,8 +21423,9 @@ msgid ""
 "systems.  SUSE Manager Client Tools for these operating systems are still "
 "provided from SCC for convenience."
 msgstr ""
-"{rhel} 6、{oracle} 6、CentOS 6、{sles}-ES 6 和 {ubuntu} 16.04 是生命周期已结束的上游，{suse} "
-"不再支持它们作为客户端操作系统。为方便起见，SCC 中仍会提供适用于这些操作系统的 SUSE Manager 客户端工具。"
+"{rhel} 6、{oracle} 6、CentOS 6、{sles}-ES 6 和 {ubuntu} 16.04 是生命周期已结"
+"束的上游，{suse} 不再支持它们作为客户端操作系统。为方便起见，SCC 中仍会提供适"
+"用于这些操作系统的 SUSE Manager 客户端工具。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/supported-features.adoc:26
@@ -21374,8 +21440,9 @@ msgid ""
 "additional services and features.  The ``spacewalk-utils`` package in "
 "{productname} is fully supported by {suse}, and contains these tools:"
 msgstr ""
-"``spacewalk-utils`` 和 ``spacewalk-utils-extras`` 软件包可提供额外的服务和功能。{suse} 完全支持 "
-"{productname} 中的 ``spacewalk-utils`` 软件包，该软件包中包含以下工具："
+"``spacewalk-utils`` 和 ``spacewalk-utils-extras`` 软件包可提供额外的服务和功"
+"能。{suse} 完全支持 {productname} 中的 ``spacewalk-utils`` 软件包，该软件包中"
+"包含以下工具："
 
 #. type: Block title
 #: modules/client-configuration/pages/supported-features.adoc:28
@@ -22657,8 +22724,7 @@ msgstr ""
 #: modules/client-configuration/pages/tshoot-clients.adoc:35
 #, no-wrap
 msgid "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
-msgstr ""
-"mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
+msgstr "mirrorlist=http://mirrorlist.centos.org/?release=6&arch=$basearch&repo=os\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/tshoot-clients.adoc:36
@@ -23159,7 +23225,9 @@ msgstr "由其性质决定，Salt SSH 客户端不会向服务器回报错误。
 msgid ""
 "However, the Salt SSH clients store a log locally at [path]``/var/log/salt-"
 "ssh.log`` that can be inspected for errors."
-msgstr "不过，Salt SSH 客户端会将日志储存在本地的 [path]``/var/log/salt-ssh.log`` 中，您可以在其中检查错误。"
+msgstr ""
+"不过，Salt SSH 客户端会将日志储存在本地的 [path]``/var/log/salt-ssh.log`` "
+"中，您可以在其中检查错误。"
 
 #. type: Title ==
 #: modules/client-configuration/pages/tshoot-clients.adoc:95
@@ -26079,8 +26147,9 @@ msgid ""
 "from https://documentation.suse.com/sles/15-SP3/html/SLES-all/book-"
 "virtualization.html."
 msgstr ""
-"对于 {suse} 操作系统，请参见 https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
-"book-virtualization.html 上的《SLES Virtualization Guide》（SLES 虚拟化指南）。"
+"对于 {suse} 操作系统，请参见 https://documentation.suse.com/sles/15-SP3/html/"
+"SLES-all/book-virtualization.html 上的《SLES Virtualization Guide》（SLES 虚"
+"拟化指南）。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:8
@@ -27057,7 +27126,8 @@ msgstr "过程：创建由群集管理的虚拟 Guest"
 msgid ""
 "Follow the ``Creating a Virtual Guest`` procedure on one of the nodes of the "
 "cluster with the following additions:"
-msgstr "按照在群集某个节点上``创建虚拟 Guest`` 的过程操作，并遵循以下额外要求："
+msgstr ""
+"按照在群集某个节点上``创建虚拟 Guest`` 的过程操作，并遵循以下额外要求："
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:33
@@ -27070,7 +27140,9 @@ msgid ""
 "In the [guimenu]``Path to the cluster shared folder for VM definitions`` "
 "field, type the path to a folder shared by all cluster nodes where the guest "
 "configuration will be stored."
-msgstr "在 [guimenu]``VM 定义的群集共享文件夹路径``字段中，键入由所有群集节点共享的文件夹的路径，Guest 配置将储存在该位置。"
+msgstr ""
+"在 [guimenu]``VM 定义的群集共享文件夹路径``字段中，键入由所有群集节点共享的文"
+"件夹的路径，Guest 配置将储存在该位置。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virtualization.adoc:35
