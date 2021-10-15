@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-05 08:52+0000\n"
-"PO-Revision-Date: 2021-10-14 12:47+0000\n"
-"Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
+"PO-Revision-Date: 2021-10-15 08:11+0000\n"
+"Last-Translator: Seeun Lee <selee@e4net.net>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-422/ko/>\n"
 "Language: ko\n"
@@ -2076,26 +2076,24 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:5
 msgid "in-place, on clients that are already registered;"
-msgstr "클라이언트가 이미 등록된 현재 위치에서"
+msgstr "클라이언트가 이미 등록된 현재 위치에서 설치"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:6
 msgid "over the network, using PXE boot;"
-msgstr "PXE 부팅을 사용하여 네트워크에서"
+msgstr "PXE 부팅을 사용하여 네트워크에서 설치"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:7
 msgid ""
 "preparing an installation CD-ROM or an USB key, and then going to the "
 "machine to boot on that medium;"
-msgstr ""
-"설치 CD-ROM 또는 USB 키를 준비한 후 시스템으로 이동하여 해당 미디어를 부팅하"
-"여"
+msgstr "설치 CD-ROM 또는 USB 키를 준비한 후 시스템으로 이동하여 해당 미디어를 부팅하여 설치"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:8
 msgid "as part of the {productname} {smr} solution."
-msgstr "{productname} {smr} 솔루션의 일부로."
+msgstr "{productname} {smr} 솔루션의 일부로 설치"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:9
@@ -8948,9 +8946,7 @@ msgstr ""
 msgid ""
 "Copy the {redhat} CA Certificate file from the client system, to the same "
 "web location as the entitlement certificate and key:"
-msgstr ""
-"다음과 같이 클라이언트 시스템에서 자격 인증서 및 키와 동일한 웹 위치로 "
-"{redhat} CA 인증서 파일을 복사합니다."
+msgstr "다음과 같이 클라이언트 시스템에서 자격 인증서 및 키와 동일한 웹 위치로 {redhat} CA 인증서 파일을 복사합니다."
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-cdn.adoc:28
@@ -10149,13 +10145,13 @@ msgid ""
 msgstr ""
 "| OS 버전\n"
 "| 제품 이름\n"
-" \n"
-" | {sles} 15 SP1\n"
-" | SUSE Linux Enterprise Server 15 SP1 x86_64\n"
-" \n"
-" | {sles} 15 SP2\n"
-" | SUSE Linux Enterprise Server 15 SP2 x86_64\n"
-" \n"
+"\n"
+"| {sles} 15 SP1\n"
+"| SUSE Linux Enterprise Server 15 SP1 x86_64\n"
+"\n"
+"| {sles} 15 SP2\n"
+"| SUSE Linux Enterprise Server 15 SP2 x86_64\n"
+"\n"
 "| {sles} 15 SP3\n"
 "| SUSE Linux Enterprise Server 15 SP3 x86_64 \n"
 "\n"
@@ -10185,15 +10181,15 @@ msgid ""
 msgstr ""
 "| OS 버전\n"
 "| 기본 채널\n"
-" \n"
-" | {sles} 15 SP1\n"
-" | sle-product-sles15-sp1-pool-x86_64\n"
-" \n"
-" | {sles} 15 SP2\n"
-" | sle-product-sles15-sp2-pool-x86_64\n"
-" \n"
-" | {sles} 15 SP3\n"
-" | sle-product-sles15-sp3-pool-x86_64\n"
+"\n"
+"| {sles} 15 SP1\n"
+"| sle-product-sles15-sp1-pool-x86_64\n"
+"\n"
+"| {sles} 15 SP2\n"
+"| sle-product-sles15-sp2-pool-x86_64\n"
+"\n"
+"| {sles} 15 SP3\n"
+"| sle-product-sles15-sp3-pool-x86_64\n"
 "\n"
 
 #. type: Plain text
@@ -10226,15 +10222,15 @@ msgid ""
 msgstr ""
 "| OS 버전\n"
 "| 클라이언트 채널\n"
-" \n"
-" | {sles} 15 SP1\n"
-" | sles15-sp1-uyuni-client\n"
-" \n"
-" | {sles} 15 SP2\n"
-" | sles15-sp2-uyuni-client\n"
-" \n"
-" | {sles} 15 SP3\n"
-" | sles15-sp3-uyuni-client\n"
+"\n"
+"| {sles} 15 SP1\n"
+"| sles15-sp1-uyuni-client\n"
+"\n"
+"| {sles} 15 SP2\n"
+"| sles15-sp2-uyuni-client\n"
+"\n"
+"| {sles} 15 SP3\n"
+"| sles15-sp3-uyuni-client\n"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/clients-sle.adoc:19
@@ -24631,9 +24627,7 @@ msgstr "Cobbler를 통해 전원 관리 작업을 발급하지 마십시오."
 msgid ""
 "Do not install a package if it breaks or conflicts the `patterns-caasp-Node-"
 "x.y`"
-msgstr ""
-"패키지가 `patterns-caasp-Node-x.y` 를 중단하거나 이와 상충하는 경우 패키지를 "
-"설치하지 마십시오."
+msgstr "패키지가 `patterns-caasp-Node-x.y`를 중단하거나 이와 상충하는 경우 패키지를 설치하지 마십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:22
@@ -24641,9 +24635,8 @@ msgid ""
 "Do not remove a package if it breaks or conflicts or is one of the packages "
 "related with the `patterns-caasp-Node-x.y`"
 msgstr ""
-"패키지가 `patterns-caasp-Node-x.y` 를 중단하거나 이와 상충하는 경우, 또는 "
-"`patterns-caasp-Node-x.y` 와 관련된 패키지 중 하나인 경우 패키지를 제거하지 "
-"마십시오."
+"패키지가 `patterns-caasp-Node-x.y`를 중단하거나 이와 상충하는 경우, 또는 `patterns-caasp-Node-x."
+"y`와 관련된 패키지 중 하나인 경우 패키지를 제거하지 마십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:23
@@ -24651,9 +24644,8 @@ msgid ""
 "Do not upgrade a package if it breaks or conflicts or is one of the packages "
 "related with the `patterns-caasp-Node-x.y`"
 msgstr ""
-"패키지가 `patterns-caasp-Node-x.y` 를 중단하거나 이와 상충하는 경우, 또는 "
-"`patterns-caasp-Node-x.y` 와 관련된 패키지 중 하나인 경우 패키지를 업그레이드"
-"하지 마십시오."
+"패키지가 `patterns-caasp-Node-x.y`를 중단하거나 이와 상충하는 경우, 또는 `patterns-caasp-Node-x."
+"y`와 관련된 패키지 중 하나인 경우 패키지를 업그레이드하지 마십시오."
 
 #. type: delimited block =
 #: modules/client-configuration/pages/vhm-caasp.adoc:24
@@ -25920,7 +25912,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:42
 msgid "``Outdated instances found``:"
-msgstr "오래된 인스턴스가 발견됨"
+msgstr "``오래된 인스턴스가 발견됨``:"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:43
