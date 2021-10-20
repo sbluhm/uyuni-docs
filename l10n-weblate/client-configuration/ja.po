@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-05 08:52+0000\n"
-"PO-Revision-Date: 2021-10-20 10:12+0000\n"
+"PO-Revision-Date: 2021-10-20 17:12+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-422/ja/>\n"
@@ -17099,8 +17099,7 @@ msgstr "この表のアイコンに意味は次のとおりです。"
 #: modules/client-configuration/pages/supported-features-sles.adoc:5
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:6
 msgid "{check} the feature is available on both Salt and traditional clients"
-msgstr ""
-"{check}: 機能はSaltクライアントと従来のクライアントの両方で使用できます。"
+msgstr "{check}: 機能はSaltクライアントと従来のクライアントの両方で使用できます"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:6
@@ -17116,7 +17115,7 @@ msgstr ""
 #: modules/client-configuration/pages/supported-features-sles.adoc:6
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:7
 msgid "{cross} the feature is not available"
-msgstr "{cross}: 機能は使用できません。"
+msgstr "{cross}: 機能は使用できません"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:7
@@ -17134,9 +17133,7 @@ msgstr "{cross}: 機能は使用できません。"
 msgid ""
 "{question} the feature is under consideration, and may or may not be made "
 "available at a later date"
-msgstr ""
-"{question}: 機能は検討中であり、後日使用できる場合と、使用できない場合があり"
-"ます。"
+msgstr "{question}: 機能は検討中であり、後日使用できる場合と、使用できない場合があります"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:8
@@ -17152,7 +17149,7 @@ msgstr ""
 #: modules/client-configuration/pages/supported-features-sles.adoc:8
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:9
 msgid "{trad} the feature is supported only on traditional clients"
-msgstr "{trad}: 機能は従来のクライアントでのみサポートされています。"
+msgstr "{trad}: 機能は従来のクライアントでのみサポートされています"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:9
@@ -22180,17 +22177,13 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:7
 msgid "{check} clients running this operating system are supported by {suse}"
-msgstr ""
-"このオペレーティングシステムを実行している{check}クライアントは{suse}でサポー"
-"トされています。"
+msgstr "{check}このオペレーティングシステムを実行しているクライアントは{suse}でサポートされています。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:8
 msgid ""
 "{cross} clients running this operating system are not supported by {suse}"
-msgstr ""
-"このオペレーティングシステムを実行している{cross}クライアントは{suse}ではサ"
-"ポートされていません。"
+msgstr "{cross}このオペレーティングシステムを実行しているクライアントは{suse}ではサポートされていません。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:9
@@ -24829,11 +24822,11 @@ msgstr ""
 "General error:（一般エラー:）[AuthorizationFailed] The client 'client_name' with "
 "object id 'object_ID' does not have authorization to perform action  "
 "'Microsoft.Compute/virtualMachines/read' over scope  '/subscriptions/not-"
-"very-secret-subscription-id' or the scope is invalid.（[AuthorizationFailed]"
-"オブジェクトID 'object_ID'のクライアント'client_name'には、アクション'Microsoft.Compute/"
-"virtualMachines/read'をスコープ'/subscriptions/not-very-secret-subscription-"
-"id'で実行する権限がありません。またはスコープが無効です。）If  access was recently granted, please "
-"refresh your credentials.（アクセスが最近付与された場合、資格情報を更新してください。）\n"
+"very-secret-subscription-id' or the scope is invalid.（[AuthorizationFailed]オブ"
+"ジェクトID「object_ID」のクライアント「client_name」には、アクション「Microsoft.Compute/"
+"virtualMachines/read」をスコープ「/subscriptions/not-very-secret-subscription-"
+"id」を超えて実行する権限がありません。またはスコープが無効です。）If  access was recently granted, please "
+"refresh your credentials.（アクセスが最近付与された場合は、資格情報を更新してください。）\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:27
