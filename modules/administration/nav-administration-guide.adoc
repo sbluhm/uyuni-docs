@@ -32,6 +32,8 @@ endif::[]
 ifeval::[{suma-content} == true]
 // Ansible integration
 ** xref:ansible-integration.adoc[Ansible Integration]
+*** xref:ansible-compliance-as-code.adoc[Ansible Compliance as Code]
+*** xref:setup-ansible-control-node.adoc[Setup an Ansible Control node]
 endif::[]
 // Authentication Methods
 ** xref:auth-methods.adoc[Authentication Methods]
