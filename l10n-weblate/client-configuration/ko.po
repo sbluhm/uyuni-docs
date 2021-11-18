@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-09-30 10:15+0000\n"
-"PO-Revision-Date: 2021-10-29 20:52+0000\n"
+"PO-Revision-Date: 2021-11-18 19:13+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/"
 "docs-client-configuration-manager-42-mu-423/ko/>\n"
@@ -25812,7 +25812,7 @@ msgstr "[guimenu]``런타임`` 열에는 다음 상태 메시지 중 하나가 �
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:40
 msgid "``All instances are consistent with SUSE Manager``:"
-msgstr "모든 인스턴스가 SUSE Manager와 일치"
+msgstr "``모든 인스턴스가 SUSE Manager와 일치``:"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-kubernetes.adoc:41
