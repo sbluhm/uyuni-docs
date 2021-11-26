@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-02 16:21+0000\n"
+"POT-Creation-Date: 2021-11-26 10:27+0000\n"
 "PO-Revision-Date: 2021-10-14 16:11+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -21,9 +21,10 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
-#, no-wrap
-msgid "Installation Guide: {productname} {productnumber}"
-msgstr "安装指南: {productname} {productnumber}"
+#, fuzzy, no-wrap
+#| msgid "{productname} {productnumber} Proxy"
+msgid "[.title]#{productname} {productnumber}#: Installation Guide"
+msgstr "{productname} {productnumber} Proxy"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2
@@ -7204,6 +7205,9 @@ msgstr ""
 "您可以通过在 ``etc/rhn/rhn.conf`` 配置文件中调整 ``web.spa.timeout`` 参数来配"
 "置默认超时值。请在更改此参数后重启动 tomcat 服务。如果您的因特网连接速度很"
 "慢，或者经常一次对很多客户端执行操作，将此设置更改为更高的数值可能会有帮助。"
+
+#~ msgid "Installation Guide: {productname} {productnumber}"
+#~ msgstr "安装指南: {productname} {productnumber}"
 
 #~ msgid ""
 #~ "{susemgr} Proxy is a {suse} product within the {sle} product family.  "

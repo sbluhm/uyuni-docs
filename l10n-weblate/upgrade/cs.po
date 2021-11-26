@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-10-12 09:01+0000\n"
+"POT-Creation-Date: 2021-11-26 10:27+0000\n"
 "PO-Revision-Date: 2021-10-19 21:12+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
-"Language-Team: Czech <https://l10n.opensuse.org/projects/uyuni/"
-"docs-upgrade-42/cs/>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/uyuni/docs-"
+"upgrade-42/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,8 +21,9 @@ msgstr ""
 
 #. type: Title =
 #: modules/upgrade/nav-upgrade-guide.adoc:1
-#, no-wrap
-msgid "Upgrade Guide: {productname} {productnumber}"
+#, fuzzy, no-wrap
+#| msgid "Upgrade Guide: {productname} {productnumber}"
+msgid "[.title]#{productname} {productnumber}#: Upgrade Guide"
 msgstr "Průvodce upgradem (povýšením): {productname} {productnumber}"
 
 #. type: Plain text
@@ -2349,8 +2350,7 @@ msgid ""
 "  To apply all outstanding updates, use [command]``zypper up`` instead.\n"
 msgstr ""
 "  Tento příkaz provede pouze opravy.\n"
-"   Chcete-li použít všechny nevyřízené aktualizace, použijte místo toho "
-"příkaz [command]``zypper up``.\n"
+"   Chcete-li použít všechny nevyřízené aktualizace, použijte místo toho příkaz [command]``zypper up``.\n"
 
 #. type: Plain text
 #: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:16

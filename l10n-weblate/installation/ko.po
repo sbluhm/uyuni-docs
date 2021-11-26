@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-02 16:21+0000\n"
+"POT-Creation-Date: 2021-11-26 10:27+0000\n"
 "PO-Revision-Date: 2021-10-29 19:12+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-"
@@ -20,9 +20,10 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
-#, no-wrap
-msgid "Installation Guide: {productname} {productnumber}"
-msgstr "설치 안내서: {productname} {productnumber}"
+#, fuzzy, no-wrap
+#| msgid "{productname} {productnumber} Proxy"
+msgid "[.title]#{productname} {productnumber}#: Installation Guide"
+msgstr "{productname} {productnumber} 프록시"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2
@@ -7494,6 +7495,9 @@ msgstr ""
 "스를 다시 시작하십시오. 인터넷 연결 속도가 느리거나 한 번에 여러 클라이언트에"
 "서 정기적으로 작업을 수행하는 경우 이 설정을 더 높은 숫자로 변경하면 유용할 "
 "수 있습니다."
+
+#~ msgid "Installation Guide: {productname} {productnumber}"
+#~ msgstr "설치 안내서: {productname} {productnumber}"
 
 #~ msgid ""
 #~ "{susemgr} Proxy is a {suse} product within the {sle} product family.  "

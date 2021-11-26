@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-04 13:53+0000\n"
+"POT-Creation-Date: 2021-11-26 10:27+0000\n"
 "PO-Revision-Date: 2021-10-29 22:12+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Korean <https://l10n.opensuse.org/projects/uyuni/docs-client-"
@@ -21,8 +21,8 @@ msgstr ""
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
 #, no-wrap
-msgid "Client Configuration Guide: {productname} {productnumber}"
-msgstr "클라이언트 구성 안내서: {productname} {productnumber}"
+msgid "[.title]#{productname} {productnumber}#: Client Configuration Guide"
+msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:2
@@ -28696,6 +28696,9 @@ msgid ""
 msgstr ""
 "자세한 내용은 https://www.suse.com/products/terms_and_conditions.pdf를 참조하"
 "거나 {suse}에 문의하십시오."
+
+#~ msgid "Client Configuration Guide: {productname} {productnumber}"
+#~ msgstr "클라이언트 구성 안내서: {productname} {productnumber}"
 
 #~ msgid ""
 #~ "Use the instructions in this chapter for preparing all {sle} products, "
