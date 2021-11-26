@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-13 14:31+0000\n"
+"POT-Creation-Date: 2021-11-26 07:50+0000\n"
 "PO-Revision-Date: 2021-11-18 02:13+0000\n"
 "Last-Translator: Carina Hagl <vistatec_pm@sunflare.co.jp>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-installation-manager-42-mu-422/ja/>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
+"installation-manager-42-mu-422/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,9 +20,10 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
-#, no-wrap
-msgid "Installation Guide: {productname} {productnumber}"
-msgstr "インストールガイド: {productname} {productnumber}"
+#, fuzzy, no-wrap
+#| msgid "{productname} {productnumber} Proxy"
+msgid "[.title]#{productname} {productnumber}#: Installation Guide"
+msgstr "{productname} {productnumber}プロキシ"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2
@@ -534,14 +535,18 @@ msgstr ""
 msgid ""
 "If you have not yet done so, click btn:[Connect to an Organization] and type "
 "or search for your organization."
-msgstr "まだ組織に接続していない場合、［btn:[組織に接続する]］をクリックし、組織を入力または検索します。"
+msgstr ""
+"まだ組織に接続していない場合、［btn:[組織に接続する]］をクリックし、組織を入"
+"力または検索します。"
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:17
 msgid ""
 "Click btn:[Manage my Organizations] and select your organization from the "
 "list by clicking on the organization name."
-msgstr "［btn:[組織を管理する]］をクリックし、組織名をクリックして一覧から組織を選択します。"
+msgstr ""
+"［btn:[組織を管理する]］をクリックし、組織名をクリックして一覧から組織を選択"
+"します。"
 
 #. type: Plain text
 #: modules/installation/pages/general-requirements.adoc:18
@@ -562,8 +567,8 @@ msgid ""
 "Depending on your organization's setup, you might also need to activate your "
 "subscription, using the btn:[Activate Subscriptions] menu."
 msgstr ""
-"組織の設定によっては、［btn:[サブスクリプションをアクティブ化する]］メニューを使用してサブスクリプションをアクティブ化する必要が生じる場合もあります"
-"。"
+"組織の設定によっては、［btn:[サブスクリプションをアクティブ化する]］メニュー"
+"を使用してサブスクリプションをアクティブ化する必要が生じる場合もあります。"
 
 #. type: Title ==
 #: modules/installation/pages/general-requirements.adoc:21
@@ -1072,7 +1077,9 @@ msgstr ""
 msgid ""
 "For a guide to size estimation, see the <<server-hardware-requirements>> "
 "section."
-msgstr "サイズの推測のガイドについては、 <<server-hardware-requirements>> セクションを参照してください。"
+msgstr ""
+"サイズの推測のガイドについては、 <<server-hardware-requirements>> セクション"
+"を参照してください。"
 
 #. type: Title ==
 #: modules/installation/pages/hardware-requirements.adoc:22
@@ -1815,9 +1822,9 @@ msgid ""
 "In the [guimenu]``Language, Keyboard and Product Selection`` screen, check "
 "the [guimenu]``SUSE Manager Proxy`` checkbox, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``Language, Keyboard and Product "
-"Selection``］（言語、キーボードおよび製品の選択）画面で、［[guimenu]``SUSE Manager "
-"Proxy``］チェックボックスにチェックを付け、［btn:[次へ]］をクリックします。"
+"［[guimenu]``Language, Keyboard and Product Selection``］（言語、キーボードお"
+"よび製品の選択）画面で、［[guimenu]``SUSE Manager Proxy``］チェックボックスに"
+"チェックを付け、［btn:[次へ]］をクリックします。"
 
 #. type: Target for macro image
 #: modules/installation/pages/install-proxy-unified.adoc:15
@@ -1840,8 +1847,9 @@ msgid ""
 "System via scc.suse.com`` checkbox, enter your {scc} credentials, and click "
 "btn:[Next]."
 msgstr ""
-"［[guimenu]``登録``］画面で、［[guimenu]``Register System via scc.suse.com``］（scc.suse"
-".comでシステムを登録する）チェックボックスにチェックを付け、{scc}の資格情報を入力し、［btn:[次へ]］をクリックします。"
+"［[guimenu]``登録``］画面で、［[guimenu]``Register System via scc.suse."
+"com``］（scc.suse.comでシステムを登録する）チェックボックスにチェックを付け、"
+"{scc}の資格情報を入力し、［btn:[次へ]］をクリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:18
@@ -1849,8 +1857,9 @@ msgid ""
 "In the [guimenu]``Available Extensions and Modules`` screen, select any "
 "extensions or modules you require, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``Available Extensions and "
-"Modules``］（利用できる拡張機能とモジュール）画面で、必要な拡張機能またはモジュールを選択し、［btn:[次へ]］をクリックします。"
+"［[guimenu]``Available Extensions and Modules``］（利用できる拡張機能とモ"
+"ジュール）画面で、必要な拡張機能またはモジュールを選択し、［btn:[次へ]］をク"
+"リックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:19
@@ -1861,11 +1870,12 @@ msgid ""
 "On Product`` screen, select any additional or add-on products you require, "
 "and click btn:[Next]."
 msgstr ""
-"［[systemitem]``Basesystem``］（ベースシステム）、［[systemitem]``SUSE Manager "
-"Proxy``］、および［[systemitem]``Server "
-"Applications``］（サーバアプリケーション）は事前に選択されています。これらは{productname}プロキシのインストールでは必須です。"
-"  オプション: 次の［[guimenu]``Add  On "
-"Product``］（アドオン製品）画面で、必要な追加製品およびアドオン製品を選択し、［btn:[次へ]］をクリックします。"
+"［[systemitem]``Basesystem``］（ベースシステム）、［[systemitem]``SUSE "
+"Manager Proxy``］、および［[systemitem]``Server Applications``］（サーバアプ"
+"リケーション）は事前に選択されています。これらは{productname}プロキシのインス"
+"トールでは必須です。  オプション: 次の［[guimenu]``Add  On Product``］（アド"
+"オン製品）画面で、必要な追加製品およびアドオン製品を選択し、［btn:[次へ]］を"
+"クリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:20
@@ -1873,8 +1883,9 @@ msgid ""
 "In the [guimenu]``System Role`` screen, check the [guimenu]``SUSE Manager "
 "Proxy`` checkbox, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``System Role``］（システムロール）画面で、［[guimenu]``SUSE Manager "
-"Proxy``］チェックボックスにチェックを付け、［btn:[次へ]］をクリックします。"
+"［[guimenu]``System Role``］（システムロール）画面で、［[guimenu]``SUSE "
+"Manager Proxy``］チェックボックスにチェックを付け、［btn:[次へ]］をクリックし"
+"ます。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:21
@@ -1883,9 +1894,11 @@ msgid ""
 "values, or use the btn:[Guided Setup] or btn:[Expert Practitioner] options "
 "to customize your partitioning model, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``Suggested Partitioning``］（推奨パーティション設定）画面でデフォルト値を受け入れるか、［btn:["
-"Guided Setup]］（ガイド付き設定）オプションまたは［btn:[Expert Practitioner]］（エクスパートプラクティショナー）オプ"
-"ションを使用してパーティション設定モデルをカスタマイズし、［btn:[次へ]］をクリックします。"
+"［[guimenu]``Suggested Partitioning``］（推奨パーティション設定）画面でデフォ"
+"ルト値を受け入れるか、［btn:[Guided Setup]］（ガイド付き設定）オプションまた"
+"は［btn:[Expert Practitioner]］（エクスパートプラクティショナー）オプションを"
+"使用してパーティション設定モデルをカスタマイズし、［btn:[次へ]］をクリックし"
+"ます。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:22
@@ -1894,8 +1907,8 @@ msgid ""
 "In the [guimenu]``Clock and Time Zone`` screen, enter your region and "
 "timezone, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``Clock and Time "
-"Zone``］（クロックとタイムゾーン）画面で、地域とタイムゾーンを入力し、［btn:[次へ]］をクリックします。"
+"［[guimenu]``Clock and Time Zone``］（クロックとタイムゾーン）画面で、地域と"
+"タイムゾーンを入力し、［btn:[次へ]］をクリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:23
@@ -1903,7 +1916,9 @@ msgstr ""
 msgid ""
 "In the [guimenu]``Local Users`` screen, create a new user, and click btn:"
 "[Next]."
-msgstr "［[guimenu]``Local Users``］（ローカルユーザ）画面で、新しいユーザを作成し、［btn:[次へ]］をクリックします。"
+msgstr ""
+"［[guimenu]``Local Users``］（ローカルユーザ）画面で、新しいユーザを作成し、"
+"［btn:[次へ]］をクリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:24
@@ -1911,7 +1926,8 @@ msgid ""
 "Review the settings on the [guimenu]``Installation Settings`` screen, and "
 "then click btn:[Install]."
 msgstr ""
-"［[guimenu]``Installation Settings``］（インストール設定）画面で、［btn:[インストール]］をクリックします。"
+"［[guimenu]``Installation Settings``］（インストール設定）画面で、［btn:[イン"
+"ストール]］をクリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy-unified.adoc:25
@@ -2189,8 +2205,8 @@ msgid ""
 "In the Virtual Machine Manager tool ([command]``virt-manager``), click menu:"
 "File[New Virtual Machine]."
 msgstr ""
-"仮想マシンマネージャツール([command]``virt-manager``)で、menu:ファイル[New Virtual "
-"Machine]（新しい仮想マシン）をクリックします。"
+"仮想マシンマネージャツール([command]``virt-manager``)で、menu:ファイル[New "
+"Virtual Machine]（新しい仮想マシン）をクリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy.adoc:10
@@ -2205,8 +2221,9 @@ msgid ""
 "In the [guimenu]``Create a new virtual machine`` dialog, click btn:[Browse] "
 "and locate the full SLES image you downloaded from your SCC account."
 msgstr ""
-"［[guimenu]``Create a new virtual machine``］（新しい仮想マシンの作成）ダイアログで、［btn:[Browse]］"
-"（ブラウズ）をクリックし、SCCアカウントからダウンロードしたフルSLESイメージを検索します。"
+"［[guimenu]``Create a new virtual machine``］（新しい仮想マシンの作成）ダイア"
+"ログで、［btn:[Browse]］（ブラウズ）をクリックし、SCCアカウントからダウンロー"
+"ドしたフルSLESイメージを検索します。"
 
 #. type: Plain text
 #: modules/installation/pages/install-proxy.adoc:12
@@ -2310,8 +2327,9 @@ msgid ""
 "`<productversion>` with `{productnumber}` and `<architecture>` with "
 "`x86_64`):"
 msgstr ""
-"SCCで{productname}プロキシを登録します(``<productversion>``を``{productnumber}``に置き換えたり、`"
-"`<architecture>``を``x86_64``に置き換えるなど)。"
+"SCCで{productname}プロキシを登録します(``<productversion>``を"
+"``{productnumber}``に置き換えたり、``<architecture>``を``x86_64``に置き換える"
+"など)。"
 
 #. type: delimited block -
 #: modules/installation/pages/install-proxy.adoc:25
@@ -2499,9 +2517,9 @@ msgid ""
 "In the [guimenu]``Language, Keyboard and Product Selection`` screen, check "
 "[guimenu]``SUSE Manager Server``, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``Language, Keyboard and Product "
-"Selection``］（言語、キーボードおよび製品の選択）画面で、［[guimenu]``SUSE "
-"Managerサーバ``］チェックボックスにチェックを付け、［btn:[次へ]］をクリックします。"
+"［[guimenu]``Language, Keyboard and Product Selection``］（言語、キーボードお"
+"よび製品の選択）画面で、［[guimenu]``SUSE Managerサーバ``］チェックボックスに"
+"チェックを付け、［btn:[次へ]］をクリックします。"
 
 #. type: Target for macro image
 #: modules/installation/pages/install-server-unified.adoc:15
@@ -2521,8 +2539,9 @@ msgid ""
 "In the [guimenu]``Extension and Module Selection`` screen, select additional "
 "extensions or modules you require, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``Extension and Module "
-"Selection``］（拡張機能とモジュールの選択）画面で、必要な追加拡張機能またはモジュールを選択し、［btn:[次へ]］をクリックします。"
+"［[guimenu]``Extension and Module Selection``］（拡張機能とモジュールの選択）"
+"画面で、必要な追加拡張機能またはモジュールを選択し、［btn:[次へ]］をクリック"
+"します。"
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:20
@@ -2542,8 +2561,8 @@ msgid ""
 "OPTIONAL: In the [guimenu]``Add On Product`` screen, select any additional "
 "or add-on products you require, and click btn:[Next]."
 msgstr ""
-"オプション: ［[guimenu]``Add On "
-"Product``］（アドオン製品）画面で、必要な追加製品またはアドオン製品を選択し、［btn:[次へ]］をクリックします。"
+"オプション: ［[guimenu]``Add On Product``］（アドオン製品）画面で、必要な追加"
+"製品またはアドオン製品を選択し、［btn:[次へ]］をクリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:23
@@ -2568,7 +2587,8 @@ msgid ""
 "Server`` checkbox, and click btn:[Next]."
 msgstr ""
 "［[guimenu]``System Role``］（システムロール）画面で、［[guimenu]``SUSE "
-"Managerサーバ``］チェックボックスにチェックを付け、［btn:[次へ]］をクリックします。"
+"Managerサーバ``］チェックボックスにチェックを付け、［btn:[次へ]］をクリックし"
+"ます。"
 
 #. type: Target for macro image
 #: modules/installation/pages/install-server-unified.adoc:26
@@ -2583,9 +2603,11 @@ msgid ""
 "values, or use the btn:[Guided Setup] or btn:[Expert Partitioner] options to "
 "customize your partitioning model, and click btn:[Next]."
 msgstr ""
-"［[guimenu]``Suggested Partitioning``］（推奨パーティション設定）画面でデフォルト値を受け入れるか、［btn:["
-"Guided Setup]］（ガイド付き設定）オプションまたは［btn:[Expert Practitioner]］（エクスパートプラクティショナー）オプ"
-"ションを使用してパーティション設定モデルをカスタマイズし、［btn:[次へ]］をクリックします。"
+"［[guimenu]``Suggested Partitioning``］（推奨パーティション設定）画面でデフォ"
+"ルト値を受け入れるか、［btn:[Guided Setup]］（ガイド付き設定）オプションまた"
+"は［btn:[Expert Practitioner]］（エクスパートプラクティショナー）オプションを"
+"使用してパーティション設定モデルをカスタマイズし、［btn:[次へ]］をクリックし"
+"ます。"
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:30
@@ -2599,13 +2621,16 @@ msgstr ""
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:31
 msgid "Review the settings on the [guimenu]``Installation Settings`` screen."
-msgstr "［[guimenu]``Installation Settings``］（インストール設定）画面で設定を確認します。"
+msgstr ""
+"［[guimenu]``Installation Settings``］（インストール設定）画面で設定を確認し"
+"ます。"
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:32
 msgid "On the [guimenu]``Installation Settings`` screen click btn:[Install]."
 msgstr ""
-"［[guimenu]``Installation Settings``］（インストール設定）画面で、［btn:[インストール]］をクリックします。"
+"［[guimenu]``Installation Settings``］（インストール設定）画面で、［btn:[イン"
+"ストール]］をクリックします。"
 
 #. type: delimited block =
 #: modules/installation/pages/install-server-unified.adoc:33
@@ -2615,9 +2640,11 @@ msgid ""
 "graphical interface local on the {productname} server, click "
 "[guimenu]``Software`` and select the [guimenu]``X Window System`` pattern."
 msgstr ""
-"デフォルトの{productname}サーバインストールでは、グラフィカルデスクトップ環境は有効ではありません。{productname}サーバのグラフィ"
-"カルインターフェースローカルで{yast}などの設定ツールを実行する場合、［[guimenu]``ソフトウェア``］をクリックし、［[guimenu]``"
-"X Window System``］（X Windowシステム）パターンを選択します。"
+"デフォルトの{productname}サーバインストールでは、グラフィカルデスクトップ環境"
+"は有効ではありません。{productname}サーバのグラフィカルインターフェースローカ"
+"ルで{yast}などの設定ツールを実行する場合、［[guimenu]``ソフトウェア``］をク"
+"リックし、［[guimenu]``X Window System``］（X Windowシステム）パターンを選択"
+"します。"
 
 #. type: Plain text
 #: modules/installation/pages/install-server-unified.adoc:34
@@ -2739,7 +2766,8 @@ msgstr ""
 #: modules/installation/pages/install-server.adoc:9
 msgid "In [command]``virt-manager`` select menu:File[New Virtual Machine]."
 msgstr ""
-"[command]``virt-manager``でmenu:ファイル[New Virtual Machine]（新しい仮想マシン）を選択します。"
+"[command]``virt-manager``でmenu:ファイル[New Virtual Machine]（新しい仮想マシ"
+"ン）を選択します。"
 
 #. type: Plain text
 #: modules/installation/pages/install-server.adoc:10
@@ -2753,8 +2781,9 @@ msgid ""
 "Ensure btn:[Use ISO Image] is selected then click btn:[Browse] and locate "
 "the full SLES image you downloaded from your SCC account."
 msgstr ""
-"［btn:[Use ISO Image]］（ISOイメージの使用）が選択されていることを確認してから［btn:[Browse]］（ブラウズ）をクリックし、"
-"SCCアカウントからダウンロードしたフルSLESイメージを検索します。"
+"［btn:[Use ISO Image]］（ISOイメージの使用）が選択されていることを確認してか"
+"ら［btn:[Browse]］（ブラウズ）をクリックし、SCCアカウントからダウンロードした"
+"フルSLESイメージを検索します。"
 
 #. type: Plain text
 #: modules/installation/pages/install-server.adoc:12
@@ -2822,8 +2851,8 @@ msgid ""
 "During {sles} installation, you will be presented with the "
 "[systemitem]``Extension and Module Selection`` screen."
 msgstr ""
-"{sles}のインストール中に、［[systemitem]``Extension and Module "
-"Selection``］（拡張機能とモジュールの選択）画面が表示されます。"
+"{sles}のインストール中に、［[systemitem]``Extension and Module Selection``］"
+"（拡張機能とモジュールの選択）画面が表示されます。"
 
 #. type: delimited block =
 #: modules/installation/pages/install-server.adoc:21
@@ -2993,7 +3022,9 @@ msgstr ""
 msgid ""
 "Enter the following settings when creating a new virtual machine using *virt-"
 "manager*."
-msgstr "*virt-manager* を使用して、新しい仮想マシンを作成するときに、次の設定を入力します。"
+msgstr ""
+"*virt-manager* を使用して、新しい仮想マシンを作成するときに、次の設定を入力し"
+"ます。"
 
 #. type: delimited block =
 #: modules/installation/pages/install-vm.adoc:5
@@ -3090,8 +3121,9 @@ msgid ""
 "Create a new virtual machine using the downloaded JeOS KVM image and select "
 "[guimenu]``Import existing disk image``."
 msgstr ""
-"ダウンロードしたJeOS KVMイメージを使用して新しい仮想マシンを作成し、［[guimenu]``Import existing disk "
-"image``］（既存のディスクイメージをインポート）を選択します。"
+"ダウンロードしたJeOS KVMイメージを使用して新しい仮想マシンを作成し、"
+"［[guimenu]``Import existing disk image``］（既存のディスクイメージをインポー"
+"ト）を選択します。"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:14
@@ -3105,7 +3137,8 @@ msgid ""
 "before install`` check box."
 msgstr ""
 "KVMマシンに名前を付け、［[guimenu]``Customize configuration before "
-"install``］（インストール前に設定をカスタマイズ）チェックボックスを選択します。"
+"install``］（インストール前に設定をカスタマイズ）チェックボックスを選択しま"
+"す。"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:16
@@ -3154,7 +3187,9 @@ msgstr ""
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:20
 msgid "Click btn:[Begin Installation] to boot the new VM from the JeOS image."
-msgstr "［btn:[Begin Installation]］（インストールの開始）をクリックし、JeOSイメージから新しいVMをブートします。"
+msgstr ""
+"［btn:[Begin Installation]］（インストールの開始）をクリックし、JeOSイメージ"
+"から新しいVMをブートします。"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:21
@@ -3171,8 +3206,9 @@ msgid ""
 "During the basic installation prompts you are asked to enter the root "
 "password.  In the next message box click btn:[Confirm root Password]."
 msgstr ""
-"基本的なインストールプロンプトの操作中、rootパスワードの入力を求められます。  次のメッセージボックスで、［btn:[Confirm root "
-"Password]］（rootパスワードを確認）をクリックします。"
+"基本的なインストールプロンプトの操作中、rootパスワードの入力を求められま"
+"す。  次のメッセージボックスで、［btn:[Confirm root Password]］（rootパスワー"
+"ドを確認）をクリックします。"
 
 #. type: Title ==
 #: modules/installation/pages/install-vm.adoc:23
@@ -3192,8 +3228,8 @@ msgid ""
 "Register {productname} with SCC (for example, replace `<productnumber>` with "
 "`{productnumber}` and `<architecture>` with `x86_64`):"
 msgstr ""
-"SCCで{productname}を登録します(``<productnumber>``を``{productnumber}``に置き換えたり、 "
-"``<architecture>``を``x86_64``に置き換えるなど)。"
+"SCCで{productname}を登録します(``<productnumber>``を``{productnumber}``に置き"
+"換えたり、 ``<architecture>``を``x86_64``に置き換えるなど)。"
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:29
@@ -3228,8 +3264,9 @@ msgid ""
 "working you should allow to install also recommended packages.  In `/etc/"
 "zypp/zypp.conf` change:"
 msgstr ""
-"JeOSは、必要なパッケージのみをインストールするように設定されています。  "
-"動作するすべての機能を取得するには、推奨パッケージもインストールできるようにする必要があります。  ``/etc/zypp/zypp.conf``で、"
+"JeOSは、必要なパッケージのみをインストールするように設定されています。  動作"
+"するすべての機能を取得するには、推奨パッケージもインストールできるようにする"
+"必要があります。  ``/etc/zypp/zypp.conf``で、"
 
 #. type: delimited block -
 #: modules/installation/pages/install-vm.adoc:33
@@ -3248,8 +3285,8 @@ msgid ""
 "Install [package]#yast2-storage-ng# with all required dependencies (approx. "
 "40 packages, 30 MB when installed)."
 msgstr ""
-"すべての必要な依存関係を設定して[package]##yast2-storage-"
-"ng##をインストールします(約40個のパッケージでは、インストール時に30MB)。"
+"すべての必要な依存関係を設定して[package]##yast2-storage-ng##をインストールし"
+"ます(約40個のパッケージでは、インストール時に30MB)。"
 
 #. type: Plain text
 #: modules/installation/pages/install-vm.adoc:37
@@ -3455,8 +3492,8 @@ msgid ""
 "administration:disconnected-setup.adoc#client-cfg-reg-with-bootstrap-"
 "disconnected[]."
 msgstr ""
-"非接続設定およびポート設定の詳細については、xref:administration:disconnected-setup.adoc#client-cfg-"
-"reg-with-bootstrap-disconnected[]を参照してください。"
+"非接続設定およびポート設定の詳細については、xref:administration:disconnected-"
+"setup.adoc#client-cfg-reg-with-bootstrap-disconnected[]を参照してください。"
 
 #. type: Title =
 #: modules/installation/pages/ports.adoc:1
@@ -4150,7 +4187,9 @@ msgstr "プロキシチェーン"
 msgid ""
 "It is possible to arrange Salt proxies in a chain.  In such a case, the "
 "upstream proxy is named `parent`."
-msgstr "Saltプロキシはチェーンで編成できます。  その場合、上流プロキシの名前が``parent``になります。"
+msgstr ""
+"Saltプロキシはチェーンで編成できます。  その場合、上流プロキシの名前が"
+"``parent``になります。"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:5
@@ -4160,8 +4199,9 @@ msgid ""
 "must be able to reach the {productname} Server or a parent proxy on these "
 "ports."
 msgstr ""
-"TCPポート``4505``および``4506``がプロキシで開いていることを確認してください。  "
-"プロキシは、これらのポートで{productname}サーバまたは親プロキシにアクセスできる必要があります。"
+"TCPポート``4505``および``4506``がプロキシで開いていることを確認してくださ"
+"い。  プロキシは、これらのポートで{productname}サーバまたは親プロキシにアクセ"
+"スできる必要があります。"
 
 #. type: Title ==
 #: modules/installation/pages/proxy-setup.adoc:6
@@ -4394,8 +4434,9 @@ msgid ""
 "the {productname} installation.  For example, if your proxy is in the US and "
 "your {productname} is in DE, enter `DE` for the proxy."
 msgstr ""
-"［[guimenu]``国コード``］フィールドに{productname}のインストール中に設定した国コードを入力します。  "
-"たとえば、プロキシが米国にある場合に{productname}がドイツにあると、プロキシに``DE``と入力します。"
+"［[guimenu]``国コード``］フィールドに{productname}のインストール中に設定した"
+"国コードを入力します。  たとえば、プロキシが米国にある場合に{productname}がド"
+"イツにあると、プロキシに``DE``と入力します。"
 
 #. type: delimited block =
 #: modules/installation/pages/proxy-setup.adoc:33
@@ -4444,9 +4485,7 @@ msgstr "{productname}サーバの証明書に使用したパスワードを入�
 #: modules/installation/pages/uyuni-proxy-setup.adoc:41
 #, no-wrap
 msgid "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?"
-msgstr ""
-"Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion"
-"?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
+msgstr "Do You Want to Use an Existing SSH Key for Proxying SSH-Push Salt Minion?（SSH-Push Salt Minionのプロキシ処理に既存のSSHキーを使用しますか?）"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:39
@@ -4463,9 +4502,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-proxy-setup.adoc:43
 #, no-wrap
 msgid "Create and Populate Configuration Channel rhn_proxy_config_1000010001?"
-msgstr ""
-"Create and Populate Configuration Channel "
-"rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
+msgstr "Create and Populate Configuration Channel rhn_proxy_config_1000010001?（設定チャンネルrhn_proxy_config_1000010001を作成および入力しますか?）"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:41
@@ -5015,7 +5052,8 @@ msgid ""
 "Within this network configuration DNS resolution must be provided: `hostname "
 "-f` must return the fully qualified domain name (FQDN)."
 msgstr ""
-"このネットワーク設定内では、DNSの解決を提供する必要があります。``hostname -f``は、完全修飾ドメイン名(FQDN)を返す必要があります。"
+"このネットワーク設定内では、DNSの解決を提供する必要があります。``hostname -"
+"f``は、完全修飾ドメイン名(FQDN)を返す必要があります。"
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-requirements.adoc:7
@@ -5306,8 +5344,8 @@ msgid ""
 "Click btn:[Add] and select [guimenu]``Extensions and Modules from "
 "Registration Server``."
 msgstr ""
-"［btn:[追加]］をクリックし、［[guimenu]``Extensions and Modules from Registration "
-"Server``］（登録サーバの拡張機能とモジュール）を選択します。"
+"［btn:[追加]］をクリックし、［[guimenu]``Extensions and Modules from "
+"Registration Server``］（登録サーバの拡張機能とモジュール）を選択します。"
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:13
@@ -5315,8 +5353,8 @@ msgid ""
 "In the [guimenu]``Available extensions`` field, select [guimenu]``Public "
 "Cloud Module``."
 msgstr ""
-"［[guimenu]``Available extensions``］（利用できる拡張機能）フィールドで、［[guimenu]``Public "
-"Cloud Module``］を選択します。"
+"［[guimenu]``Available extensions``］（利用できる拡張機能）フィールドで、"
+"［[guimenu]``Public Cloud Module``］を選択します。"
 
 #. type: Plain text
 #: modules/installation/pages/pubcloud-setup.adoc:14
@@ -5651,8 +5689,9 @@ msgid ""
 "From the introduction screen select menu:SUSE Manager Setup[Setup SUSE "
 "Manager from scratch] and click btn:[Next] to continue."
 msgstr ""
-"導入画面から、menu:SUSE Manager Setup（SUSE Managerの設定）[Setup SUSE Manager from "
-"scratch]（SUSE Managerを最初から設定する）を選択し、［btn:[次へ]］をクリックして続行します。"
+"導入画面から、menu:SUSE Manager Setup（SUSE Managerの設定）[Setup SUSE "
+"Manager from scratch]（SUSE Managerを最初から設定する）を選択し、［btn:[次"
+"へ]］をクリックして続行します。"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:15
@@ -5930,7 +5969,8 @@ msgstr ""
 #: modules/installation/pages/server-setup.adoc:50
 #: modules/installation/pages/uyuni-server-setup.adoc:47
 msgid "Click btn:[Add a new credential]."
-msgstr "［btn:[Add a new credential]］（新しい資格情報の追加）をクリックします。"
+msgstr ""
+"［btn:[Add a new credential]］（新しい資格情報の追加）をクリックします。"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:51
@@ -6076,9 +6116,7 @@ msgstr ""
 #: modules/installation/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr ""
-"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
-"elevator=noop transparent_hugepage=never\"\n"
+msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:67
@@ -6218,9 +6256,11 @@ msgid ""
 "shown for the user you have granted access to.  Use these buttons on the "
 "card to edit or revoke access:"
 msgstr ""
-"［btn:[Add a new credential]］（新しい資格情報の追加）をクリックし、アクセス権が付与されるユーザのユーザ名およびパスワードを入力"
-"し、［btn:[保存]］をクリックします。  新しい資格情報カードは、アクセス権付が付与されるユーザに表示されます。  "
-"カード上の次のボタンを使用してアクセス権を編集または取り消します。"
+"［btn:[Add a new credential]］（新しい資格情報の追加）をクリックし、アクセス"
+"権が付与されるユーザのユーザ名およびパスワードを入力し、［btn:[保存]］をク"
+"リックします。  新しい資格情報カードは、アクセス権付が付与されるユーザに表示"
+"されます。  カード上の次のボタンを使用してアクセス権を編集または取り消しま"
+"す。"
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:12
@@ -6290,10 +6330,12 @@ msgid ""
 "Click the btn:[Channels] icon to see the complete list of channels "
 "associated with each product."
 msgstr ""
-"リストは製品名ごとに整理されており、サブスクリプションのある製品が一番上に表示されます。  無料で入手できる製品がリストの最後に表示されます。  "
-"各製品について、その製品で使用できるアーキテクチャを確認できます。  "
-"製品名の横にある矢印をクリックし、関連付けられているチャンネルおよび拡張機能を表示します。  "
-"［btn:[チャンネル]］アイコンをクリックし、各製品に関連付けられているチャンネルの一覧を表示します。"
+"リストは製品名ごとに整理されており、サブスクリプションのある製品が一番上に表"
+"示されます。  無料で入手できる製品がリストの最後に表示されます。  各製品につ"
+"いて、その製品で使用できるアーキテクチャを確認できます。  製品名の横にある矢"
+"印をクリックし、関連付けられているチャンネルおよび拡張機能を表示します。  "
+"［btn:[チャンネル]］アイコンをクリックし、各製品に関連付けられているチャンネ"
+"ルの一覧を表示します。"
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:22
@@ -6347,9 +6389,10 @@ msgid ""
 "troubleshooting product synchronization, see xref:administration:tshoot-sync."
 "adoc[]."
 msgstr ""
-"同期に失敗する場合、サードパーティのGPGキーまたは会社のファイアウォールがダウンロードサーバへのアクセスをブロックしていることが原因である可能性がありま"
-"す。  エラーの通知詳細を確認してください。  製品同期のトラブルシューティングの詳細については、xref:administration:tshoot-"
-"sync.adoc[]を参照してください。"
+"同期に失敗する場合、サードパーティのGPGキーまたは会社のファイアウォールがダウ"
+"ンロードサーバへのアクセスをブロックしていることが原因である可能性がありま"
+"す。  エラーの通知詳細を確認してください。  製品同期のトラブルシューティング"
+"の詳細については、xref:administration:tshoot-sync.adoc[]を参照してください。"
 
 #. type: Title =
 #: modules/installation/pages/uyuni-install-requirements.adoc:1
@@ -6484,7 +6527,9 @@ msgstr ""
 msgid ""
 "For more information, see xref:client-configuration:clients-opensuseleap."
 "adoc[]."
-msgstr "詳細については、xref:client-configuration:clients-opensuseleap.adoc[]を参照してください。"
+msgstr ""
+"詳細については、xref:client-configuration:clients-opensuseleap.adoc[]を参照し"
+"てください。"
 
 #. // Atfer a successful sync run, bootstrap repos are now created automatically.
 #. // Since 2020.07 or earlier
@@ -6512,10 +6557,10 @@ msgid ""
 "more information about bootstrap scripts, see xref:client-configuration:"
 "registration-bootstrap.adoc[]."
 msgstr ""
-"GPGキーを[systemitem]``ORG_GPG_KEY=``パラメータに追加します。  詳細については、xref:client-"
-"configuration:clients-opensuseleap.adoc[]を参照してください。  "
-"ブートストラップスクリプトの詳細については、xref:client-configuration:registration-bootstrap."
-"adoc[]を参照してください。"
+"GPGキーを[systemitem]``ORG_GPG_KEY=``パラメータに追加します。  詳細について"
+"は、xref:client-configuration:clients-opensuseleap.adoc[]を参照してくださ"
+"い。  ブートストラップスクリプトの詳細については、xref:client-configuration:"
+"registration-bootstrap.adoc[]を参照してください。"
 
 #.  Traditional clients are not supported
 #. type: Plain text
@@ -6756,7 +6801,9 @@ msgstr "{productname}サーバにログインし、{yast}を開始します。"
 #: modules/installation/pages/uyuni-server-setup.adoc:11
 msgid ""
 "In {yast}, navigate to menu:Network Services[Uyuni Setup] to begin the setup."
-msgstr "{yast}で、menu:ネットワークサービス[Uyuni Setup]（Uyuniの設定）に移動し、設定を開始します。"
+msgstr ""
+"{yast}で、menu:ネットワークサービス[Uyuni Setup]（Uyuniの設定）に移動し、設定"
+"を開始します。"
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:12
@@ -6764,8 +6811,8 @@ msgid ""
 "From the introduction screen select menu:Uyuni Setup[Set up Uyuni from "
 "scratch] and click btn:[Next] to continue."
 msgstr ""
-"導入画面から、menu:Uyuni Setup（Uyuniの設定）[Set up Uyuni from "
-"scratch]（Uyuniを最初から設定する）を選択し、［btn:[次へ]］をクリックして続行します。"
+"導入画面から、menu:Uyuni Setup（Uyuniの設定）[Set up Uyuni from scratch]"
+"（Uyuniを最初から設定する）を選択し、［btn:[次へ]］をクリックして続行します。"
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:16
@@ -6917,9 +6964,10 @@ msgid ""
 "credentials give you access to the {suse} product downloads.  You will find "
 "your organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"ソフトウェアリポジトリをSCCと同期する前に、{productname}に組織の資格情報を入力する必要があります。  "
-"組織の資格情報があると、{suse}製品のダウンロードにアクセスできます。  組織の資格情報はhttps://scc.suse.com/"
-"organizationsにあります。"
+"ソフトウェアリポジトリをSCCと同期する前に、{productname}に組織の資格情報を入"
+"力する必要があります。  組織の資格情報があると、{suse}製品のダウンロードにア"
+"クセスできます。  組織の資格情報はhttps://scc.suse.com/organizationsにありま"
+"す。"
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:43
@@ -7525,6 +7573,9 @@ msgstr ""
 "サービスを再起動してください。  インターネット接続が低速の場合、または多くの"
 "クライアントで定期的に同時にアクションを実行する場合、この設定を大きい数値に"
 "変更すると有効な場合があります。"
+
+#~ msgid "Installation Guide: {productname} {productnumber}"
+#~ msgstr "インストールガイド: {productname} {productnumber}"
 
 #~ msgid "Media Requirements:"
 #~ msgstr "メディアの要件:"

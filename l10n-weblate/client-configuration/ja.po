@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-05 08:52+0000\n"
+"POT-Creation-Date: 2021-11-26 07:50+0000\n"
 "PO-Revision-Date: 2021-11-24 00:14+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
-"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/"
-"docs-client-configuration-manager-42-mu-422/ja/>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/uyuni/docs-"
+"client-configuration-manager-42-mu-422/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,8 +21,8 @@ msgstr ""
 #. type: Title =
 #: modules/client-configuration/nav-client-configuration-guide.adoc:1
 #, no-wrap
-msgid "Client Configuration Guide: {productname} {productnumber}"
-msgstr "クライアント設定ガイド: {productname} {productnumber}"
+msgid "[.title]#{productname} {productnumber}#: Client Configuration Guide"
+msgstr ""
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:2
@@ -48,7 +48,8 @@ msgstr "xref:supported-features-es.adoc[SLES-ESでサポートされている機
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:6
 msgid "xref:supported-features-sle-micro.adoc[SLE Micro Supported Features]"
-msgstr "xref:supported-features-sle-micro.adoc[SLES Microでサポートされている機能]"
+msgstr ""
+"xref:supported-features-sle-micro.adoc[SLES Microでサポートされている機能]"
 
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:7
@@ -2082,7 +2083,9 @@ msgstr ""
 msgid ""
 "Navigate to menu:Systems[Autoinstallation > Distributions] to manage your "
 "autoinstallable distributions."
-msgstr "自動インストールのディストリビューションを管理するには、menu:システム[自動インストール > ディストリビューション]に移動します。"
+msgstr ""
+"自動インストールのディストリビューションを管理するには、menu:システム[自動イ"
+"ンストール > ディストリビューション]に移動します。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/autoinst-distributions.adoc:38
@@ -2198,8 +2201,9 @@ msgid ""
 "network as the machine you want to install, or you have a DHCP relay that "
 "allows you to cross all routers in between;"
 msgstr ""
-"{productname}サーバまたはそのプロキシのいずれかが、インストール対象のコンピュータと同じローカルネットワーク上にあるか、経路にあるすべてのルー"
-"タを中継できるDHCPリレーに対応している。"
+"{productname}サーバまたはそのプロキシのいずれかが、インストール対象のコン"
+"ピュータと同じローカルネットワーク上にあるか、経路にあるすべてのルータを中継"
+"できるDHCPリレーに対応している。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-intro.adoc:13
@@ -3628,7 +3632,8 @@ msgid ""
 "Navigate to menu:Systems[System List], select the client you want to change, "
 "and go to the [guimenu]``Formulas`` tab to enable the DHCPd formula."
 msgstr ""
-"menu:システム[システム一覧]に移動し、変更するクライアントを選択し、［[guimenu]``式``］タブに移動してDHCPd式を有効にします。"
+"menu:システム[システム一覧]に移動し、変更するクライアントを選択し、"
+"［[guimenu]``式``］タブに移動してDHCPd式を有効にします。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-pxeboot.adoc:35
@@ -4029,8 +4034,9 @@ msgid ""
 "In the {productname} {webui}, navigate to [guimenu]``Systems``, select the "
 "client to provision, and go to the menu:Provisioning[Autoinstallation] tab."
 msgstr ""
-"{productname} {webui}で、［[guimenu]``システム``］に移動し、プロビジョニングするクライアントを選択し、menu:プロビジ"
-"ョニング[自動インストール]タブに移動します。"
+"{productname} {webui}で、［[guimenu]``システム``］に移動し、プロビジョニング"
+"するクライアントを選択し、menu:プロビジョニング[自動インストール]タブに移動し"
+"ます。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/autoinst-unattended.adoc:14
@@ -5597,11 +5603,8 @@ msgid ""
 msgstr ""
 " <listentry>\n"
 "     <ask_on_error config:type=\"boolean\">true</ask_on_error>\n"
-"     <media_url>https://$redhat_management_server/ks/dist/child/"
-"$channel_prefix-sle-module-web-scripting15-sp1-pool-x86_64/"
-"$distro_label</media_url>\n"
-"     <name>$channel_prefix SLE-Module-Web-Scripting15-SP1 Pool for x86_64  "
-"</name>\n"
+"     <media_url>https://$redhat_management_server/ks/dist/child/$channel_prefix-sle-module-web-scripting15-sp1-pool-x86_64/$distro_label</media_url>\n"
+"     <name>$channel_prefix SLE-Module-Web-Scripting15-SP1 Pool for x86_64  </name>\n"
 "     <product>Web Scripting Module 15 SP1 x86_64 Pool</product>\n"
 " </listentry>\n"
 
@@ -5989,8 +5992,8 @@ msgid ""
 "For more information, see https://documentation.suse.com/sles/15-SP3/html/"
 "SLES-all/article-modules.html."
 msgstr ""
-"詳細については、link:https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
-"article-modules.html[]を参照してください。"
+"詳細については、link:https://documentation.suse.com/sles/15-SP3/html/SLES-"
+"all/article-modules.html[]を参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades-major.adoc:42
@@ -6724,9 +6727,10 @@ msgid ""
 "upgrade paths, see https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
 "cha-upgrade-paths.html"
 msgstr ""
-"{suse}オペレーティングシステムを使用するSCC登録クライアントの場合、{productname}の{webui}内でアップグレードを実行できます。"
-"  サポートされている{sle}{nbsp}15のアップグレードパスは、https://documentation.suse.com/sles/"
-"15-SP3/html/SLES-all/cha-upgrade-paths.htmlを参照してください。"
+"{suse}オペレーティングシステムを使用するSCC登録クライアントの場合、"
+"{productname}の{webui}内でアップグレードを実行できます。  サポートされている"
+"{sle}{nbsp}15のアップグレードパスは、https://documentation.suse.com/sles/15-"
+"SP3/html/SLES-all/cha-upgrade-paths.htmlを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/client-upgrades.adoc:4
@@ -8747,9 +8751,7 @@ msgstr "Google Compute Engine:"
 #: modules/client-configuration/pages/clients-pubcloud.adoc:15
 #, no-wrap
 msgid "zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE regionServiceCertsGCE\n"
-msgstr ""
-"zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE "
-"regionServiceCertsGCE\n"
+msgstr "zypper rm cloud-regionsrv-client-plugin-gce regionServiceClientConfigGCE regionServiceCertsGCE\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-pubcloud.adoc:16
@@ -9943,7 +9945,8 @@ msgid ""
 "Copy your entitlement certificate and key from the client system, to a "
 "location that the {productname} Server can access. Amazon EC2:"
 msgstr ""
-"{productname}サーバがアクセスできる場所にエンタイトルメント証明書とキーをクライアントシステムからコピーします。 Amazon EC2:"
+"{productname}サーバがアクセスできる場所にエンタイトルメント証明書とキーをクラ"
+"イアントシステムからコピーします。 Amazon EC2:"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/clients-rh-rhui.adoc:21
@@ -10554,8 +10557,8 @@ msgid ""
 "For more information on transactional updates, see https://documentation."
 "suse.com/sles/15-SP3/html/SLES-all/cha-transactional-updates.html"
 msgstr ""
-"トランザクション更新の詳細については、https://documentation.suse.com/sles/15-SP3/html/SLES-all/"
-"cha-transactional-updates.htmlを参照してください。"
+"トランザクション更新の詳細については、https://documentation.suse.com/sles/15-"
+"SP3/html/SLES-all/cha-transactional-updates.htmlを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/clients-slemicro.adoc:10
@@ -10783,8 +10786,7 @@ msgstr ""
 "| SUSE Linux Enterprise Server with Expanded Support 7 x86_64\n"
 "\n"
 "| {es} 8\n"
-"| RHELまたはSLES ESまたはCentOS 8 BaseおよびSUSE Linux Enterprise Server with "
-"Expanded Support 8 x86_64\n"
+"| RHELまたはSLES ESまたはCentOS 8 BaseおよびSUSE Linux Enterprise Server with Expanded Support 8 x86_64\n"
 "\n"
 
 #. type: delimited block =
@@ -15540,8 +15542,8 @@ msgid ""
 "If you used the script to register the Salt client, open the {productname} "
 "{webui} and navigate to menu:Salt[Keys] to accept the client key."
 msgstr ""
-"スクリプトを使用してSaltクライアントを登録する場合は、{productname}の{webui}を開いて、menu:Salt[Keys]に移動し、クラ"
-"イアントキーを受け入れます。"
+"スクリプトを使用してSaltクライアントを登録する場合は、{productname}の{webui}"
+"を開いて、menu:Salt[Keys]に移動し、クライアントキーを受け入れます。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-bootstrap.adoc:49
@@ -15948,8 +15950,8 @@ msgid ""
 "You can register {opennsuse} clients to your {productname} Server.  The "
 "method and details varies depending on the operating system of the client."
 msgstr ""
-"{opensuse}クライアントを{productname}サーバに登録できます。  "
-"そのメソッドおよび詳細は、クライアントのオペレーティングシステムによって異なります。"
+"{opensuse}クライアントを{productname}サーバに登録できます。  そのメソッドおよ"
+"び詳細は、クライアントのオペレーティングシステムによって異なります。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/registration-overview-opensuse.adoc:5
@@ -16943,8 +16945,9 @@ msgid ""
 "clients (on some operating systems). SUSE will deprecate traditional clients "
 "in the next {productname} 4.3 release."
 msgstr ""
-"このバージョンの{productname}は、Saltおよび従来のクライアント(一部のオペレーティングシステム)と互換性があります。 "
-"SUSEは、次の{productname} 4.3リリースで従来のクライアントを廃止する予定です。"
+"このバージョンの{productname}は、Saltおよび従来のクライアント(一部のオペレー"
+"ティングシステム)と互換性があります。 SUSEは、次の{productname} 4.3リリースで"
+"従来のクライアントを廃止する予定です。"
 
 #. type: delimited block =
 #: modules/client-configuration/pages/snippets/traditional_client_warning.adoc:2
@@ -17097,7 +17100,8 @@ msgstr "この表のアイコンに意味は次のとおりです。"
 #: modules/client-configuration/pages/supported-features-sles.adoc:5
 #: modules/client-configuration/pages/supported-features-ubuntu.adoc:6
 msgid "{check} the feature is available on both Salt and traditional clients"
-msgstr "{check}: 機能はSaltクライアントと従来のクライアントの両方で使用できます"
+msgstr ""
+"{check}: 機能はSaltクライアントと従来のクライアントの両方で使用できます"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:6
@@ -17131,7 +17135,9 @@ msgstr "{cross}: 機能は使用できません"
 msgid ""
 "{question} the feature is under consideration, and may or may not be made "
 "available at a later date"
-msgstr "{question}: 機能は検討中であり、後日使用できる場合と、使用できない場合があります"
+msgstr ""
+"{question}: 機能は検討中であり、後日使用できる場合と、使用できない場合があり"
+"ます"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features-alibaba.adoc:8
@@ -22175,13 +22181,17 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:7
 msgid "{check} clients running this operating system are supported by {suse}"
-msgstr "{check}このオペレーティングシステムを実行しているクライアントは{suse}でサポートされています。"
+msgstr ""
+"{check}このオペレーティングシステムを実行しているクライアントは{suse}でサポー"
+"トされています。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:8
 msgid ""
 "{cross} clients running this operating system are not supported by {suse}"
-msgstr "{cross}このオペレーティングシステムを実行しているクライアントは{suse}ではサポートされていません。"
+msgstr ""
+"{cross}このオペレーティングシステムを実行しているクライアントは{suse}ではサ"
+"ポートされていません。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/supported-features.adoc:9
@@ -22476,7 +22486,9 @@ msgstr ""
 msgid ""
 "The ``spacewalk-utils-extras`` package in {productname} has limited support "
 "by {suse}."
-msgstr "{productname} ``spacewalk-utils-extras``パッケージは{suse}では限定的にサポートされています。"
+msgstr ""
+"{productname} ``spacewalk-utils-extras``パッケージは{suse}では限定的にサポー"
+"トされています。"
 
 #. type: Title =
 #: modules/client-configuration/pages/system-groups.adoc:1
@@ -24400,17 +24412,14 @@ msgstr ""
 "Repository '<Repository_Name>' is invalid.\n"
 "（リポジトリ'<Repository_Name>'は無効です。）\n"
 "[|] Valid metadata not found at specified URL(s)\n"
-" Please check if the URIs defined for this repository are pointing to a "
-"valid repository.\n"
+" Please check if the URIs defined for this repository are pointing to a valid repository.\n"
 "（有効なメタデータが指定されているURLで見つかりませんでした。\n"
 "このリポジトリ用に定義されているURIが有効なリポジトリを指しているかどうかを確認してください。\n"
 "）Skipping repository '<Repository_Name>' because of the above error.\n"
 "（上記のエラーのため、リポジトリ'<Repository_Name>'をスキップします。\n"
-"）Download (curl) error for 'www.example.com':（'www.example."
-"com'に(curl)エラーをダウンロードします:\n"
+"）Download (curl) error for 'www.example.com':（'www.example.com'に(curl)エラーをダウンロードします:\n"
 "）Error code:（エラーコード:）Unrecognized error\n"
-" Error message: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert  "
-"protocol version\n"
+" Error message: error:1409442E:SSL routines:SSL3_READ_BYTES:tlsv1 alert  protocol version\n"
 "（認識できないエラー\n"
 " エラーメッセージ: エラー:1409442E:SSLルーチン:SSL3_READ_BYTES:tlsv1 警告プロトコルバージョン）\n"
 
@@ -24427,10 +24436,7 @@ msgid ""
 "Rendering SLS 'base:bootstrap' failed: Jinja error: >>> No TLS 1.2 and above for RHEL6 and SLES11. Please check your Apache config.\n"
 "...\n"
 msgstr ""
-"Rendering SLS 'base:bootstrap' failed:（SLS 'base:bootstrap'のレンダリングに失敗しました:）"
-"Jinja error:（Jinjaエラー:）>>> No TLS 1.2 and above for RHEL6 and SLES11.（>>> "
-"RHEL6およびSLES11ではTLS 1.2以降は使用できません。）Please check your Apache "
-"config.（Apache設定を確認してください。）\n"
+"Rendering SLS 'base:bootstrap' failed:（SLS 'base:bootstrap'のレンダリングに失敗しました:）Jinja error:（Jinjaエラー:）>>> No TLS 1.2 and above for RHEL6 and SLES11.（>>> RHEL6およびSLES11ではTLS 1.2以降は使用できません。）Please check your Apache config.（Apache設定を確認してください。）\n"
 "...\n"
 
 #. type: Plain text
@@ -24816,15 +24822,7 @@ msgstr ""
 #: modules/client-configuration/pages/vhm-azure.adoc:26
 #, no-wrap
 msgid "General error: [AuthorizationFailed] The client 'client_name' with object id 'object_ID' does not have authorization to perform action 'Microsoft.Compute/virtualMachines/read' over scope '/subscriptions/not-very-secret-subscription-id' or the scope is invalid. If access was recently granted, please refresh your credentials.\n"
-msgstr ""
-"General error:（一般エラー:）[AuthorizationFailed] The client 'client_name' with "
-"object id 'object_ID' does not have authorization to perform action  "
-"'Microsoft.Compute/virtualMachines/read' over scope  '/subscriptions/not-"
-"very-secret-subscription-id' or the scope is invalid.（[AuthorizationFailed]オブ"
-"ジェクトID「object_ID」のクライアント「client_name」には、アクション「Microsoft.Compute/"
-"virtualMachines/read」をスコープ「/subscriptions/not-very-secret-subscription-"
-"id」を超えて実行する権限がありません。またはスコープが無効です。）If  access was recently granted, please "
-"refresh your credentials.（アクセスが最近付与された場合は、資格情報を更新してください。）\n"
+msgstr "General error:（一般エラー:）[AuthorizationFailed] The client 'client_name' with object id 'object_ID' does not have authorization to perform action  'Microsoft.Compute/virtualMachines/read' over scope  '/subscriptions/not-very-secret-subscription-id' or the scope is invalid.（[AuthorizationFailed]オブジェクトID「object_ID」のクライアント「client_name」には、アクション「Microsoft.Compute/virtualMachines/read」をスコープ「/subscriptions/not-very-secret-subscription-id」を超えて実行する権限がありません。またはスコープが無効です。）If  access was recently granted, please refresh your credentials.（アクセスが最近付与された場合は、資格情報を更新してください。）\n"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-azure.adoc:27
@@ -26054,11 +26052,8 @@ msgid ""
 "ERROR: {'domain': 'global', 'reason': 'forbidden', 'message': \"Required 'compute.zones.list' permission for 'projects/project-id'\"}\n"
 "ERROR: Could not connect to the Google Compute Engine Public Cloud using specified credentials.\n"
 msgstr ""
-"ERROR:（エラー:）{'domain': 'global', 'reason': 'forbidden', 'message': \"Required"
-" 'compute.zones.list' permission for 'projects/project-id'\"}\n"
-"ERROR:（エラー:）Could not connect to the Google Compute Engine Public Cloud "
-"using  specified credentials.（指定した資格情報を使用してGoogle Compute "
-"Engineのパブリッククラウドに接続できませんでした。）\n"
+"ERROR:（エラー:）{'domain': 'global', 'reason': 'forbidden', 'message': \"Required 'compute.zones.list' permission for 'projects/project-id'\"}\n"
+"ERROR:（エラー:）Could not connect to the Google Compute Engine Public Cloud using  specified credentials.（指定した資格情報を使用してGoogle Compute Engineのパブリッククラウドに接続できませんでした。）\n"
 
 #. type: delimited block -
 #: modules/client-configuration/pages/vhm-gce.adoc:29
@@ -26717,8 +26712,8 @@ msgid ""
 "For more information about Nutanix integrations, see https://www.nutanix.com/"
 "partners/technology-alliances/suse"
 msgstr ""
-"Nutanixの統合の詳細については、https://www.nutanix.com/partners/technology-alliances/"
-"suseを参照してください。"
+"Nutanixの統合の詳細については、https://www.nutanix.com/partners/technology-"
+"alliances/suseを参照してください。"
 
 #. type: Target for macro image
 #: modules/client-configuration/pages/vhm-nutanix.adoc:4
@@ -26798,8 +26793,8 @@ msgid ""
 "In the [guimenu]``Port`` field, type the Prism Element API port to use (for "
 "example, [parameter]``9440``)."
 msgstr ""
-"［[guimenu]``ポート``］フィールドに、使用するPrism Element "
-"APIポートを入力します([parameter]``9440``など)。"
+"［[guimenu]``ポート``］フィールドに、使用するPrism Element APIポートを入力し"
+"ます([parameter]``9440``など)。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/vhm-nutanix.adoc:17
@@ -26947,8 +26942,9 @@ msgid ""
 "For more on users, roles, and permissions, see the VMWare vSphere "
 "documentation: https://docs.vmware.com/en/VMware-vSphere/index.html"
 msgstr ""
-"ユーザ、ロール、およびパーミッションの詳細については、VMWare vSphereのドキュメント(https://docs.vmware.com/en/"
-"VMware-vSphere/index.html)を参照してください。"
+"ユーザ、ロール、およびパーミッションの詳細については、VMWare vSphereのドキュ"
+"メント(https://docs.vmware.com/en/VMware-vSphere/index.html)を参照してくださ"
+"い。"
 
 #. type: Block title
 #: modules/client-configuration/pages/vhm-vmware.adoc:10
@@ -27310,8 +27306,8 @@ msgid ""
 "``ssh-agent`` locally, or forward the `ssh-agent` to the management node "
 "from another machine:"
 msgstr ""
-"{caasp}で``ssh-agent``を使用する方法は2つあります。  ``ssh-agent``をローカルで使用できます。また、``ssh-"
-"agent``を他のマシンから管理ノードに転送できます。"
+"{caasp}で``ssh-agent``を使用する方法は2つあります。  ``ssh-agent``をローカル"
+"で使用できます。また、``ssh-agent``を他のマシンから管理ノードに転送できます。"
 
 #. type: Block title
 #: modules/client-configuration/pages/virt-clusters.adoc:25
@@ -27406,10 +27402,10 @@ msgid ""
 "documentation.suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
 "#_disabling_swap"
 msgstr ""
-"ノードをクラスタに追加する前に、手動設定が必要な場合があります。  "
-"システムが{caasp}ノード専用でありスワップがオフになっていることを確認してください。  詳細については、https://documentation."
-"suse.com/suse-caasp/4.2/single-html/caasp-deployment/"
-"#_disabling_swapを参照してください。"
+"ノードをクラスタに追加する前に、手動設定が必要な場合があります。  システムが"
+"{caasp}ノード専用でありスワップがオフになっていることを確認してください。  詳"
+"細については、https://documentation.suse.com/suse-caasp/4.2/single-html/"
+"caasp-deployment/#_disabling_swapを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-clusters.adoc:59
@@ -27480,8 +27476,9 @@ msgid ""
 "from https://documentation.suse.com/sles/15-SP3/html/SLES-all/book-"
 "virtualization.html."
 msgstr ""
-"{suse}オペレーティングシステムについては、link:https://documentation.suse.com/sles/15-SP3/html/"
-"SLES-all/book-virtualization.html[]でSLES仮想化に関するガイドを参照してください。"
+"{suse}オペレーティングシステムについては、link:https://documentation.suse."
+"com/sles/15-SP3/html/SLES-all/book-virtualization.html[]でSLES仮想化に関する"
+"ガイドを参照してください。"
 
 #. type: Plain text
 #: modules/client-configuration/pages/virt-xenkvm.adoc:8
@@ -28856,6 +28853,9 @@ msgid ""
 msgstr ""
 "詳細については、link:https://www.suse.com/products/terms_and_conditions.pdf[]"
 "を参照するか、{suse}にお問い合わせください。"
+
+#~ msgid "Client Configuration Guide: {productname} {productnumber}"
+#~ msgstr "クライアント設定ガイド: {productname} {productnumber}"
 
 #~ msgid "| {alibabaclo} 2 | {x86_64} | {cross} | {check}"
 #~ msgstr "| {alibabaclo} 2 | {x86_64} | {cross} | {check}"

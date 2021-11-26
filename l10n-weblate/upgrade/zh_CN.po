@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translation@lists.uyuni-project.org\n"
-"POT-Creation-Date: 2021-09-13 14:31+0000\n"
+"POT-Creation-Date: 2021-11-26 07:50+0000\n"
 "PO-Revision-Date: 2021-10-14 17:18+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -22,8 +22,9 @@ msgstr ""
 
 #. type: Title =
 #: modules/upgrade/nav-upgrade-guide.adoc:1
-#, no-wrap
-msgid "Upgrade Guide: {productname} {productnumber}"
+#, fuzzy, no-wrap
+#| msgid "Upgrade Guide: {productname} {productnumber}"
+msgid "[.title]#{productname} {productnumber}#: Upgrade Guide"
 msgstr "升级指南: {productname} {productnumber}"
 
 #. type: Plain text
@@ -160,7 +161,8 @@ msgstr "要成功执行主要 {productname} 更新，可能需要升级底层数
 #: modules/upgrade/pages/db-intro.adoc:3
 msgid ""
 "To upgrade to the latest PostgreSQL, see xref:upgrade:db-migration-xy.adoc[]."
-msgstr "要升级到最新的 PostgreSQL，请参见 xref:upgrade:db-migration-xy.adoc[]。"
+msgstr ""
+"要升级到最新的 PostgreSQL，请参见 xref:upgrade:db-migration-xy.adoc[]。"
 
 #. type: Plain text
 #: modules/upgrade/pages/db-intro.adoc:4
@@ -256,16 +258,36 @@ msgstr ""
 #.  2019-10-16, ke: I think we'd better keep the info on 9.4 for the moment
 #. type: delimited block =
 #: modules/upgrade/pages/db-intro.adoc:7
+#, fuzzy
+#| msgid ""
+#| "If you are using an older database version, such as version 9.4 or 9.6, "
+#| "you must migrate PostgreSQL to version 10 before you begin the "
+#| "{productname} migration. To upgrade from PostgreSQL 9 to version 10, see "
+#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
+#| "upgrade/db-migration-10.html"
 msgid ""
 "If you are using an older database version, such as version 9.4 or 9.6, you "
 "must migrate PostgreSQL to version 10 before you begin the {productname} "
-"migration. To upgrade from PostgreSQL 9 to version 10, see https://"
-"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
-"migration-10.html"
+"migration. To upgrade from PostgreSQL 9 to version 10, see:"
 msgstr ""
-"如果使用的数据库版本较早（如版本 9.4 或 9.6），在开始迁移 {productname} 前必须将 PostgreSQL 迁移到版本 10。要从 "
-"PostgreSQL 9 升级到版本 10，请参见 https://documentation.suse.com/external-tree/en-us/"
-"suma/4.1/suse-manager/upgrade/db-migration-10.html"
+"如果使用的数据库版本较早（如版本 9.4 或 9.6），在开始迁移 {productname} 前必"
+"须将 PostgreSQL 迁移到版本 10。要从 PostgreSQL 9 升级到版本 10，请参见 "
+"https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
+"upgrade/db-migration-10.html"
+
+#. type: delimited block =
+#: modules/upgrade/pages/db-intro.adoc:8
+#, fuzzy
+#| msgid ""
+#| "For older documentation and instructions on major version upgrade, see "
+#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
+#| "upgrade/server-x.html"
+msgid ""
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
+"manager/upgrade/db-migration-10.html[]"
+msgstr ""
+"有关主要版本升级的较旧文档和说明，请参见 https://documentation.suse.com/"
+"external-tree/en-us/suma/4.1/suse-manager/upgrade/server-x.html"
 
 #
 #
@@ -308,10 +330,10 @@ msgid ""
 "html#sp.migration.postgresql.  You cannot migrate directly from "
 "PostgreSQL{nbsp}9.4 to version 10."
 msgstr ""
-"如果您在 {productname} 3.2 上运行 PostgreSQL{nbsp}9.4，请参见产品文档，网址： "
-"https://documentation.suse.com/external-tree/en-us/suma/3.2/"
-"susemanager-best-practices/html/book.suma.best.practices/bp.sp.migration."
-"html#sp.migration.postgresql。 PostgreSQL{nbsp}9.4 无法直接迁移到版本 10。"
+"如果您在 {productname} 3.2 上运行 PostgreSQL{nbsp}9.4，请参见产品文档，网"
+"址： https://documentation.suse.com/external-tree/en-us/suma/3.2/susemanager-"
+"best-practices/html/book.suma.best.practices/bp.sp.migration.html#sp."
+"migration.postgresql。 PostgreSQL{nbsp}9.4 无法直接迁移到版本 10。"
 
 #. type: Title ==
 #: modules/upgrade/pages/db-migration-10.adoc:5
@@ -657,7 +679,7 @@ msgstr "如果您已在使用 PostgreSQL 版本 12，则无需进行此迁移。
 
 #. type: delimited block -
 #: modules/upgrade/pages/db-migration-12.adoc:27
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:11
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:12
 #, no-wrap
 msgid "/usr/lib/susemanager/bin/pg-migrate-10-to-12.sh\n"
 msgstr "/usr/lib/susemanager/bin/pg-migrate-10-to-12.sh\n"
@@ -796,7 +818,7 @@ msgstr "开始升级。如果您使用的是版本 12，请运行："
 
 #. type: delimited block -
 #: modules/upgrade/pages/db-migration-13.adoc:26
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:14
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:15
 #: modules/upgrade/pages/server-y-yast.adoc:16
 #: modules/upgrade/pages/server-y-zypper.adoc:14
 #, no-wrap
@@ -811,7 +833,7 @@ msgstr "  如果您使用的是版本 10，请运行：\n"
 
 #. type: delimited block -
 #: modules/upgrade/pages/db-migration-13.adoc:28
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:17
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:18
 #: modules/upgrade/pages/server-y-yast.adoc:18
 #: modules/upgrade/pages/server-y-zypper.adoc:16
 #, no-wrap
@@ -919,9 +941,10 @@ msgid ""
 "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
 "upgrade/db-migration-10.html."
 msgstr ""
-"本节介绍如何将 PostgreSQL 数据库升级到最新版本。如果您已在使用 PostgreSQL 13，则无需进行此迁移。如果使用的版本较早（如版本 9."
-"6），请参见 link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
-"suse-manager/upgrade/db-migration-10.html[]。"
+"本节介绍如何将 PostgreSQL 数据库升级到最新版本。如果您已在使用 PostgreSQL "
+"13，则无需进行此迁移。如果使用的版本较早（如版本 9.6），请参见 link:https://"
+"documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/upgrade/db-"
+"migration-10.html[]。"
 
 #. type: Plain text
 #: modules/upgrade/pages/db-migration-xy.adoc:24
@@ -1424,8 +1447,9 @@ msgid ""
 "updates (MU) can be installed on the {productname} Proxy in the same way as "
 "other clients.  MU updates require a restart of the proxy service."
 msgstr ""
-"{productname} 代理的管理方式与客户端的管理方式相同。可以采用在其他客户端上安装维护更新 (MU) 的相同方式在 {productname} "
-"代理上安装维护更新。MU 更新需要重启动代理服务。"
+"{productname} 代理的管理方式与客户端的管理方式相同。可以采用在其他客户端上安"
+"装维护更新 (MU) 的相同方式在 {productname} 代理上安装维护更新。MU 更新需要重"
+"启动代理服务。"
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-intro.adoc:3
@@ -1474,7 +1498,7 @@ msgstr ""
 
 #. type: Labeled list
 #: modules/upgrade/pages/proxy-intro.adoc:7
-#: modules/upgrade/pages/server-intro.adoc:5
+#: modules/upgrade/pages/server-intro.adoc:6
 #: modules/upgrade/pages/upgrade-overview.adoc:9
 #, no-wrap
 msgid "Minor Version Upgrade (Y Upgrade)"
@@ -1492,7 +1516,7 @@ msgstr ""
 
 #. type: Labeled list
 #: modules/upgrade/pages/proxy-intro.adoc:9
-#: modules/upgrade/pages/server-intro.adoc:7
+#: modules/upgrade/pages/server-intro.adoc:9
 #: modules/upgrade/pages/upgrade-overview.adoc:11
 #, no-wrap
 msgid "Patch Level Upgrade (Z Upgrade)"
@@ -1769,18 +1793,37 @@ msgstr ""
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-x.adoc:3
+#, fuzzy
+#| msgid ""
+#| "To upgrade from 3.2 to 4.2, you must first upgrade from 3.2 to 4.1, then "
+#| "upgrade from 4.1 to 4.2.  For more information on upgrading from 3.2 to "
+#| "4.1, see https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
+#| "manager/upgrade/proxy-intro.html."
 msgid ""
 "To upgrade from 3.2 to 4.2, you must first upgrade from 3.2 to 4.1, then "
 "upgrade from 4.1 to 4.2.  For more information on upgrading from 3.2 to 4.1, "
-"see https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-"upgrade/proxy-intro.html."
+"see:"
 msgstr ""
-"要从 3.2 升级到 4.2，必须先从 3.2 升级到 4.1，然后再从 4.1 升级到 4.2。有关从 3.2 升级到 4.1 的详细信息，请参见 "
-"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/"
-"suse-manager/upgrade/proxy-intro.html[]。"
+"要从 3.2 升级到 4.2，必须先从 3.2 升级到 4.1，然后再从 4.1 升级到 4.2。有关"
+"从 3.2 升级到 4.1 的详细信息，请参见 link:https://documentation.suse.com/"
+"external-tree/en-us/suma/4.1/suse-manager/upgrade/proxy-intro.html[]。"
 
 #. type: Plain text
 #: modules/upgrade/pages/proxy-x.adoc:4
+#, fuzzy
+#| msgid ""
+#| "For older documentation and instructions on major version upgrade, see "
+#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
+#| "upgrade/server-x.html"
+msgid ""
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
+"manager/upgrade/proxy-intro.html[]"
+msgstr ""
+"有关主要版本升级的较旧文档和说明，请参见 https://documentation.suse.com/"
+"external-tree/en-us/suma/4.1/suse-manager/upgrade/server-x.html"
+
+#. type: Plain text
+#: modules/upgrade/pages/proxy-x.adoc:5
 msgid ""
 "For more information on upgrading from 4.1 to 4.2, see xref:upgrade:proxy-y-"
 "z.adoc[]"
@@ -1899,32 +1942,66 @@ msgstr ""
 
 #. type: Plain text
 #: modules/upgrade/pages/server-intro.adoc:4
+#, fuzzy
+#| msgid ""
+#| "Upgrading to the next major version.  For example, upgrading from 3.2 to "
+#| "4.0 or to 4.1.  See xref:upgrade:server-x.adoc[]."
 msgid ""
 "Upgrading to the next major version.  For example, upgrading from 3.2 to 4.0 "
-"or to 4.1.  See xref:upgrade:server-x.adoc[]."
+"or to 4.1."
 msgstr ""
 "升级到下一主要版本。  例如，从 3.2 升级到 4.0 或 4.1。  请参见 xref:upgrade:"
 "server-x.adoc[]。"
 
 #. type: Plain text
-#: modules/upgrade/pages/server-intro.adoc:6
+#: modules/upgrade/pages/server-intro.adoc:5
+#, fuzzy
+#| msgid "xref:upgrade-overview.adoc[Upgrade Guide]"
+msgid "See xref:upgrade:server-x.adoc[]."
+msgstr "xref:upgrade-overview.adoc[升级指南]"
+
+#. type: Plain text
+#: modules/upgrade/pages/server-intro.adoc:7
+#, fuzzy
+#| msgid ""
+#| "Upgrading to the next minor version.  This is often referred to as a "
+#| "service pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or "
+#| "from 4.0 to 4.2.  See xref:upgrade:server-y.adoc[]."
 msgid ""
 "Upgrading to the next minor version.  This is often referred to as a service "
 "pack (SP) migration.  For example, upgrading from 4.1 to 4.2 or from 4.0 to "
-"4.2.  See xref:upgrade:server-y.adoc[]."
+"4.2."
 msgstr ""
 "升级到下一次要版本。这通常称为服务包 (SP) 迁移。例如，从 4.1 升级到 4.2 或从 "
 "4.0 升级到 4.2。请参见 xref:upgrade:server-y.adoc[]。"
 
 #. type: Plain text
 #: modules/upgrade/pages/server-intro.adoc:8
+#, fuzzy
+#| msgid "xref:upgrade-overview.adoc[Upgrade Guide]"
+msgid "See xref:upgrade:server-y.adoc[]."
+msgstr "xref:upgrade-overview.adoc[升级指南]"
+
+#. type: Plain text
+#: modules/upgrade/pages/server-intro.adoc:10
+#, fuzzy
+#| msgid ""
+#| "Upgrading within the same minor version.  This is often referred to as a "
+#| "maintenance update.  For example, upgrading from 4.1.2 to 4.1.8 or from "
+#| "4.2.0 to 4.2.1."
 msgid ""
 "Upgrading within the same minor version.  This is often referred to as a "
-"maintenance update.  For example, upgrading from 4.2.0 to 4.2.1.  See xref:"
-"upgrade:server-z.adoc[]."
+"maintenance update.  For example, upgrading from 4.2.0 to 4.2.1."
 msgstr ""
-"在同一次要版本中升级。这通常称为维护更新。例如，从 4.2.0 升级到 4.2.1。请参"
-"见 xref:upgrade:server-z.adoc[]。"
+"在同一次要版本中升级。这通常称为维护更新。例如，从 4.1.2 升级到 4.1.8 或从 "
+"4.2.0 升级到 4.2.1。"
+
+#. type: Plain text
+#: modules/upgrade/pages/server-intro.adoc:11
+#, fuzzy
+#| msgid "xref:upgrade-overview.adoc[Upgrade Guide]"
+msgid "See xref:upgrade:server-z.adoc[]."
+msgstr "xref:upgrade-overview.adoc[升级指南]"
 
 #. type: Title =
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:1
@@ -1946,19 +2023,28 @@ msgstr ""
 
 #. type: delimited block =
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:3
-#: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:3
+#, fuzzy
+#| msgid ""
+#| "Some additional manual steps might be required, and this information is "
+#| "only available in the release notes.  For important extra information "
+#| "about your upgrade, see the release notes at https://www.uyuni-project."
+#| "org/pages/stable-version.html."
 msgid ""
 "Some additional manual steps might be required, and this information is only "
 "available in the release notes.  For important extra information about your "
-"upgrade, see the release notes at https://www.uyuni-project.org/pages/stable-"
-"version.html."
+"upgrade, see the release notes at:"
 msgstr ""
 "您可能需要执行一些额外的手动步骤，这些信息仅在发行说明中提供。  有关升级的额"
 "外重要信息，请参见发行说明，网址：https://www.uyuni-project.org/pages/stable-"
 "version.html。"
 
-#. type: Plain text
+#. type: delimited block =
 #: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:4
+msgid "https://www.uyuni-project.org/pages/stable-version.html."
+msgstr ""
+
+#. type: Plain text
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:5
 msgid ""
 "The [command]``server-migrator.sh`` script migrates {productname} Server to "
 "the latest version.  It also upgrades the underlying operating system to "
@@ -1970,7 +2056,7 @@ msgstr ""
 "[package]``susemanager`` 软件包中。"
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:5
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:6
 msgid ""
 "The version of PostgreSQL you are using depends on the underlying operating "
 "system.  {opensuse}{nbsp}Leap{nbsp}15.2 uses PostgreSQL{nbsp}12, so this is "
@@ -1982,13 +2068,13 @@ msgstr ""
 "{nbsp}Leap{nbsp}15.3 需使用 PostgreSQL{nbsp}13。"
 
 #. type: Block title
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:6
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:7
 #, no-wrap
 msgid "Procedure: Migrating the {productname} Server"
 msgstr "过程：迁移 {productname} 服务器"
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:7
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:8
 msgid ""
 "Before running the [command]``server-migrator.sh`` script, check whether the "
 "most recent version of the [package]``susemanager`` package is installed:"
@@ -1997,7 +2083,7 @@ msgstr ""
 "[package]``susemanager`` 软件包的最新版本："
 
 #. type: delimited block -
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:8
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:9
 #, no-wrap
 msgid ""
 "zypper ref\n"
@@ -2007,7 +2093,7 @@ msgstr ""
 "zypper up susemanager\n"
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:9
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:10
 msgid ""
 "Run the [command]``/usr/lib/susemanager/bin/server-migrator.sh`` script to "
 "upgrade the base OS and {productname} Server."
@@ -2016,12 +2102,12 @@ msgstr ""
 "OS 和 {productname} 服务器。"
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:10
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:11
 msgid "To migrate the database to PostgreSQL 12 run the migrate script:"
 msgstr "要将数据库迁移到 PostgreSQL 12，请运行迁移脚本："
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:12
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:13
 msgid ""
 "For more information about PostgreSQL database migration, see xref:db-"
 "migration-12.adoc[]."
@@ -2029,15 +2115,15 @@ msgstr ""
 "有关 PostgreSQL 数据库迁移的详细信息，请参见 xref:db- migration-12.adoc[]。"
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:13
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:14
 msgid ""
 "To migrate the database to PostgreSQL 13 from PostgreSQL 12 run the "
 "migration script:"
 msgstr "要将数据库从 PostgreSQL 12 迁移到 PostgreSQL 13，请运行迁移脚本："
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:15
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:18
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:16
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:19
 msgid ""
 "For more information about PostgreSQL database migration, see xref:db-"
 "migration-13.adoc[]."
@@ -2045,26 +2131,26 @@ msgstr ""
 "有关 PostgreSQL 数据库迁移的详细信息，请参见 xref:db- migration-13.adoc[]。"
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:16
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:17
 msgid ""
 "To migrate the database to PostgreSQL 13 from PostgreSQL 10 run the "
 "migration script:"
 msgstr "要将数据库从 PostgreSQL 10 迁移到 PostgreSQL 13，请运行迁移脚本："
 
 #. type: Plain text
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:19
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:20
 msgid ""
 "After the migration is complete, manually reboot the {productname} Server:"
 msgstr "完成迁移后，请手动重引导 {productname} 服务器："
 
 #. type: delimited block -
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:20
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:21
 #, no-wrap
 msgid "shutdown -r now\n"
 msgstr "shutdown -r now\n"
 
 #. type: delimited block =
-#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:21
+#: modules/upgrade/pages/server-major-upgrade-uyuni.adoc:22
 msgid ""
 "You will not be able to fix issues that arise during the migration.  Ensure "
 "you have created a backup before you start the migration.  If you are "
@@ -2089,6 +2175,18 @@ msgid ""
 msgstr ""
 "{productname} 团队每年都会发布几次 {productname} Server 的次要升级。  这些更"
 "新旨在修复 Bug 并改进功能，有时也包含一些新功能。"
+
+#. type: delimited block =
+#: modules/upgrade/pages/server-minor-upgrade-uyuni.adoc:3
+msgid ""
+"Some additional manual steps might be required, and this information is only "
+"available in the release notes.  For important extra information about your "
+"upgrade, see the release notes at https://www.uyuni-project.org/pages/stable-"
+"version.html."
+msgstr ""
+"您可能需要执行一些额外的手动步骤，这些信息仅在发行说明中提供。  有关升级的额"
+"外重要信息，请参见发行说明，网址：https://www.uyuni-project.org/pages/stable-"
+"version.html。"
 
 #.  It is recommended to install them in due time.
 #.  In general, these steps are required:
@@ -2253,15 +2351,21 @@ msgstr "服务器 - 主要版本升级（X 升级）"
 
 #. type: Plain text
 #: modules/upgrade/pages/server-x.adoc:2
-msgid "This type of upgrade does not apply for 4.2."
-msgstr "这种升级不适用于 4.2。"
+msgid ""
+"This type of upgrade does not apply for 4.2.  For older documentation and "
+"instructions on major version upgrade, see:"
+msgstr ""
 
 #. type: Plain text
 #: modules/upgrade/pages/server-x.adoc:3
+#, fuzzy
+#| msgid ""
+#| "For older documentation and instructions on major version upgrade, see "
+#| "https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
+#| "upgrade/server-x.html"
 msgid ""
-"For older documentation and instructions on major version upgrade, see "
-"https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-manager/"
-"upgrade/server-x.html"
+"link:https://documentation.suse.com/external-tree/en-us/suma/4.1/suse-"
+"manager/upgrade/server-x.html[]"
 msgstr ""
 "有关主要版本升级的较旧文档和说明，请参见 https://documentation.suse.com/"
 "external-tree/en-us/suma/4.1/suse-manager/upgrade/server-x.html"
@@ -2525,8 +2629,9 @@ msgid ""
 "migration.  This procedure does not replace the server with an updated "
 "copy.  It is an in-place upgrade."
 msgstr ""
-"您可以使用 {yast} 联机迁移工具或 Zypper 命令行工具将 {productname} 升级到下一次要版本。此过程通常称为产品迁移、"
-"服务包迁移或 SP 迁移。此过程不会将服务器替换为更新的副本，而是进行就地升级。"
+"您可以使用 {yast} 联机迁移工具或 Zypper 命令行工具将 {productname} 升级到下一"
+"次要版本。此过程通常称为产品迁移、服务包迁移或 SP 迁移。此过程不会将服务器替"
+"换为更新的副本，而是进行就地升级。"
 
 #. type: Plain text
 #: modules/upgrade/pages/server-y.adoc:3
@@ -2745,8 +2850,8 @@ msgid ""
 "spacewalk services do not start.  Run [command]``spacewalk-service start`` "
 "for more information and hints how to proceed."
 msgstr ""
-"如果纲要升级失败，数据库版本检查和所有其他 spacewalk 服务都不会启动。请运行 [command]``spacewalk-service "
-"start``，获取有关如何继续的详细信息和提示。"
+"如果纲要升级失败，数据库版本检查和所有其他 spacewalk 服务都不会启动。请运行 "
+"[command]``spacewalk-service start``，获取有关如何继续的详细信息和提示。"
 
 #. type: Plain text
 #: modules/upgrade/pages/troubleshooting.adoc:19
@@ -2911,6 +3016,17 @@ msgid ""
 msgstr ""
 "除了升级服务器外，还需升级其他底层技术，包括数据库。  有关升级数据库的详细信"
 "息，请参见 xref:upgrade:db-intro.adoc[]。"
+
+#~ msgid ""
+#~ "Upgrading within the same minor version.  This is often referred to as a "
+#~ "maintenance update.  For example, upgrading from 4.2.0 to 4.2.1.  See "
+#~ "xref:upgrade:server-z.adoc[]."
+#~ msgstr ""
+#~ "在同一次要版本中升级。这通常称为维护更新。例如，从 4.2.0 升级到 4.2.1。请"
+#~ "参见 xref:upgrade:server-z.adoc[]。"
+
+#~ msgid "This type of upgrade does not apply for 4.2."
+#~ msgstr "这种升级不适用于 4.2。"
 
 #~ msgid "{productname} Proxies are managed in the same way as clients."
 #~ msgstr "{productname} 代理的管理方式与客户端的管理方式相同。"

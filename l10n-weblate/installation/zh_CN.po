@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-13 14:31+0000\n"
+"POT-Creation-Date: 2021-11-26 07:50+0000\n"
 "PO-Revision-Date: 2021-11-24 17:15+0000\n"
 "Last-Translator: Valentina Leonardi <valentina.leonardi@vistatec.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/uyuni/"
@@ -21,9 +21,10 @@ msgstr ""
 
 #. type: Title =
 #: modules/installation/nav-installation-guide.adoc:1
-#, no-wrap
-msgid "Installation Guide: {productname} {productnumber}"
-msgstr "安装指南: {productname} {productnumber}"
+#, fuzzy, no-wrap
+#| msgid "{productname} {productnumber} Proxy"
+msgid "[.title]#{productname} {productnumber}#: Installation Guide"
+msgstr "{productname} {productnumber} Proxy"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:2
@@ -2874,8 +2875,8 @@ msgid ""
 "In the following table replace _version_ with the actual product version "
 "string.  Find the JeOS image at https://download.suse.com/."
 msgstr ""
-"在下表中，请将 _version_ 替换为实际产品版本字符串。在 link:https://download.suse.com/[]上找到 JeOS "
-"映像。"
+"在下表中，请将 _version_ 替换为实际产品版本字符串。在 link:https://download."
+"suse.com/[]上找到 JeOS 映像。"
 
 #. type: Table
 #: modules/installation/pages/install-vm.adoc:7
@@ -4611,8 +4612,8 @@ msgid ""
 "installation:proxy-registration.adoc[].  In the bootstrap script, set the "
 "reactivation key with the [systemitem]``REACTIVATION_KEY`` parameter."
 msgstr ""
-"按 xref:installation:proxy-registration.adoc[] 中所述使用引导脚本注册新代理。在引导脚本中，使用 "
-"[systemitem]``REACTIVATION_KEY`` 参数设置重新激活密钥。"
+"按 xref:installation:proxy-registration.adoc[] 中所述使用引导脚本注册新代理。"
+"在引导脚本中，使用 [systemitem]``REACTIVATION_KEY`` 参数设置重新激活密钥。"
 
 #. type: Plain text
 #: modules/installation/pages/proxy-setup.adoc:79
@@ -5591,8 +5592,9 @@ msgid ""
 "give you access to the SUSE product downloads.  You will find your "
 "organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"在与 SCC 同步软件储存库之前，需在 {susemgr} 中输入组织身份凭证。在以前的版本中，使用的是所谓的镜像身份凭证。您可以使用组织身份凭证访问 "
-"SUSE 产品下载内容。可以在 link:https://scc.suse.com/organizations[]中找到您的组织身份凭证。"
+"在与 SCC 同步软件储存库之前，需在 {susemgr} 中输入组织身份凭证。在以前的版本"
+"中，使用的是所谓的镜像身份凭证。您可以使用组织身份凭证访问 SUSE 产品下载内"
+"容。可以在 link:https://scc.suse.com/organizations[]中找到您的组织身份凭证。"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:46
@@ -5748,18 +5750,16 @@ msgid ""
 "etc/default/grub`` and added to the line "
 "[option]``GRUB_CMDLINE_LINUX_DEFAULT``, for example:"
 msgstr ""
-"要禁用__透明巨页__，请将 [option]``transparent_hugepage`` 内核参数设置为 [option]``never``。"
-"必须在 [path]``/etc/default/grub`` 中更改此设置，并将其添加到 "
-"[option]``GRUB_CMDLINE_LINUX_DEFAULT`` 行，例如："
+"要禁用__透明巨页__，请将 [option]``transparent_hugepage`` 内核参数设置为 "
+"[option]``never``。必须在 [path]``/etc/default/grub`` 中更改此设置，并将其添"
+"加到 [option]``GRUB_CMDLINE_LINUX_DEFAULT`` 行，例如："
 
 #. type: delimited block -
 #: modules/installation/pages/server-setup.adoc:66
 #: modules/installation/pages/uyuni-server-setup.adoc:62
 #, no-wrap
 msgid "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
-msgstr ""
-"GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts "
-"elevator=noop transparent_hugepage=never\"\n"
+msgstr "GRUB_CMDLINE_LINUX_DEFAULT=\"resume=/dev/sda1 splash=silent quiet showopts elevator=noop transparent_hugepage=never\"\n"
 
 #. type: Plain text
 #: modules/installation/pages/server-setup.adoc:67
@@ -5959,8 +5959,9 @@ msgid ""
 "Click the btn:[Channels] icon to see the complete list of channels "
 "associated with each product."
 msgstr ""
-"列表按产品名称排序，有订阅的产品显示在顶部，免费提供的产品显示在列表末尾。对于每个产品，您可以查看其适用的体系结构。单击产品名称旁边的箭头可以查看关联的频"
-"道和扩展。单击 btn:[频道] 图标可以查看与每个产品关联的频道的完整列表。"
+"列表按产品名称排序，有订阅的产品显示在顶部，免费提供的产品显示在列表末尾。对"
+"于每个产品，您可以查看其适用的体系结构。单击产品名称旁边的箭头可以查看关联的"
+"频道和扩展。单击 btn:[频道] 图标可以查看与每个产品关联的频道的完整列表。"
 
 #. type: Plain text
 #: modules/installation/pages/setup-wizard.adoc:22
@@ -6008,8 +6009,9 @@ msgid ""
 "troubleshooting product synchronization, see xref:administration:tshoot-sync."
 "adoc[]."
 msgstr ""
-"如果同步失败，原因可能是使用了第三方 GPG 密钥，或者您的公司防火墙阻止访问下载服务器。请查看错误的通知细节。有关产品同步查错的详细信息，请参见 "
-"xref:administration:tshoot-sync.adoc[]。"
+"如果同步失败，原因可能是使用了第三方 GPG 密钥，或者您的公司防火墙阻止访问下载"
+"服务器。请查看错误的通知细节。有关产品同步查错的详细信息，请参见 xref:"
+"administration:tshoot-sync.adoc[]。"
 
 #. type: Title =
 #: modules/installation/pages/uyuni-install-requirements.adoc:1
@@ -6141,7 +6143,8 @@ msgstr ""
 msgid ""
 "For more information, see xref:client-configuration:clients-opensuseleap."
 "adoc[]."
-msgstr "有关详细信息，请参见 xref:client-configuration:clients-opensuseleap.adoc[]。"
+msgstr ""
+"有关详细信息，请参见 xref:client-configuration:clients-opensuseleap.adoc[]。"
 
 #. // Atfer a successful sync run, bootstrap repos are now created automatically.
 #. // Since 2020.07 or earlier
@@ -6169,9 +6172,9 @@ msgid ""
 "more information about bootstrap scripts, see xref:client-configuration:"
 "registration-bootstrap.adoc[]."
 msgstr ""
-"将 GPG 密钥添加到 [systemitem]``ORG_GPG_KEY=`` 参数。有关详细信息，请参见 xref:client-"
-"configuration:clients-opensuseleap.adoc[]。有关引导脚本的详细信息，请参见 xref:client-"
-"configuration:registration-bootstrap.adoc[]。"
+"将 GPG 密钥添加到 [systemitem]``ORG_GPG_KEY=`` 参数。有关详细信息，请参见 "
+"xref:client-configuration:clients-opensuseleap.adoc[]。有关引导脚本的详细信"
+"息，请参见 xref:client-configuration:registration-bootstrap.adoc[]。"
 
 #.  Traditional clients are not supported
 #. type: Plain text
@@ -6543,8 +6546,9 @@ msgid ""
 "credentials give you access to the {suse} product downloads.  You will find "
 "your organization credentials in https://scc.suse.com/organizations."
 msgstr ""
-"在与 SCC 同步软件储存库之前，需在 {productname} 中输入组织身份凭证。您可以使用组织身份凭证访问 {suse} 产品下载内容。可以在 "
-"link:https://scc.suse.com/organizations[]中找到您的组织身份凭证。"
+"在与 SCC 同步软件储存库之前，需在 {productname} 中输入组织身份凭证。您可以使"
+"用组织身份凭证访问 {suse} 产品下载内容。可以在 link:https://scc.suse.com/"
+"organizations[]中找到您的组织身份凭证。"
 
 #. type: Plain text
 #: modules/installation/pages/uyuni-server-setup.adoc:43
@@ -7104,6 +7108,9 @@ msgstr ""
 "您可以通过在 ``etc/rhn/rhn.conf`` 配置文件中调整 ``web.spa.timeout`` 参数来配"
 "置默认超时值。请在更改此参数后重启动 tomcat 服务。如果您的因特网连接速度很"
 "慢，或者经常一次对很多客户端执行操作，将此设置更改为更高的数值可能会有帮助。"
+
+#~ msgid "Installation Guide: {productname} {productnumber}"
+#~ msgstr "安装指南: {productname} {productnumber}"
 
 #~ msgid "Media Requirements:"
 #~ msgstr "媒体要求："
