@@ -45,8 +45,8 @@ To see which objects and resources have been inventoried, navigate to menu:Syste
 ====
 Connecting to the ESXi server from a browser using HTTPS can sometimes log an ``invalid certificate`` error.
 If this occurs, refreshing the data from the virtual hosts server fails.
-To correct the problem, extract the certificate from the ESXi server, and copy it to [path]``/etc/pki/trust/anchors``.
-Re-trust the certificate by running the [command]``update-ca-certificates`` command on the command line, and restart the spacewalk services.
+To correct the problem, extract the certificate from the ESXi server, and copy it to [path]``/etc/pki/trust/anchors`` on SUSE systems or [path]``/etc/pki/ca-trust/source/anchors/`` on Enterprise Linux systems.
+Re-trust the certificate by running the [command]``/usr/share/rhn/certs/update-ca-cert-trust.sh`` command on the command line, and restart the spacewalk services.
 ====
 
 After your VHM has been created and configured, Taskomatic runs data collection automatically.
@@ -71,10 +71,10 @@ If you see SSL errors while configuring your VMWare installation, you need to do
 . If the downloaded CA certificates file is in ``.zip`` format, extract the archive.
     The certificate files have a number as an extension.
     For example,  ``certificate.0``.
-. Copy the certificate files to your {productname} Server, and save them to the [path]``/etc/pki/trust/anchors/`` directory.
+. Copy the certificate files to your {productname} Server, and save them to [path]``/etc/pki/trust/anchors/`` on SUSE systems or [path]``/etc/pki/ca-trust/source/anchors/`` on Enterprise Linux systems..
 . Change the filename suffix on the copied certificate to either ``.crt`` or ``.pem``.
 . On the {productname} Server, at the command prompt, update the CA certificate record:
 +
 ----
-update-ca-certificates
+/usr/share/rhn/certs/update-ca-cert-trust.sh
 ----
